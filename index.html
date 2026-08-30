@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DANA100 — Analisis Kelompok Pasaran</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#f4f6f8;color:#17202a}
+header{background:#111827;color:#fff;padding:18px}
+header h1{margin:0;font-size:22px}
+header p{margin:5px 0 0;color:#cbd5e1;font-size:13px}
+main{max-width:1200px;margin:auto;padding:16px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:16px;margin-bottom:14px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+label{font-size:12px;font-weight:700;color:#475569}
+input,select,button{width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:9px;background:#fff;font:inherit}
+button{cursor:pointer;background:#111827;color:#fff;border-color:#111827;font-weight:700}
+button.secondary{background:#fff;color:#111827}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.actions button{width:auto}
+.status{padding:10px;border-radius:9px;background:#f1f5f9;margin-top:12px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.metric{padding:14px;border:1px solid #e5e7eb;border-radius:12px}
+.metric b{display:block;font-size:24px;margin-top:3px}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef2ff;margin:2px;font-size:12px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:9px;border-bottom:1px solid #e5e7eb;text-align:left;vertical-align:top}
+th{background:#f8fafc;position:sticky;top:0}
+.table-wrap{overflow:auto;max-height:520px}
+.good{font-weight:800}
+.small{font-size:12px;color:#64748b}
+.error{color:#b91c1c}
+details{border:1px solid #e5e7eb;border-radius:10px;padding:10px;margin:7px 0}
+summary{cursor:pointer;font-weight:700}
+#loading{display:none}
+@media(max-width:600px){main{padding:10px}.card{padding:12px}}
+</style>
+</head>
+<body>
+<header>
+<h1>DANA100 — Analisis Kelompok Pasaran</h1>
+<p>Analisis berbasis kemiripan digit pada tanggal yang sama. Sistem ini tidak mengubah database lama.</p>
+</header>
+
+<main>
+<section class="card">
+<h2>Pengaturan Analisis</h2>
+<div class="controls">
+<div><label>Window tanggal</label><input id="window" type="number" min="2" max="100" value="20"></div>
+<div><label>Minimal digit unik sama</label><select id="overlap"><option value="2" selected>2 digit</option><option value="3">3 digit</option><option value="4">4 digit</option></select></div>
+<div><label>Minimal kemunculan pasangan</label><input id="minDays" type="number" min="1" max="100" value="8"></div>
+<div><label>Mode tanggal</label><select id="dateMode"><option value="intersection" selected>Tanggal yang tersedia bersama</option><option value="all">Semua tanggal dalam window</option></select></div>
+</div>
+<div class="actions">
+<button id="runBtn">Analisis Data</button>
+<button class="secondary" id="loadBtn">Muat Contoh Data</button>
+<button class="secondary" id="exportBtn">Export JSON</button>
+</div>
+<div id="status" class="status">Belum ada data. HTML ini dapat dipakai sebagai antarmuka; pengambilan DANA100 langsung dari browser dapat terkena CORS.</div>
+</section>
+
+<section class="card">
+<h2>Ringkasan</h2>
+<div class="grid">
+<div class="metric">Pasaran terbaca<b id="marketCount">0</b></div>
+<div class="metric">Tanggal dianalisis<b id="dateCount">0</b></div>
+<div class="metric">Pasangan terhubung<b id="pairCount">0</b></div>
+<div class="metric">Cluster stabil<b id="clusterCount">0</b></div>
+</div>
+</section>
+
+<section class="card">
+<h2>Kelompok Stabil</h2>
+<div id="clusters"><p class="small">Belum ada hasil.</p></div>
+</section>
+
+<section class="card">
+<h2>Pasangan Terkuat</h2>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Pasaran A</th><th>Pasaran B</th><th>Terhubung</th><th>Skor</th><th>Contoh</th></tr></thead>
+<tbody id="pairs"></tbody>
+</table>
+</div>
+</section>
+
+<section class="card">
+<h2>Detail per Tanggal</h2>
+<div id="daily"></div>
+</section>
+
+<section class="card">
+<h2>Data Pasaran</h2>
+<div class="table-wrap">
+<table>
+<thead><tr><th>ID</th><th>URL</th><th>Jumlah hasil</th></tr></thead>
+<tbody id="markets"></tbody>
+</table>
+</div>
+</section>
+</main>
+
+<script>
+/*
+  Format data:
+  {
+    id:"2699",
+    name:"TOTO MACAU 13:00",
+    url:"https://dana100nl.com/draw-history?m=2699",
+    rows:[
+      {date:"2026-08-30", period:"...", number:"5451"},
+      ...
+    ]
+  }
+
+  Untuk produksi, endpoint/backend sebaiknya mengisi window.__DANA100_DATA__
+  atau mengubah fungsi loadData() agar mengambil JSON dari server sendiri.
+*/
+
+const EXAMPLE = [
+ {id:"A",name:"PASARAN A",url:"",rows:[
+  {date:"2026-08-30",period:"1",number:"1234"},{date:"2026-08-29",period:"2",number:"5621"},
+  {date:"2026-08-28",period:"3",number:"9013"},{date:"2026-08-27",period:"4",number:"3147"}]},
+ {id:"B",name:"PASARAN B",url:"",rows:[
+  {date:"2026-08-30",period:"1",number:"4372"},{date:"2026-08-29",period:"2",number:"1269"},
+  {date:"2026-08-28",period:"3",number:"1438"},{date:"2026-08-27",period:"4",number:"7741"}]},
+ {id:"C",name:"PASARAN C",url:"",rows:[
+  {date:"2026-08-30",period:"1",number:"9437"},{date:"2026-08-29",period:"2",number:"9123"},
+  {date:"2026-08-28",period:"3",number:"8345"},{date:"2026-08-27",period:"4",number:"1074"}]},
+ {id:"D",name:"PASARAN D",url:"",rows:[
+  {date:"2026-08-30",period:"1",number:"1482"},{date:"2026-08-29",period:"2",number:"3682"},
+  {date:"2026-08-28",period:"3",number:"4521"},{date:"2026-08-27",period:"4",number:"4170"}]}
+];
+
+let DATA = [];
+let LAST_RESULT = null;
+
+function uniqueDigits(n){return new Set(String(n).padStart(4,"0").split(""))}
+function overlap(a,b){
+ const A=uniqueDigits(a), B=uniqueDigits(b);
+ let n=0; for(const x of A) if(B.has(x)) n++;
+ return n;
+}
+function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+
+function normalize(raw){
+ return (raw||[]).map(m=>({
+   id:String(m.id),
+   name:m.name||String(m.id),
+   url:m.url||"",
+   rows:(m.rows||[]).map(r=>({
+     date:String(r.date),
+     period:String(r.period??""),
+     number:String(r.number).replace(/\D/g,"").padStart(4,"0").slice(-4)
+   })).filter(r=>/^\d{4}-\d{2}-\d{2}$/.test(r.date)&&/^\d{4}$/.test(r.number))
+ }));
+}
+
+function analyze(data){
+ const win=Math.max(2,+document.getElementById("window").value||20);
+ const minOverlap=+document.getElementById("overlap").value||2;
+ const minDays=Math.max(1,+document.getElementById("minDays").value||8);
+ const dateMode=document.getElementById("dateMode").value;
+
+ // Per market: newest window rows.
+ const markets=data.map(m=>({...m,rows:[...m.rows].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,win)}));
+ const byDate=new Map();
+ for(const m of markets){
+   for(const r of m.rows){
+     if(!byDate.has(r.date))byDate.set(r.date,new Map());
+     byDate.get(r.date).set(m.id,{...r,name:m.name});
+   }
+ }
+ const dates=[...byDate.keys()].sort().reverse().slice(0,win);
+ const pair=new Map();
+ const daily=[];
+ for(const date of dates){
+   const vals=byDate.get(date);
+   const ids=[...vals.keys()];
+   const graph=new Map(ids.map(x=>[x,new Set()]));
+   for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++){
+     const a=ids[i],b=ids[j], ov=overlap(vals.get(a).number,vals.get(b).number);
+     if(ov>=minOverlap){
+       graph.get(a).add(b); graph.get(b).add(a);
+       const k=[a,b].sort().join("|");
+       if(!pair.has(k))pair.set(k,{a:[a,b].sort()[0],b:[a,b].sort()[1],count:0,samples:[]});
+       const p=pair.get(k); p.count++;
+       if(p.samples.length<10)p.samples.push({date,a:vals.get(a).number,b:vals.get(b).number,overlap:ov});
+     }
+   }
+   // Connected components.
+   const seen=new Set(), comps=[];
+   for(const root of ids){
+     if(seen.has(root))continue;
+     const q=[root],c=[];seen.add(root);
+     while(q.length){const x=q.pop();c.push(x);for(const y of graph.get(x)||[])if(!seen.has(y)){seen.add(y);q.push(y)}}
+     if(c.length>=2)comps.push(c.sort());
+   }
+   daily.push({date,components:comps});
+ }
+ const totalDates=dates.length;
+ const pairs=[...pair.values()].filter(p=>p.count>=minDays)
+   .map(p=>({...p,rate:+(p.count/totalDates*100).toFixed(1),
+     nameA:markets.find(m=>m.id===p.a)?.name||p.a,
+     nameB:markets.find(m=>m.id===p.b)?.name||p.b}))
+   .sort((x,y)=>y.count-x.count||y.rate-x.rate);
+
+ // Stable clusters from stable pairs.
+ const g=new Map();
+ for(const p of pairs){if(!g.has(p.a))g.set(p.a,new Set());if(!g.has(p.b))g.set(p.b,new Set());g.get(p.a).add(p.b);g.get(p.b).add(p.a)}
+ const seen=new Set(),clusters=[];
+ for(const root of g.keys()){
+   if(seen.has(root))continue;
+   const q=[root],c=[];seen.add(root);
+   while(q.length){const x=q.pop();c.push(x);for(const y of g.get(x)||[])if(!seen.has(y)){seen.add(y);q.push(y)}}
+   if(c.length>=2){
+     c.sort();
+     const internal=[];
+     for(let i=0;i<c.length;i++)for(let j=i+1;j<c.length;j++){
+       const p=pairs.find(p=>(p.a===c[i]&&p.b===c[j]));
+       if(p)internal.push(p.count);
+     }
+     clusters.push({members:c,avg:internal.length?(internal.reduce((a,b)=>a+b,0)/internal.length):0});
+   }
+ }
+ clusters.sort((a,b)=>b.avg-a.avg||b.members.length-a.members.length);
+ return {markets,dates,pairs,clusters,daily,totalDates,minOverlap,minDays,dateMode};
+}
+
+function render(r){
+ document.getElementById("marketCount").textContent=r.markets.length;
+ document.getElementById("dateCount").textContent=r.totalDates;
+ document.getElementById("pairCount").textContent=r.pairs.length;
+ document.getElementById("clusterCount").textContent=r.clusters.length;
+
+ document.getElementById("clusters").innerHTML=r.clusters.length?
+   r.clusters.map((c,i)=>`<details open><summary>#${i+1} — ${c.members.length} pasaran — rata-rata ${c.avg.toFixed(1)} tanggal</summary>
+   <p>${c.members.map(id=>`<span class="badge">${esc(r.markets.find(m=>m.id===id)?.name||id)}</span>`).join("")}</p></details>`).join("")
+   : '<p class="small">Tidak ada cluster yang memenuhi ambang.</p>';
+
+ document.getElementById("pairs").innerHTML=r.pairs.length?
+   r.pairs.slice(0,150).map(p=>`<tr><td>${esc(p.nameA)}</td><td>${esc(p.nameB)}</td><td>${p.count}/${r.totalDates}</td><td class="good">${p.rate}%</td><td class="small">${p.samples.slice(0,3).map(s=>`${s.date}: ${s.a} ↔ ${s.b} (${s.overlap})`).join("<br>")}</td></tr>`).join("")
+   : '<tr><td colspan="5">Tidak ada pasangan yang memenuhi ambang.</td></tr>';
+
+ document.getElementById("daily").innerHTML=r.daily.map(d=>`<details><summary>${d.date} — ${d.components.length} cluster</summary>
+   ${d.components.length?d.components.map(c=>`<p>${c.map(id=>`<span class="badge">${esc(r.markets.find(m=>m.id===id)?.name||id)}</span>`).join("")}</p>`).join(""):"<span class='small'>Tidak ada hubungan.</span>"}
+ </details>`).join("");
+
+ document.getElementById("markets").innerHTML=r.markets.map(m=>`<tr><td>${esc(m.id)}</td><td>${esc(m.url)}</td><td>${m.rows.length}</td></tr>`).join("");
+ LAST_RESULT=r;
+}
+
+async function loadData(){
+ // Production hook: a server can inject data as window.__DANA100_DATA__.
+ if(Array.isArray(window.__DANA100_DATA__) && window.__DANA100_DATA__.length)return normalize(window.__DANA100_DATA__);
+ return DATA.length?DATA:EXAMPLE;
+}
+
+document.getElementById("loadBtn").onclick=()=>{
+ DATA=normalize(EXAMPLE);
+ document.getElementById("status").textContent="Contoh data dimuat. Klik Analisis Data.";
+};
+document.getElementById("runBtn").onclick=async()=>{
+ document.getElementById("status").textContent="Menganalisis...";
+ try{
+   DATA=await loadData();
+   const r=analyze(DATA);
+   render(r);
+   document.getElementById("status").textContent=`Selesai. ${r.markets.length} pasaran, ${r.totalDates} tanggal.`;
+ }catch(e){document.getElementById("status").innerHTML=`<span class="error">Gagal: ${esc(e.message)}</span>`}
+};
+document.getElementById("exportBtn").onclick=()=>{
+ if(!LAST_RESULT){alert("Jalankan analisis dulu.");return}
+ const blob=new Blob([JSON.stringify(LAST_RESULT,null,2)],{type:"application/json"});
+ const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="dana100-analysis.json";a.click();URL.revokeObjectURL(a.href);
+};
+</script>
+</body>
+</html>
