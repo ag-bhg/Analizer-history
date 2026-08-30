@@ -103,6 +103,7 @@ def main():
         "errors": errors,
         "markets": markets
     }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Loaded {len(markets)}/{len(urls)} markets; errors={len(errors)}")
     if len(markets) == 0:
