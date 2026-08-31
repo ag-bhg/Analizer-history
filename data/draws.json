@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T16:07:38.981360+00:00",
+  "updated_at": "2026-08-31T16:37:07.000268+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -523,6 +523,12 @@
       "url": "https://dana100nl.com/draw-history?m=2709",
       "rows": [
         {
+          "date": "2026-08-31",
+          "period": "GGM-612",
+          "code": "GGM",
+          "number": "1217"
+        },
+        {
           "date": "2026-08-30",
           "period": "GGM-611",
           "code": "GGM",
@@ -635,12 +641,6 @@
           "period": "GGM-593",
           "code": "GGM",
           "number": "9727"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "GGM-592",
-          "code": "GGM",
-          "number": "2765"
         }
       ]
     },
@@ -650,6 +650,12 @@
       "name": "Result Togel - Pasaran MARYLAND MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2710",
       "rows": [
+        {
+          "date": "2026-08-31",
+          "period": "MRM-612",
+          "code": "MRM",
+          "number": "9809"
+        },
         {
           "date": "2026-08-30",
           "period": "MRM-611",
@@ -763,12 +769,6 @@
           "period": "MRM-593",
           "code": "MRM",
           "number": "2808"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "MRM-592",
-          "code": "MRM",
-          "number": "2509"
         }
       ]
     },
@@ -9740,9 +9740,9 @@
       "rows": [
         {
           "date": "2026-08-31",
-          "period": "KK-1221",
+          "period": "KK-1222",
           "code": "KK",
-          "number": "6641"
+          "number": "0875"
         },
         {
           "date": "2026-08-30",
@@ -9797,12 +9797,6 @@
           "period": "KK-1204",
           "code": "KK",
           "number": "4538"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "KK-1202",
-          "code": "KK",
-          "number": "4776"
         }
       ]
     },
@@ -11221,6 +11215,12 @@
       "url": "https://dana100nl.com/draw-history?m=2836",
       "rows": [
         {
+          "date": "2026-08-31",
+          "period": "HKL-611",
+          "code": "HKL",
+          "number": "6458"
+        },
+        {
           "date": "2026-08-30",
           "period": "HKL-610",
           "code": "HKL",
@@ -11333,12 +11333,6 @@
           "period": "HKL-592",
           "code": "HKL",
           "number": "4190"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "HKL-591",
-          "code": "HKL",
-          "number": "5774"
         }
       ]
     },
@@ -11989,6 +11983,12 @@
       "url": "https://dana100nl.com/draw-history?m=3391",
       "rows": [
         {
+          "date": "2026-08-31",
+          "period": "",
+          "code": null,
+          "number": "7296"
+        },
+        {
           "date": "2026-08-30",
           "period": "",
           "code": null,
@@ -12101,12 +12101,6 @@
           "period": "",
           "code": null,
           "number": "7845"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "code": null,
-          "number": "8756"
         }
       ]
     }
