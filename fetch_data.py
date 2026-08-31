@@ -1,4 +1,5 @@
 import json, re, time
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 import requests
@@ -25,6 +26,16 @@ def clean_number(s):
     digits = re.sub(r"\D", "", str(s))
     return digits.zfill(4)[-4:] if len(digits) <= 4 and digits else ""
 
+# Period cells look like "HK-6382" or "TTM12-1123": letters (+ optional digits)
+# for the market's short code, a dash, then the period/session number.
+PERIOD_RE = re.compile(r"^([A-Za-z]+\d*)\s*-\s*(\d+)$")
+
+def parse_period(cell):
+    m = PERIOD_RE.match(str(cell).strip())
+    if not m:
+        return None, None
+    return m.group(1).upper(), m.group(0)
+
 def parse_page(html, url):
     soup = BeautifulSoup(html, "html.parser")
     title = soup.title.get_text(" ", strip=True) if soup.title else ""
@@ -32,6 +43,7 @@ def parse_page(html, url):
     mid = m.group(1) if m else url
 
     rows = []
+    codes_seen = Counter()
     # Prefer tables whose headers mention date/tanggal and number/nomor.
     tables = soup.find_all("table")
     for table in tables:
@@ -42,16 +54,21 @@ def parse_page(html, url):
                 continue
             date = None
             number = ""
-            period = ""
+            period_code = None
+            period_raw = ""
             for c in cells:
                 if not date:
                     date = norm_date(c)
-                if re.fullmatch(r"\d{4}", re.sub(r"\D","",c)):
-                    number = re.sub(r"\D","",c)
-                if not period and ("periode" in c.lower() or "period" in c.lower()):
-                    period = c
+                if re.fullmatch(r"\d{4}", c.strip()):
+                    number = c.strip()
+                if period_code is None:
+                    pc, praw = parse_period(c)
+                    if pc:
+                        period_code, period_raw = pc, praw
             if date and number:
-                rows.append({"date": date, "period": period, "number": clean_number(number)})
+                if period_code:
+                    codes_seen[period_code] += 1
+                rows.append({"date": date, "period": period_raw, "code": period_code, "number": clean_number(number)})
 
     # Fallback: scan visible table-like rows.
     if not rows:
@@ -60,9 +77,17 @@ def parse_page(html, url):
             if not cells:
                 continue
             date = next((norm_date(c) for c in cells if norm_date(c)), None)
-            nums = [re.sub(r"\D","",c) for c in cells if len(re.sub(r"\D","",c)) == 4]
+            nums = [c.strip() for c in cells if re.fullmatch(r"\d{4}", c.strip())]
+            period_code, period_raw = None, ""
+            for c in cells:
+                pc, praw = parse_period(c)
+                if pc:
+                    period_code, period_raw = pc, praw
+                    break
             if date and nums:
-                rows.append({"date": date, "period": "", "number": clean_number(nums[-1])})
+                if period_code:
+                    codes_seen[period_code] += 1
+                rows.append({"date": date, "period": period_raw, "code": period_code, "number": clean_number(nums[-1])})
 
     # Deduplicate by date; keep first valid row and newest 20.
     unique = {}
@@ -71,9 +96,12 @@ def parse_page(html, url):
             unique.setdefault(r["date"], r)
     rows = sorted(unique.values(), key=lambda x: x["date"], reverse=True)[:WINDOW]
 
+    # Market-level short code = the most common code seen across its rows.
+    code = codes_seen.most_common(1)[0][0] if codes_seen else None
+
     # Clean title to a useful market name; actual site title may include DANA100 text.
     name = re.sub(r"\s+", " ", title).strip()
-    return {"id": mid, "name": name or mid, "url": url, "rows": rows}
+    return {"id": mid, "code": code or mid, "name": name or mid, "url": url, "rows": rows}
 
 def main():
     urls = [x.strip() for x in (ROOT/"sources.txt").read_text().splitlines() if x.strip()]
