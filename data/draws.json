@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T00:09:07.812200+00:00",
+  "updated_at": "2026-08-31T00:36:59.758718+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4397,6 +4397,11 @@
       "url": "https://dana100nl.com/draw-history?m=2767",
       "rows": [
         {
+          "date": "2026-08-31",
+          "period": "",
+          "number": "5931"
+        },
+        {
           "date": "2026-08-30",
           "period": "",
           "number": "9902"
@@ -4490,11 +4495,6 @@
           "date": "2026-08-12",
           "period": "",
           "number": "9313"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "number": "3180"
         }
       ]
     },
@@ -4503,6 +4503,11 @@
       "name": "Result Togel - Pasaran MARYLAND EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2769",
       "rows": [
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "number": "4005"
+        },
         {
           "date": "2026-08-30",
           "period": "",
@@ -4597,11 +4602,6 @@
           "date": "2026-08-12",
           "period": "",
           "number": "3207"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "number": "6669"
         }
       ]
     },
@@ -4610,6 +4610,11 @@
       "name": "Result Togel - Pasaran WASHINGTON EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2770",
       "rows": [
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "number": "8676"
+        },
         {
           "date": "2026-08-30",
           "period": "",
@@ -4704,11 +4709,6 @@
           "date": "2026-08-12",
           "period": "",
           "number": "1124"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "number": "9091"
         }
       ]
     },
