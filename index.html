@@ -32,6 +32,13 @@ td.code-cell,th.code-cell{text-align:left;font-weight:800;min-width:90px}
 .bar-track{flex:1;background:#f1f5f9;border-radius:6px;height:16px;overflow:hidden}
 .bar-fill{height:100%;background:#111827}
 .bar-count{width:34px;text-align:right;font-weight:800}
+.tabs{display:flex;gap:8px;margin-bottom:14px}
+.tab-btn{width:auto;flex:1;background:#fff;color:#111827}
+.tab-btn.active{background:#111827;color:#fff}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.status-o{color:#15803d;font-weight:900}
+.status-x{color:#b91c1c;font-weight:900}
 @media(max-width:600px){main{padding:10px}.card{padding:12px}}
 </style>
 </head>
@@ -55,6 +62,13 @@ td.code-cell,th.code-cell{text-align:left;font-weight:800;min-width:90px}
 </section>
 
 <section class="card">
+<div class="tabs">
+<button class="tab-btn active" id="tabBtnMarket" type="button">Per Pasaran</button>
+<button class="tab-btn" id="tabBtnDay" type="button">Lintas Pasaran</button>
+<button class="tab-btn" id="tabBtnAngka" type="button">Kelompok Berdasarkan Angka</button>
+</div>
+
+<div class="tab-panel active" id="tabPanelMarket">
 <h2>Frekuensi Digit per Pasaran</h2>
 <p class="small">Jumlah kemunculan tiap digit unik (0-9) dalam angka 4D selama window. Diurutkan dari pasaran yang paling condong ke satu digit tertentu. Digit terbanyak di tiap baris ditandai kuning.</p>
 <div class="table-wrap">
@@ -63,9 +77,9 @@ td.code-cell,th.code-cell{text-align:left;font-weight:800;min-width:90px}
 <tbody id="marketFreqBody"><tr><td colspan="11" class="small">Belum ada hasil.</td></tr></tbody>
 </table>
 </div>
-</section>
+</div>
 
-<section class="card">
+<div class="tab-panel" id="tabPanelDay">
 <h2>Frekuensi Digit Lintas Pasaran per Tanggal</h2>
 <div class="controls" style="grid-template-columns:220px">
 <div><label>Pilih tanggal</label><select id="dayPicker"></select></div>
@@ -76,6 +90,31 @@ td.code-cell,th.code-cell{text-align:left;font-weight:800;min-width:90px}
 <thead><tr><th style="width:60px">Digit</th><th>Frekuensi</th></tr></thead>
 <tbody id="dayFreqBody"><tr><td colspan="2" class="small">Belum ada hasil.</td></tr></tbody>
 </table>
+</div>
+</div>
+
+<div class="tab-panel" id="tabPanelAngka">
+<h2>Kelompok Berdasarkan Angka</h2>
+<div class="controls" style="grid-template-columns:220px 160px">
+<div><label>Pilih tanggal</label><select id="angkaDatePicker"></select></div>
+<div><label>Jumlah output</label>
+<select id="angkaJumlahPicker">
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+</div>
+</div>
+<div class="actions"><button id="angkaCariBtn" type="button">🔍 Cari</button></div>
+<p class="small">Angka hasil1 = digit paling sering muncul lintas pasaran pada tanggal terpilih (hari ini). Angka hasil2 = digit paling sering muncul pada tanggal sebelumnya (H-1). Status O kalau angka yang keluar di pasaran itu punya digit yang cocok dengan salah satu Angka hasil.</p>
+<div class="table-wrap">
+<table>
+<thead><tr><th class="code-cell">ID</th><th>Nomor</th><th>Angka hasil1</th><th>Angka hasil2</th><th>Status</th></tr></thead>
+<tbody id="angkaKelompokBody"><tr><td colspan="5" class="small">Belum ada hasil.</td></tr></tbody>
+</table>
+</div>
 </div>
 </section>
 </main>
@@ -191,11 +230,78 @@ function render(r){
  const selected=r.dates.includes(prevSelected)?prevSelected:(r.dates[0]||"");
  picker.value=selected;
 
+ const angkaPicker=document.getElementById("angkaDatePicker");
+ const prevAngkaSelected=angkaPicker.value;
+ angkaPicker.innerHTML=r.dates.map(d=>`<option value="${esc(d)}">${esc(d)}</option>`).join("");
+ angkaPicker.value=r.dates.includes(prevAngkaSelected)?prevAngkaSelected:(r.dates[0]||"");
+
  LAST_RESULT=r;
  renderDayFreq(selected);
 }
 
 document.getElementById("dayPicker").onchange=e=>renderDayFreq(e.target.value);
+
+function switchTab(tab){
+ const map={market:["tabBtnMarket","tabPanelMarket"], day:["tabBtnDay","tabPanelDay"], angka:["tabBtnAngka","tabPanelAngka"]};
+ for(const key in map){
+   const [btnId,panelId]=map[key];
+   const active = key===tab;
+   document.getElementById(btnId).classList.toggle("active", active);
+   document.getElementById(panelId).classList.toggle("active", active);
+ }
+}
+document.getElementById("tabBtnMarket").onclick=()=>switchTab("market");
+document.getElementById("tabBtnDay").onclick=()=>switchTab("day");
+document.getElementById("tabBtnAngka").onclick=()=>switchTab("angka");
+
+function topDigitsFromFreq(freq, n){
+ return freq.map((v,d)=>({d,v})).sort((a,b)=>b.v-a.v || a.d-b.d).slice(0,n).map(x=>x.d);
+}
+
+function computeAngkaKelompok(){
+ if(!LAST_RESULT){ alert("Klik \"Analisis Data\" dulu."); return }
+ const date = document.getElementById("angkaDatePicker").value;
+ const n = +document.getElementById("angkaJumlahPicker").value || 4;
+ const body = document.getElementById("angkaKelompokBody");
+ if(!date){ body.innerHTML='<tr><td colspan="5" class="small">Pilih tanggal dulu.</td></tr>'; return }
+
+ const todayFreqEntry = LAST_RESULT.dayFreq.get(date);
+ if(!todayFreqEntry){ body.innerHTML='<tr><td colspan="5" class="small">Tidak ada data pada tanggal ini.</td></tr>'; return }
+
+ // dates diurutkan terbaru->terlama, jadi tanggal H-1 ada di index berikutnya.
+ const idx = LAST_RESULT.dates.indexOf(date);
+ const prevDate = idx>=0 ? LAST_RESULT.dates[idx+1] : undefined;
+ const prevFreqEntry = prevDate ? LAST_RESULT.dayFreq.get(prevDate) : null;
+
+ const hasil1Digits = topDigitsFromFreq(todayFreqEntry.freq, n);
+ const hasil2Digits = prevFreqEntry ? topDigitsFromFreq(prevFreqEntry.freq, n) : null;
+ const hasil1Str = hasil1Digits.join("");
+ const hasil2Str = hasil2Digits ? hasil2Digits.join("") : null;
+ const hasil1Set = new Set(hasil1Digits);
+ const hasil2Set = hasil2Digits ? new Set(hasil2Digits) : null;
+
+ // Ambil semua pasaran yang punya draw persis di tanggal ini, dari data mentah (bukan versi windowed)
+ // supaya cakupannya lengkap terlepas dari nilai Window yang sedang dipakai.
+ const rows=[];
+ for(const m of DATA){
+   for(const r of m.rows){
+     if(r.date===date) rows.push({code:m.code, number:r.number});
+   }
+ }
+ rows.sort((a,b)=>a.code.localeCompare(b.code));
+
+ if(!rows.length){ body.innerHTML='<tr><td colspan="5" class="small">Tidak ada pasaran yang keluar di tanggal ini.</td></tr>'; return }
+
+ body.innerHTML = rows.map(row=>{
+   const seen = new Set(row.number.split(""));
+   const cocok = [...seen].some(d=>hasil1Set.has(+d) || (hasil2Set && hasil2Set.has(+d)));
+   const status = cocok ? '<span class="status-o">O</span>' : '<span class="status-x">X</span>';
+   const hasil2Cell = hasil2Str ? esc(hasil2Str) : '<span class="small">(tak ada data H-1)</span>';
+   return `<tr><td class="code-cell">${esc(row.code)}</td><td><b>${esc(row.number)}</b></td><td>${esc(hasil1Str)}</td><td>${hasil2Cell}</td><td>${status}</td></tr>`;
+ }).join("");
+}
+
+document.getElementById("angkaCariBtn").onclick=computeAngkaKelompok;
 
 async function loadData(){
  const response = await fetch("./data/draws.json?ts="+Date.now(), {cache:"no-store"});
