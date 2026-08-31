@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T14:37:16.142810+00:00",
+  "updated_at": "2026-08-31T15:07:39.911434+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -11093,6 +11093,12 @@
       "url": "https://dana100nl.com/draw-history?m=2835",
       "rows": [
         {
+          "date": "2026-08-31",
+          "period": "TXSM-523",
+          "code": "TXSM",
+          "number": "4627"
+        },
+        {
           "date": "2026-08-29",
           "period": "TXSM-522",
           "code": "TXSM",
@@ -11205,12 +11211,6 @@
           "period": "TXSM-504",
           "code": "TXSM",
           "number": "3992"
-        },
-        {
-          "date": "2026-08-07",
-          "period": "TXSM-503",
-          "code": "TXSM",
-          "number": "2691"
         }
       ]
     },
