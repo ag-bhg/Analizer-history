@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T18:37:20.226052+00:00",
+  "updated_at": "2026-08-31T19:07:09.252001+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3211,6 +3211,12 @@
       "url": "https://dana100nl.com/draw-history?m=2744",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "CRD-612",
+          "code": "CRD",
+          "number": "8658"
+        },
+        {
           "date": "2026-08-31",
           "period": "CRD-611",
           "code": "CRD",
@@ -3323,12 +3329,6 @@
           "period": "CRD-593",
           "code": "CRD",
           "number": "8433"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "CRD-592",
-          "code": "CRD",
-          "number": "1479"
         }
       ]
     },
