@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DANA100 — Analisis Kelompok Pasaran</title>
+<title>DANA100 — Frekuensi Digit</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#f4f6f8;color:#17202a}
 header{background:#111827;color:#fff;padding:18px}
 header h1{margin:0;font-size:22px}
 header p{margin:5px 0 0;color:#cbd5e1;font-size:13px}
-main{max-width:1200px;margin:auto;padding:16px}
+main{max-width:1000px;margin:auto;padding:16px}
 .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:16px;margin-bottom:14px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
 .controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
 label{font-size:12px;font-weight:700;color:#475569}
@@ -20,112 +20,61 @@ button.secondary{background:#fff;color:#111827}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
 .actions button{width:auto}
 .status{padding:10px;border-radius:9px;background:#f1f5f9;margin-top:12px;font-size:13px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
-.metric{padding:14px;border:1px solid #e5e7eb;border-radius:12px}
-.metric b{display:block;font-size:24px;margin-top:3px}
-.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef2ff;margin:2px;font-size:12px}
 table{width:100%;border-collapse:collapse;font-size:13px}
-th,td{padding:9px;border-bottom:1px solid #e5e7eb;text-align:left;vertical-align:middle}
+th,td{padding:8px 6px;border-bottom:1px solid #e5e7eb;text-align:center;vertical-align:middle}
 th{background:#f8fafc;position:sticky;top:0}
-.result-table td.number-cell{font-size:clamp(24px,5vw,38px);font-weight:900;letter-spacing:2px;text-align:center;white-space:nowrap;line-height:1.05}
-.result-table td.market-cell{font-weight:800;min-width:130px}
-.group-color{border-left:7px solid transparent}
-.group-1{background:#fff7ed;border-left-color:#f97316}
-.group-2{background:#eff6ff;border-left-color:#3b82f6}
-.group-3{background:#f0fdf4;border-left-color:#22c55e}
-.group-4{background:#faf5ff;border-left-color:#a855f7}
-.group-5{background:#fef2f2;border-left-color:#ef4444}
-.group-6{background:#ecfeff;border-left-color:#06b6d4}
-.group-7{background:#fefce8;border-left-color:#eab308}
-.group-8{background:#fdf2f8;border-left-color:#ec4899}
-.group-9{background:#f1f5f9;border-left-color:#64748b}
-.group-10{background:#f5f3ff;border-left-color:#7c3aed}
-.conclusion{font-size:15px;line-height:1.6}
-.conclusion strong{font-size:17px}
-.table-wrap{overflow:auto;max-height:520px}
-.good{font-weight:800}
+td.code-cell,th.code-cell{text-align:left;font-weight:800;min-width:90px}
+.table-wrap{overflow:auto;max-height:560px}
 .small{font-size:12px;color:#64748b}
 .error{color:#b91c1c}
-details{border:1px solid #e5e7eb;border-radius:10px;padding:10px;margin:7px 0}
-summary{cursor:pointer;font-weight:700}
-#loading{display:none}
+.top{background:#fef3c7;font-weight:900;border-radius:6px}
+.bar-wrap{display:flex;align-items:center;gap:8px}
+.bar-track{flex:1;background:#f1f5f9;border-radius:6px;height:16px;overflow:hidden}
+.bar-fill{height:100%;background:#111827}
+.bar-count{width:34px;text-align:right;font-weight:800}
 @media(max-width:600px){main{padding:10px}.card{padding:12px}}
 </style>
 </head>
 <body>
 <header>
-<h1>DANA100 — Analisis Kelompok Pasaran</h1>
-<p>Analisis berbasis kemiripan digit pada tanggal yang sama. Sistem ini tidak mengubah database lama.</p>
+<h1>DANA100 — Frekuensi Digit</h1>
+<p>Analisis tren frekuensi digit, bukan pengelompokan "bandar besar". Data dari data/draws.json.</p>
 </header>
 
 <main>
 <section class="card">
-<h2>Pengaturan Analisis</h2>
+<h2>Pengaturan</h2>
 <div class="controls">
-<div><label>Window tanggal</label><input id="window" type="number" min="2" max="100" value="20"></div>
-<div><label>Minimal digit unik sama</label><select id="overlap"><option value="2" selected>2 digit</option><option value="3">3 digit</option><option value="4">4 digit</option></select></div>
-<div><label>Minimal kemunculan pasangan</label><input id="minDays" type="number" min="1" max="100" value="8"></div>
+<div><label>Window (hasil terbaru per pasaran)</label><input id="window" type="number" min="2" max="100" value="20"></div>
 </div>
 <div class="actions">
 <button id="runBtn">Analisis Data</button>
-<button class="secondary" id="loadBtn">Muat Contoh Data</button>
 <button class="secondary" id="exportBtn">Export JSON</button>
 </div>
-<div id="status" class="status">Belum ada data. Sumber data: DANA100 melalui GitHub Actions. Data ditampilkan dari data/draws.json.</div>
+<div id="status" class="status">Belum ada data. Klik "Analisis Data" untuk memuat data/draws.json.</div>
 </section>
 
 <section class="card">
-<h2>Ringkasan</h2>
-<div class="grid">
-<div class="metric">Pasaran terbaca<b id="marketCount">0</b></div>
-<div class="metric">Tanggal dianalisis<b id="dateCount">0</b></div>
-<div class="metric">Pasangan terhubung<b id="pairCount">0</b></div>
-<div class="metric">Cluster stabil<b id="clusterCount">0</b></div>
-</div>
-</section>
-
-<section class="card">
-<h2>Tabel 1 — Kelompok Stabil (window <span id="winLabel1">20</span> data)</h2>
-<p class="small">Kelompok pasaran (BAG) yang konsisten terhubung sepanjang window. Data histori menampilkan beberapa tanggal terakhir; tanggal terbaru ditandai tebal.</p>
+<h2>Frekuensi Digit per Pasaran</h2>
+<p class="small">Jumlah kemunculan tiap digit unik (0-9) dalam angka 4D selama window. Diurutkan dari pasaran yang paling condong ke satu digit tertentu. Digit terbanyak di tiap baris ditandai kuning.</p>
 <div class="table-wrap">
-<table>
-<thead><tr><th style="width:70px">BAG</th><th style="width:110px">Freq</th><th>Data histori</th></tr></thead>
-<tbody id="stableTable"><tr><td colspan="3" class="small">Belum ada hasil.</td></tr></tbody>
+<table id="marketFreqTable">
+<thead><tr><th class="code-cell">Pasaran</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th></tr></thead>
+<tbody id="marketFreqBody"><tr><td colspan="11" class="small">Belum ada hasil.</td></tr></tbody>
 </table>
 </div>
 </section>
 
 <section class="card">
-<h2>Tabel 2 — Kelompok per Tanggal</h2>
+<h2>Frekuensi Digit Lintas Pasaran per Tanggal</h2>
 <div class="controls" style="grid-template-columns:220px">
 <div><label>Pilih tanggal</label><select id="dayPicker"></select></div>
 </div>
-<p class="small">Kelompok (BAG) dihitung dari data tanggal terpilih saja, berdasarkan kemiripan digit di tanggal itu.</p>
+<p class="small">Digit mana yang paling "rame" muncul di banyak pasaran pada tanggal ini, diurutkan dari yang paling sering.</p>
 <div class="table-wrap">
 <table>
-<thead><tr><th style="width:70px">BAG</th><th>Anggota</th></tr></thead>
-<tbody id="dayTable"><tr><td colspan="2" class="small">Belum ada hasil.</td></tr></tbody>
-</table>
-</div>
-<p id="daySingles" class="small"></p>
-</section>
-
-<section class="card">
-<h2>Pasangan Terkuat</h2>
-<div class="table-wrap">
-<table>
-<thead><tr><th>Pasaran A</th><th>Pasaran B</th><th>Terhubung</th><th>Skor</th><th>Contoh</th></tr></thead>
-<tbody id="pairs"></tbody>
-</table>
-</div>
-</section>
-
-<section class="card">
-<h2>Data Pasaran</h2>
-<div class="table-wrap">
-<table>
-<thead><tr><th>Kode</th><th>ID</th><th>URL</th><th>Jumlah hasil</th></tr></thead>
-<tbody id="markets"></tbody>
+<thead><tr><th style="width:60px">Digit</th><th>Frekuensi</th></tr></thead>
+<tbody id="dayFreqBody"><tr><td colspan="2" class="small">Belum ada hasil.</td></tr></tbody>
 </table>
 </div>
 </section>
@@ -144,22 +93,11 @@ summary{cursor:pointer;font-weight:700}
       ...
     ]
   }
-
-  Untuk produksi, endpoint/backend sebaiknya mengisi window.__DANA100_DATA__
-  atau mengubah fungsi loadData() agar mengambil JSON dari server sendiri.
 */
-
-const EXAMPLE = [];
 
 let DATA = [];
 let LAST_RESULT = null;
 
-function uniqueDigits(n){return new Set(String(n).padStart(4,"0").split(""))}
-function overlap(a,b){
- const A=uniqueDigits(a), B=uniqueDigits(b);
- let n=0; for(const x of A) if(B.has(x)) n++;
- return n;
-}
 function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 
 function normalize(raw){
@@ -176,137 +114,88 @@ function normalize(raw){
  }));
 }
 
+function uniqueDigitCounts(number){
+ // Counts each unique digit once per draw, e.g. "1122" -> {1:1, 2:1}.
+ const seen=new Set(String(number).padStart(4,"0").split(""));
+ const counts=Array(10).fill(0);
+ for(const d of seen) counts[+d]++;
+ return counts;
+}
+
 function analyze(data){
  const win=Math.max(2,+document.getElementById("window").value||20);
- const minOverlap=+document.getElementById("overlap").value||2;
- const minDays=Math.max(1,+document.getElementById("minDays").value||8);
-
- // Per market: newest window rows.
  const markets=data.map(m=>({...m,rows:[...m.rows].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,win)}));
+
+ // Per-market digit frequency.
+ const marketFreq=markets.map(m=>{
+   const freq=Array(10).fill(0);
+   for(const r of m.rows){
+     const c=uniqueDigitCounts(r.number);
+     for(let d=0; d<10; d++) freq[d]+=c[d];
+   }
+   const maxCount=Math.max(0,...freq);
+   return {code:m.code, id:m.id, freq, maxCount, rowsCount:m.rows.length};
+ }).sort((a,b)=>b.maxCount-a.maxCount || a.code.localeCompare(b.code));
+
+ // Per-date, cross-market digit frequency.
  const byDate=new Map();
  for(const m of markets){
    for(const r of m.rows){
-     if(!byDate.has(r.date))byDate.set(r.date,new Map());
-     byDate.get(r.date).set(m.id,{...r,code:m.code,name:m.name});
+     if(!byDate.has(r.date)) byDate.set(r.date, []);
+     byDate.get(r.date).push(r.number);
    }
  }
- const dates=[...byDate.keys()].sort().reverse().slice(0,win);
- const pair=new Map();
- const daily=[];
+ const dates=[...byDate.keys()].sort().reverse();
+ const dayFreq=new Map();
  for(const date of dates){
-   const vals=byDate.get(date);
-   const ids=[...vals.keys()];
-   const graph=new Map(ids.map(x=>[x,new Set()]));
-   for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++){
-     const a=ids[i],b=ids[j], ov=overlap(vals.get(a).number,vals.get(b).number);
-     if(ov>=minOverlap){
-       graph.get(a).add(b); graph.get(b).add(a);
-       const k=[a,b].sort().join("|");
-       if(!pair.has(k))pair.set(k,{a:[a,b].sort()[0],b:[a,b].sort()[1],count:0,samples:[]});
-       const p=pair.get(k); p.count++;
-       if(p.samples.length<10)p.samples.push({date,a:vals.get(a).number,b:vals.get(b).number,overlap:ov});
-     }
+   const freq=Array(10).fill(0);
+   for(const number of byDate.get(date)){
+     const c=uniqueDigitCounts(number);
+     for(let d=0; d<10; d++) freq[d]+=c[d];
    }
-   // Connected components.
-   const seen=new Set(), comps=[];
-   for(const root of ids){
-     if(seen.has(root))continue;
-     const q=[root],c=[];seen.add(root);
-     while(q.length){const x=q.pop();c.push(x);for(const y of graph.get(x)||[])if(!seen.has(y)){seen.add(y);q.push(y)}}
-     if(c.length>=2)comps.push(c.sort());
-   }
-   comps.sort((a,b)=>b.length-a.length);
-   const bags=comps.map((c,i)=>({label:`BAG${i+1}`,members:c.map(id=>({id,code:vals.get(id).code,number:vals.get(id).number}))}));
-   const grouped=new Set(comps.flat());
-   const singles=ids.filter(id=>!grouped.has(id)).map(id=>({id,code:vals.get(id).code,number:vals.get(id).number}))
-     .sort((a,b)=>a.code.localeCompare(b.code));
-   daily.push({date,bags,singles});
+   const total=byDate.get(date).length;
+   dayFreq.set(date, {freq, total});
  }
- const totalDates=dates.length;
- const pairs=[...pair.values()].filter(p=>p.count>=minDays)
-   .map(p=>({...p,rate:+(p.count/totalDates*100).toFixed(1),
-     codeA:markets.find(m=>m.id===p.a)?.code||p.a,
-     codeB:markets.find(m=>m.id===p.b)?.code||p.b}))
-   .sort((x,y)=>y.count-x.count||y.rate-x.rate);
 
- // Stable clusters from stable pairs.
- const g=new Map();
- for(const p of pairs){if(!g.has(p.a))g.set(p.a,new Set());if(!g.has(p.b))g.set(p.b,new Set());g.get(p.a).add(p.b);g.get(p.b).add(p.a)}
- const seen=new Set(),clusters=[];
- for(const root of g.keys()){
-   if(seen.has(root))continue;
-   const q=[root],c=[];seen.add(root);
-   while(q.length){const x=q.pop();c.push(x);for(const y of g.get(x)||[])if(!seen.has(y)){seen.add(y);q.push(y)}}
-   if(c.length>=2){
-     c.sort();
-     const internal=[];
-     for(let i=0;i<c.length;i++)for(let j=i+1;j<c.length;j++){
-       const p=pairs.find(p=>(p.a===c[i]&&p.b===c[j]));
-       if(p)internal.push(p.count);
-     }
-     const avg=internal.length?(internal.reduce((a,b)=>a+b,0)/internal.length):0;
-     const rate=+(avg/totalDates*100).toFixed(1);
-     const histories=[];
-     for(let i=0;i<Math.min(5,dates.length);i++){
-       const date=dates[i], vals=byDate.get(date);
-       const parts=c.filter(id=>vals.has(id)).map(id=>`${vals.get(id).code}-${vals.get(id).number}`);
-       if(parts.length)histories.push({date,text:parts.join(", "),latest:i===0});
-     }
-     clusters.push({members:c,avg,freqText:`${avg.toFixed(1)}/${totalDates} hari (${rate}%)`,histories});
-   }
- }
- clusters.sort((a,b)=>b.avg-a.avg||b.members.length-a.members.length);
- clusters.forEach((c,i)=>c.label=`BAG${i+1}`);
- return {markets,dates,pairs,clusters,daily,totalDates,minOverlap,minDays};
+ return {markets, marketFreq, dates, dayFreq, win};
 }
 
-function bagClass(i){return `group-${(i%10)+1}`}
+function renderMarketFreq(r){
+ document.getElementById("marketFreqBody").innerHTML = r.marketFreq.length ?
+   r.marketFreq.map(m=>{
+     const cells = m.freq.map(v=>`<td${v===m.maxCount && v>0 ? ' class="top"':''}>${v}</td>`).join("");
+     return `<tr><td class="code-cell">${esc(m.code)}</td>${cells}</tr>`;
+   }).join("")
+   : '<tr><td colspan="11" class="small">Belum ada data.</td></tr>';
+}
 
-function renderDayTable(date){
- if(!LAST_RESULT)return;
- const d=LAST_RESULT.daily.find(x=>x.date===date);
- if(!d){document.getElementById("dayTable").innerHTML='<tr><td colspan="2" class="small">Tidak ada data untuk tanggal ini.</td></tr>';document.getElementById("daySingles").textContent="";return}
- document.getElementById("dayTable").innerHTML=d.bags.length?
-   d.bags.map((b,i)=>`<tr class="group-color ${bagClass(i)}"><td><span class="badge">${b.label}</span></td>
-     <td>${b.members.map(m=>`<span class="badge">${esc(m.code)}-${esc(m.number)}</span>`).join("")}</td></tr>`).join("")
-   : '<tr><td colspan="2" class="small">Tidak ada kelompok di tanggal ini.</td></tr>';
- document.getElementById("daySingles").innerHTML=d.singles.length?
-   `<b>Tidak berkelompok:</b> ${d.singles.map(m=>`<span class="badge">${esc(m.code)}-${esc(m.number)}</span>`).join("")}`:"";
+function renderDayFreq(date){
+ if(!LAST_RESULT) return;
+ const d = LAST_RESULT.dayFreq.get(date);
+ const body = document.getElementById("dayFreqBody");
+ if(!d){ body.innerHTML='<tr><td colspan="2" class="small">Tidak ada data untuk tanggal ini.</td></tr>'; return }
+ const rows = d.freq.map((v,digit)=>({digit,v})).sort((a,b)=>b.v-a.v);
+ const max = Math.max(1, ...d.freq);
+ body.innerHTML = rows.map(({digit,v})=>`
+   <tr><td><b>${digit}</b></td>
+   <td><div class="bar-wrap"><div class="bar-track"><div class="bar-fill" style="width:${(v/max*100).toFixed(0)}%"></div></div><div class="bar-count">${v}</div></div></td></tr>
+ `).join("");
 }
 
 function render(r){
- document.getElementById("marketCount").textContent=r.markets.length;
- document.getElementById("dateCount").textContent=r.totalDates;
- document.getElementById("pairCount").textContent=r.pairs.length;
- document.getElementById("clusterCount").textContent=r.clusters.length;
- document.getElementById("winLabel1").textContent=document.getElementById("window").value;
+ renderMarketFreq(r);
 
- // Table 1 — stable BAG groups across the window, with recent history per member.
- document.getElementById("stableTable").innerHTML=r.clusters.length?
-   r.clusters.map((c,i)=>`<tr class="group-color ${bagClass(i)}">
-     <td><span class="badge">${c.label}</span></td>
-     <td>${esc(c.freqText)}</td>
-     <td>${c.histories.map(h=>`<div${h.latest?' class="good"':''}>${esc(h.date)}: ${esc(h.text)}</div>`).join("")}</td>
-   </tr>`).join("")
-   : '<tr><td colspan="3" class="small">Belum ada kelompok yang memenuhi ambang.</td></tr>';
-
- // Table 2 — BAG groups for a single selected date.
  const picker=document.getElementById("dayPicker");
  const prevSelected=picker.value;
  picker.innerHTML=r.dates.map(d=>`<option value="${esc(d)}">${esc(d)}</option>`).join("");
  const selected=r.dates.includes(prevSelected)?prevSelected:(r.dates[0]||"");
  picker.value=selected;
 
- document.getElementById("pairs").innerHTML=r.pairs.length?
-   r.pairs.slice(0,150).map(p=>`<tr><td>${esc(p.codeA)}</td><td>${esc(p.codeB)}</td><td>${p.count}/${r.totalDates}</td><td class="good">${p.rate}%</td><td class="small">${p.samples.slice(0,3).map(s=>`${s.date}: ${s.a} ↔ ${s.b} (${s.overlap})`).join("<br>")}</td></tr>`).join("")
-   : '<tr><td colspan="5">Tidak ada pasangan yang memenuhi ambang.</td></tr>';
-
- document.getElementById("markets").innerHTML=r.markets.map(m=>`<tr><td>${esc(m.code)}</td><td>${esc(m.id)}</td><td>${esc(m.url)}</td><td>${m.rows.length}</td></tr>`).join("");
  LAST_RESULT=r;
- renderDayTable(selected);
+ renderDayFreq(selected);
 }
 
-document.getElementById("dayPicker").onchange=e=>renderDayTable(e.target.value);
+document.getElementById("dayPicker").onchange=e=>renderDayFreq(e.target.value);
 
 async function loadData(){
  const response = await fetch("./data/draws.json?ts="+Date.now(), {cache:"no-store"});
@@ -320,27 +209,24 @@ async function loadData(){
  return normalize(payload.markets);
 }
 
-document.getElementById("loadBtn").onclick=async()=>{
- try{
-   DATA=await loadData();
-   render(analyze(DATA));
- }catch(e){
-   document.getElementById("status").innerHTML=`<span class="error">${esc(e.message)}</span>`;
- }
-};
 document.getElementById("runBtn").onclick=async()=>{
  document.getElementById("status").textContent="Mengambil data DANA100...";
  try{
    DATA=await loadData();
    const r=analyze(DATA);
    render(r);
-   document.getElementById("status").textContent=`Selesai. ${r.markets.length} pasaran, ${r.totalDates} tanggal.`;
+   document.getElementById("status").textContent=`Selesai. ${r.markets.length} pasaran, ${r.dates.length} tanggal.`;
  }catch(e){document.getElementById("status").innerHTML=`<span class="error">Gagal: ${esc(e.message)}</span>`}
 };
 document.getElementById("exportBtn").onclick=()=>{
  if(!LAST_RESULT){alert("Jalankan analisis dulu.");return}
- const blob=new Blob([JSON.stringify(LAST_RESULT,null,2)],{type:"application/json"});
- const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="dana100-analysis.json";a.click();URL.revokeObjectURL(a.href);
+ const out = {
+   window: LAST_RESULT.win,
+   marketFreq: LAST_RESULT.marketFreq,
+   dayFreq: Object.fromEntries(LAST_RESULT.dayFreq),
+ };
+ const blob=new Blob([JSON.stringify(out,null,2)],{type:"application/json"});
+ const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="dana100-frekuensi.json";a.click();URL.revokeObjectURL(a.href);
 };
 </script>
 </body>
