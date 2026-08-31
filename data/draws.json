@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T02:37:19.247889+00:00",
+  "updated_at": "2026-08-31T03:07:08.992465+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5039,6 +5039,11 @@
       "url": "https://dana100nl.com/draw-history?m=2776",
       "rows": [
         {
+          "date": "2026-08-31",
+          "period": "",
+          "number": "8030"
+        },
+        {
           "date": "2026-08-30",
           "period": "",
           "number": "7831"
@@ -5132,11 +5137,6 @@
           "date": "2026-08-12",
           "period": "",
           "number": "5737"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "number": "9536"
         }
       ]
     },
@@ -5681,6 +5681,11 @@
       "url": "https://dana100nl.com/draw-history?m=2785",
       "rows": [
         {
+          "date": "2026-08-31",
+          "period": "",
+          "number": "1897"
+        },
+        {
           "date": "2026-08-30",
           "period": "",
           "number": "6621"
@@ -5774,11 +5779,6 @@
           "date": "2026-08-12",
           "period": "",
           "number": "7063"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "number": "6681"
         }
       ]
     },
@@ -5787,6 +5787,11 @@
       "name": "Result Togel - Pasaran NEW JERSEY EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2786",
       "rows": [
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "number": "1489"
+        },
         {
           "date": "2026-08-30",
           "period": "",
@@ -5881,11 +5886,6 @@
           "date": "2026-08-12",
           "period": "",
           "number": "3197"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "number": "9713"
         }
       ]
     },
@@ -5894,6 +5894,11 @@
       "name": "Result Togel - Pasaran VIRGINIA NGT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2788",
       "rows": [
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "number": "1831"
+        },
         {
           "date": "2026-08-30",
           "period": "",
@@ -5988,11 +5993,6 @@
           "date": "2026-08-12",
           "period": "",
           "number": "1733"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "",
-          "number": "7097"
         }
       ]
     },
