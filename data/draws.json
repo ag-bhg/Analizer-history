@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T14:47:08.907690+00:00",
+  "updated_at": "2026-09-01T15:12:02.359745+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -11093,6 +11093,12 @@
       "url": "https://dana100nl.com/draw-history?m=2835",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "TXSM-524",
+          "code": "TXSM",
+          "number": "8519"
+        },
+        {
           "date": "2026-08-31",
           "period": "TXSM-523",
           "code": "TXSM",
@@ -11205,12 +11211,6 @@
           "period": "TXSM-505",
           "code": "TXSM",
           "number": "0673"
-        },
-        {
-          "date": "2026-08-08",
-          "period": "TXSM-504",
-          "code": "TXSM",
-          "number": "3992"
         }
       ]
     },
@@ -11861,6 +11861,12 @@
       "url": "https://dana100nl.com/draw-history?m=3390",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "",
+          "code": null,
+          "number": "5178"
+        },
+        {
           "date": "2026-08-31",
           "period": "",
           "code": null,
@@ -11973,12 +11979,6 @@
           "period": "",
           "code": null,
           "number": "2031"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "",
-          "code": null,
-          "number": "4277"
         }
       ]
     },
