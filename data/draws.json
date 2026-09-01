@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T04:41:49.462748+00:00",
+  "updated_at": "2026-09-01T05:11:49.459350+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8075,6 +8075,12 @@
       "url": "https://dana100nl.com/draw-history?m=2801",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "CD-611",
+          "code": "CD",
+          "number": "8507"
+        },
+        {
           "date": "2026-08-31",
           "period": "CD-610",
           "code": "CD",
@@ -8187,12 +8193,6 @@
           "period": "CD-592",
           "code": "CD",
           "number": "8955"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "CD-591",
-          "code": "CD",
-          "number": "5234"
         }
       ]
     },
@@ -8202,6 +8202,12 @@
       "name": "Result Togel - Pasaran BUSAN Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2802",
       "rows": [
+        {
+          "date": "2026-09-01",
+          "period": "BSN-611",
+          "code": "BSN",
+          "number": "6630"
+        },
         {
           "date": "2026-08-31",
           "period": "BSN-610",
@@ -8315,12 +8321,6 @@
           "period": "BSN-592",
           "code": "BSN",
           "number": "1915"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "BSN-591",
-          "code": "BSN",
-          "number": "1664"
         }
       ]
     },
@@ -8587,6 +8587,12 @@
       "url": "https://dana100nl.com/draw-history?m=2805",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "OR4-611",
+          "code": "OR4",
+          "number": "5037"
+        },
+        {
           "date": "2026-08-31",
           "period": "OR4-610",
           "code": "OR4",
@@ -8699,12 +8705,6 @@
           "period": "OR4-592",
           "code": "OR4",
           "number": "8014"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "OR4-591",
-          "code": "OR4",
-          "number": "4101"
         }
       ]
     },
