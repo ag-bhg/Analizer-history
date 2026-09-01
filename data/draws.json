@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T08:14:02.501162+00:00",
+  "updated_at": "2026-09-01T08:42:56.848806+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9227,6 +9227,12 @@
       "url": "https://dana100nl.com/draw-history?m=2812",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "PH-612",
+          "code": "PH",
+          "number": "9939"
+        },
+        {
           "date": "2026-08-31",
           "period": "PH-611",
           "code": "PH",
@@ -9339,12 +9345,6 @@
           "period": "PH-593",
           "code": "PH",
           "number": "8383"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "PH-592",
-          "code": "PH",
-          "number": "9908"
         }
       ]
     },
@@ -9354,6 +9354,12 @@
       "name": "Result Togel - Pasaran CHINA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2814",
       "rows": [
+        {
+          "date": "2026-09-01",
+          "period": "CHN-612",
+          "code": "CHN",
+          "number": "2993"
+        },
         {
           "date": "2026-08-31",
           "period": "CHN-611",
@@ -9467,12 +9473,6 @@
           "period": "CHN-593",
           "code": "CHN",
           "number": "0716"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "CHN-592",
-          "code": "CHN",
-          "number": "1345"
         }
       ]
     },
