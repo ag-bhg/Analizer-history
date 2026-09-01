@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T03:13:19.270721+00:00",
+  "updated_at": "2026-09-01T03:41:56.148015+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -6411,6 +6411,12 @@
       "url": "https://dana100nl.com/draw-history?m=2780",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "SHG-611",
+          "code": "SHG",
+          "number": "6476"
+        },
+        {
           "date": "2026-08-31",
           "period": "SHG-610",
           "code": "SHG",
@@ -6523,12 +6529,6 @@
           "period": "SHG-592",
           "code": "SHG",
           "number": "2149"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "SHG-591",
-          "code": "SHG",
-          "number": "4521"
         }
       ]
     },
@@ -6538,6 +6538,12 @@
       "name": "Result Togel - Pasaran TAIWANMOR Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2781",
       "rows": [
+        {
+          "date": "2026-09-01",
+          "period": "TWM-611",
+          "code": "TWM",
+          "number": "9003"
+        },
         {
           "date": "2026-08-31",
           "period": "TWM-610",
@@ -6651,12 +6657,6 @@
           "period": "TWM-592",
           "code": "TWM",
           "number": "3767"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "TWM-591",
-          "code": "TWM",
-          "number": "4109"
         }
       ]
     },
@@ -7435,6 +7435,12 @@
       "url": "https://dana100nl.com/draw-history?m=2794",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "TXSN-523",
+          "code": "TXSN",
+          "number": "8884"
+        },
+        {
           "date": "2026-08-30",
           "period": "TXSN-522",
           "code": "TXSN",
@@ -7547,12 +7553,6 @@
           "period": "TXSN-504",
           "code": "TXSN",
           "number": "9850"
-        },
-        {
-          "date": "2026-08-08",
-          "period": "TXSN-503",
-          "code": "TXSN",
-          "number": "8345"
         }
       ]
     },
@@ -7691,6 +7691,12 @@
       "url": "https://dana100nl.com/draw-history?m=2797",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "CRE-611",
+          "code": "CRE",
+          "number": "0539"
+        },
+        {
           "date": "2026-08-31",
           "period": "CRE-610",
           "code": "CRE",
@@ -7803,12 +7809,6 @@
           "period": "CRE-592",
           "code": "CRE",
           "number": "2836"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "CRE-591",
-          "code": "CRE",
-          "number": "9180"
         }
       ]
     },
