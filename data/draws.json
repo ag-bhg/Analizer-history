@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T11:12:06.735310+00:00",
+  "updated_at": "2026-09-01T11:41:10.085573+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10069,6 +10069,12 @@
       "url": "https://dana100nl.com/draw-history?m=2822",
       "rows": [
         {
+          "date": "2026-09-01",
+          "period": "HKE-612",
+          "code": "HKE",
+          "number": "1200"
+        },
+        {
           "date": "2026-08-31",
           "period": "HKE-611",
           "code": "HKE",
@@ -10181,12 +10187,6 @@
           "period": "HKE-593",
           "code": "HKE",
           "number": "6314"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "HKE-592",
-          "code": "HKE",
-          "number": "2419"
         }
       ]
     },
