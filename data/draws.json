@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T20:13:12.794434+00:00",
+  "updated_at": "2026-09-01T20:40:55.322204+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3467,6 +3467,12 @@
       "url": "https://dana100nl.com/draw-history?m=2747",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "YSLM-613",
+          "code": "YSLM",
+          "number": "6019"
+        },
+        {
           "date": "2026-09-01",
           "period": "YSLM-612",
           "code": "YSLM",
@@ -3579,12 +3585,6 @@
           "period": "YSLM-594",
           "code": "YSLM",
           "number": "8872"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "YSLM-593",
-          "code": "YSLM",
-          "number": "5671"
         }
       ]
     },
