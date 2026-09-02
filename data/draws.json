@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T23:11:17.476574+00:00",
+  "updated_at": "2026-09-02T23:39:07.670282+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4619,6 +4619,12 @@
       "url": "https://dana100nl.com/draw-history?m=2761",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "TXSE-526",
+          "code": "TXSE",
+          "number": "3648"
+        },
+        {
           "date": "2026-09-02",
           "period": "TXSE-525",
           "code": "TXSE",
@@ -4731,12 +4737,6 @@
           "period": "TXSE-507",
           "code": "TXSE",
           "number": "0475"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "TXSE-506",
-          "code": "TXSE",
-          "number": "0394"
         }
       ]
     },
@@ -4746,6 +4746,12 @@
       "name": "Result Togel - Pasaran TENNESSE EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2762",
       "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "TENE-614",
+          "code": "TENE",
+          "number": "6834"
+        },
         {
           "date": "2026-09-02",
           "period": "TENE-613",
@@ -4859,12 +4865,6 @@
           "period": "TENE-595",
           "code": "TENE",
           "number": "3307"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "TENE-594",
-          "code": "TENE",
-          "number": "9027"
         }
       ]
     },
@@ -5003,6 +5003,12 @@
       "url": "https://dana100nl.com/draw-history?m=2765",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "OHIE-614",
+          "code": "OHIE",
+          "number": "6732"
+        },
+        {
           "date": "2026-09-02",
           "period": "OHIE-613",
           "code": "OHIE",
@@ -5115,12 +5121,6 @@
           "period": "OHIE-595",
           "code": "OHIE",
           "number": "6005"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "OHIE-594",
-          "code": "OHIE",
-          "number": "2101"
         }
       ]
     },
