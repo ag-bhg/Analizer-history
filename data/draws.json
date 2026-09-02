@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T04:14:46.419505+00:00",
+  "updated_at": "2026-09-02T04:41:42.200411+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -7819,6 +7819,12 @@
       "url": "https://dana100nl.com/draw-history?m=2798",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "MNL-612",
+          "code": "MNL",
+          "number": "0086"
+        },
+        {
           "date": "2026-09-01",
           "period": "MNL-611",
           "code": "MNL",
@@ -7931,12 +7937,6 @@
           "period": "MNL-593",
           "code": "MNL",
           "number": "1491"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "MNL-592",
-          "code": "MNL",
-          "number": "6676"
         }
       ]
     },
