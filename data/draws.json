@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T02:21:11.676743+00:00",
+  "updated_at": "2026-09-02T02:47:02.542784+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5771,6 +5771,12 @@
       "url": "https://dana100nl.com/draw-history?m=2773",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "MXC-612",
+          "code": "MXC",
+          "number": "7234"
+        },
+        {
           "date": "2026-09-01",
           "period": "MXC-611",
           "code": "MXC",
@@ -5883,12 +5889,6 @@
           "period": "MXC-593",
           "code": "MXC",
           "number": "1021"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "MXC-592",
-          "code": "MXC",
-          "number": "2598"
         }
       ]
     },
@@ -6667,6 +6667,12 @@
       "url": "https://dana100nl.com/draw-history?m=2783",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "NYE-612",
+          "code": "NYE",
+          "number": "5616"
+        },
+        {
           "date": "2026-09-01",
           "period": "NYE-611",
           "code": "NYE",
@@ -6779,12 +6785,6 @@
           "period": "NYE-593",
           "code": "NYE",
           "number": "0579"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "NYE-592",
-          "code": "NYE",
-          "number": "2458"
         }
       ]
     },
@@ -6794,6 +6794,12 @@
       "name": "Result Togel - Pasaran ILLINOIS EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2785",
       "rows": [
+        {
+          "date": "2026-09-02",
+          "period": "ILE-612",
+          "code": "ILE",
+          "number": "2253"
+        },
         {
           "date": "2026-09-01",
           "period": "ILE-611",
@@ -6907,12 +6913,6 @@
           "period": "ILE-593",
           "code": "ILE",
           "number": "1477"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "ILE-592",
-          "code": "ILE",
-          "number": "2827"
         }
       ]
     },
