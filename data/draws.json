@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T20:13:05.470950+00:00",
+  "updated_at": "2026-09-02T20:41:31.271027+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3339,6 +3339,12 @@
       "url": "https://dana100nl.com/draw-history?m=2746",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "PNM-614",
+          "code": "PNM",
+          "number": "8267"
+        },
+        {
           "date": "2026-09-02",
           "period": "PNM-613",
           "code": "PNM",
@@ -3451,12 +3457,6 @@
           "period": "PNM-595",
           "code": "PNM",
           "number": "5140"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "PNM-594",
-          "code": "PNM",
-          "number": "1629"
         }
       ]
     },
@@ -3466,6 +3466,12 @@
       "name": "Result Togel - Pasaran YERUSALEM Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2747",
       "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "YSLM-614",
+          "code": "YSLM",
+          "number": "2662"
+        },
         {
           "date": "2026-09-02",
           "period": "YSLM-613",
@@ -3579,12 +3585,6 @@
           "period": "YSLM-595",
           "code": "YSLM",
           "number": "0866"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "YSLM-594",
-          "code": "YSLM",
-          "number": "8872"
         }
       ]
     },
