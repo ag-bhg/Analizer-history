@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T09:13:12.518937+00:00",
+  "updated_at": "2026-09-02T09:41:25.936243+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9483,6 +9483,12 @@
       "url": "https://dana100nl.com/draw-history?m=2815",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "BJI-613",
+          "code": "BJI",
+          "number": "4366"
+        },
+        {
           "date": "2026-09-01",
           "period": "BJI-612",
           "code": "BJI",
@@ -9595,12 +9601,6 @@
           "period": "BJI-594",
           "code": "BJI",
           "number": "3761"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "BJI-593",
-          "code": "BJI",
-          "number": "0171"
         }
       ]
     },
@@ -9610,6 +9610,12 @@
       "name": "Result Togel - Pasaran KOREA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2816",
       "rows": [
+        {
+          "date": "2026-09-02",
+          "period": "KR-613",
+          "code": "KR",
+          "number": "9408"
+        },
         {
           "date": "2026-09-01",
           "period": "KR-612",
@@ -9723,12 +9729,6 @@
           "period": "KR-594",
           "code": "KR",
           "number": "3435"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "KR-593",
-          "code": "KR",
-          "number": "2795"
         }
       ]
     },
