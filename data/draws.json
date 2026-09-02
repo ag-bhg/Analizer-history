@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T09:41:25.936243+00:00",
+  "updated_at": "2026-09-02T10:14:07.484615+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9738,6 +9738,12 @@
       "name": "Result Togel - Pasaran KINGKONG Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2818",
       "rows": [
+        {
+          "date": "2026-09-02",
+          "period": "KK-1225",
+          "code": "KK",
+          "number": "7651"
+        },
         {
           "date": "2026-09-01",
           "period": "KK-1224",
