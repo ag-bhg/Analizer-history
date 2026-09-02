@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T12:17:12.385644+00:00",
+  "updated_at": "2026-09-02T12:45:37.056018+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10325,6 +10325,12 @@
       "url": "https://dana100nl.com/draw-history?m=2825",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "JJ-613",
+          "code": "JJ",
+          "number": "4618"
+        },
+        {
           "date": "2026-09-01",
           "period": "JJ-612",
           "code": "JJ",
@@ -10437,12 +10443,6 @@
           "period": "JJ-594",
           "code": "JJ",
           "number": "7092"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "JJ-593",
-          "code": "JJ",
-          "number": "1559"
         }
       ]
     },
