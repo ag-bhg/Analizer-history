@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T01:46:08.891212+00:00",
+  "updated_at": "2026-09-02T02:21:11.676743+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5899,6 +5899,12 @@
       "url": "https://dana100nl.com/draw-history?m=2775",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "FLRE-612",
+          "code": "FLRE",
+          "number": "2511"
+        },
+        {
           "date": "2026-09-01",
           "period": "FLRE-611",
           "code": "FLRE",
@@ -6011,12 +6017,6 @@
           "period": "FLRE-593",
           "code": "FLRE",
           "number": "8335"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "FLRE-592",
-          "code": "FLRE",
-          "number": "5651"
         }
       ]
     },
@@ -6155,6 +6155,12 @@
       "url": "https://dana100nl.com/draw-history?m=2777",
       "rows": [
         {
+          "date": "2026-09-02",
+          "period": "OR3-612",
+          "code": "OR3",
+          "number": "3610"
+        },
+        {
           "date": "2026-09-01",
           "period": "OR3-611",
           "code": "OR3",
@@ -6267,12 +6273,6 @@
           "period": "OR3-593",
           "code": "OR3",
           "number": "4755"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "OR3-592",
-          "code": "OR3",
-          "number": "4852"
         }
       ]
     },
@@ -6282,6 +6282,12 @@
       "name": "Result Togel - Pasaran MISSOURI EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2779",
       "rows": [
+        {
+          "date": "2026-09-02",
+          "period": "MISE-612",
+          "code": "MISE",
+          "number": "8416"
+        },
         {
           "date": "2026-09-01",
           "period": "MISE-611",
@@ -6395,12 +6401,6 @@
           "period": "MISE-593",
           "code": "MISE",
           "number": "7787"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "MISE-592",
-          "code": "MISE",
-          "number": "2881"
         }
       ]
     },
