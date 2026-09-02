@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T22:40:54.556940+00:00",
+  "updated_at": "2026-09-02T23:11:17.476574+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4363,6 +4363,12 @@
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "GEOE-613",
+          "code": "GEOE",
+          "number": "1677"
+        },
+        {
           "date": "2026-09-02",
           "period": "GEOE-612",
           "code": "GEOE",
@@ -4475,12 +4481,6 @@
           "period": "GEOE-594",
           "code": "GEOE",
           "number": "3859"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "GEOE-593",
-          "code": "GEOE",
-          "number": "8825"
         }
       ]
     },
@@ -4490,6 +4490,12 @@
       "name": "Result Togel - Pasaran OREGON 2 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2759",
       "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "OR2-613",
+          "code": "OR2",
+          "number": "8378"
+        },
         {
           "date": "2026-09-02",
           "period": "OR2-612",
@@ -4603,12 +4609,6 @@
           "period": "OR2-594",
           "code": "OR2",
           "number": "4950"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "OR2-593",
-          "code": "OR2",
-          "number": "1134"
         }
       ]
     },
