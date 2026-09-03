@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T05:53:48.909670+00:00",
+  "updated_at": "2026-09-03T06:17:41.071087+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10,6 +10,12 @@
       "name": "Result Togel - Pasaran TOTO MACAU 13:00 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2699",
       "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "",
+          "code": null,
+          "number": "7140"
+        },
         {
           "date": "2026-09-02",
           "period": "",
@@ -123,12 +129,6 @@
           "period": "",
           "code": null,
           "number": "9494"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "",
-          "code": null,
-          "number": "3920"
         }
       ]
     },
@@ -8715,6 +8715,12 @@
       "url": "https://dana100nl.com/draw-history?m=2806",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "MND-614",
+          "code": "MND",
+          "number": "5185"
+        },
+        {
           "date": "2026-09-02",
           "period": "MND-613",
           "code": "MND",
@@ -8827,12 +8833,6 @@
           "period": "MND-595",
           "code": "MND",
           "number": "9791"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "MND-594",
-          "code": "MND",
-          "number": "3216"
         }
       ]
     },
