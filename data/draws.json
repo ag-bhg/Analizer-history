@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T01:42:29.500878+00:00",
+  "updated_at": "2026-09-03T02:16:39.392923+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4875,6 +4875,12 @@
       "url": "https://dana100nl.com/draw-history?m=2763",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "MICE-614",
+          "code": "MICE",
+          "number": "5074"
+        },
+        {
           "date": "2026-09-02",
           "period": "MICE-613",
           "code": "MICE",
@@ -4987,12 +4993,6 @@
           "period": "MICE-595",
           "code": "MICE",
           "number": "0092"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "MICE-594",
-          "code": "MICE",
-          "number": "0557"
         }
       ]
     },
@@ -5259,6 +5259,12 @@
       "url": "https://dana100nl.com/draw-history?m=2767",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "DLWN-612",
+          "code": "DLWN",
+          "number": "5920"
+        },
+        {
           "date": "2026-09-02",
           "period": "DLWN-611",
           "code": "DLWN",
@@ -5371,12 +5377,6 @@
           "period": "DLWN-593",
           "code": "DLWN",
           "number": "1115"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "DLWN-592",
-          "code": "DLWN",
-          "number": "4230"
         }
       ]
     },
@@ -5386,6 +5386,12 @@
       "name": "Result Togel - Pasaran MARYLAND EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2769",
       "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "MLE-613",
+          "code": "MLE",
+          "number": "8404"
+        },
         {
           "date": "2026-09-02",
           "period": "MLE-612",
@@ -5499,12 +5505,6 @@
           "period": "MLE-594",
           "code": "MLE",
           "number": "2917"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "MLE-593",
-          "code": "MLE",
-          "number": "3459"
         }
       ]
     },
@@ -5514,6 +5514,12 @@
       "name": "Result Togel - Pasaran WASHINGTON EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2770",
       "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "WDE-613",
+          "code": "WDE",
+          "number": "4588"
+        },
         {
           "date": "2026-09-02",
           "period": "WDE-612",
@@ -5627,12 +5633,6 @@
           "period": "WDE-594",
           "code": "WDE",
           "number": "5168"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "WDE-593",
-          "code": "WDE",
-          "number": "6111"
         }
       ]
     },
@@ -5899,6 +5899,12 @@
       "url": "https://dana100nl.com/draw-history?m=2775",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "FLRE-613",
+          "code": "FLRE",
+          "number": "2493"
+        },
+        {
           "date": "2026-09-02",
           "period": "FLRE-612",
           "code": "FLRE",
@@ -6011,12 +6017,6 @@
           "period": "FLRE-594",
           "code": "FLRE",
           "number": "6758"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "FLRE-593",
-          "code": "FLRE",
-          "number": "8335"
         }
       ]
     },
@@ -6155,6 +6155,12 @@
       "url": "https://dana100nl.com/draw-history?m=2777",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "OR3-613",
+          "code": "OR3",
+          "number": "6334"
+        },
+        {
           "date": "2026-09-02",
           "period": "OR3-612",
           "code": "OR3",
@@ -6267,12 +6273,6 @@
           "period": "OR3-594",
           "code": "OR3",
           "number": "8685"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "OR3-593",
-          "code": "OR3",
-          "number": "4755"
         }
       ]
     },
@@ -6282,6 +6282,12 @@
       "name": "Result Togel - Pasaran MISSOURI EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2779",
       "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "MISE-613",
+          "code": "MISE",
+          "number": "4579"
+        },
         {
           "date": "2026-09-02",
           "period": "MISE-612",
@@ -6395,12 +6401,6 @@
           "period": "MISE-594",
           "code": "MISE",
           "number": "4256"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "MISE-593",
-          "code": "MISE",
-          "number": "7787"
         }
       ]
     },
