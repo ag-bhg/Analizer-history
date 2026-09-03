@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T10:40:54.193071+00:00",
+  "updated_at": "2026-09-03T11:12:24.124159+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -395,6 +395,12 @@
       "url": "https://dana100nl.com/draw-history?m=2706",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "SG-440",
+          "code": "SG",
+          "number": "2536"
+        },
+        {
           "date": "2026-09-02",
           "period": "SG-439",
           "code": "SG",
@@ -507,12 +513,6 @@
           "period": "SG-421",
           "code": "SG",
           "number": "5102"
-        },
-        {
-          "date": "2026-08-07",
-          "period": "SG-420",
-          "code": "SG",
-          "number": "7907"
         }
       ]
     },
