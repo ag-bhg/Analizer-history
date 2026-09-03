@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T06:17:41.071087+00:00",
+  "updated_at": "2026-09-03T06:45:11.508001+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8331,6 +8331,12 @@
       "url": "https://dana100nl.com/draw-history?m=2803",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "BUE-613",
+          "code": "BUE",
+          "number": "2672"
+        },
+        {
           "date": "2026-09-02",
           "period": "BUE-612",
           "code": "BUE",
@@ -8443,12 +8449,6 @@
           "period": "BUE-594",
           "code": "BUE",
           "number": "5887"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "BUE-593",
-          "code": "BUE",
-          "number": "0485"
         }
       ]
     },
