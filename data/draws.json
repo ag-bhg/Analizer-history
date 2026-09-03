@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-09-03T14:41:34.367893+00:00",
+  "updated_at": "2026-09-03T15:13:00.457761+00:00",
   "configured_markets": 95,
-  "loaded_markets": 93,
-  "errors": [
-    {
-      "url": "https://dana100nl.com/draw-history?m=2800",
-      "id": "2800",
-      "error": "Response ended prematurely"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2806",
-      "id": "2806",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-    }
-  ],
+  "loaded_markets": 95,
+  "errors": [],
   "markets": [
     {
       "id": "2699",
@@ -7952,6 +7941,134 @@
       ]
     },
     {
+      "id": "2800",
+      "code": "GEON",
+      "name": "Result Togel - Pasaran GEORGIA NGT Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2800",
+      "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "GEON-613",
+          "code": "GEON",
+          "number": "5591"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "GEON-612",
+          "code": "GEON",
+          "number": "8443"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "GEON-611",
+          "code": "GEON",
+          "number": "8503"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "GEON-610",
+          "code": "GEON",
+          "number": "1366"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "GEON-609",
+          "code": "GEON",
+          "number": "5324"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "GEON-608",
+          "code": "GEON",
+          "number": "5162"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "GEON-607",
+          "code": "GEON",
+          "number": "2089"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "GEON-606",
+          "code": "GEON",
+          "number": "3328"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "GEON-605",
+          "code": "GEON",
+          "number": "0186"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "GEON-604",
+          "code": "GEON",
+          "number": "6148"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "GEON-603",
+          "code": "GEON",
+          "number": "8349"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "GEON-602",
+          "code": "GEON",
+          "number": "6458"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "GEON-601",
+          "code": "GEON",
+          "number": "4194"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "GEON-600",
+          "code": "GEON",
+          "number": "7560"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "GEON-599",
+          "code": "GEON",
+          "number": "9612"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "GEON-598",
+          "code": "GEON",
+          "number": "3206"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "GEON-597",
+          "code": "GEON",
+          "number": "8930"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "GEON-596",
+          "code": "GEON",
+          "number": "9089"
+        },
+        {
+          "date": "2026-08-16",
+          "period": "GEON-595",
+          "code": "GEON",
+          "number": "7960"
+        },
+        {
+          "date": "2026-08-15",
+          "period": "GEON-594",
+          "code": "GEON",
+          "number": "7260"
+        }
+      ]
+    },
+    {
       "id": "2801",
       "code": "CD",
       "name": "Result Togel - Pasaran CAMBODIA Terbaru - DANA100",
@@ -8588,6 +8705,134 @@
           "period": "OR4-594",
           "code": "OR4",
           "number": "7190"
+        }
+      ]
+    },
+    {
+      "id": "2806",
+      "code": "MND",
+      "name": "Result Togel - Pasaran MANADO Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2806",
+      "rows": [
+        {
+          "date": "2026-09-03",
+          "period": "MND-614",
+          "code": "MND",
+          "number": "5185"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "MND-613",
+          "code": "MND",
+          "number": "7099"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "MND-612",
+          "code": "MND",
+          "number": "6940"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "MND-611",
+          "code": "MND",
+          "number": "3940"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "MND-610",
+          "code": "MND",
+          "number": "7137"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "MND-609",
+          "code": "MND",
+          "number": "2791"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "MND-608",
+          "code": "MND",
+          "number": "9870"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "MND-607",
+          "code": "MND",
+          "number": "4794"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "MND-606",
+          "code": "MND",
+          "number": "5865"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "MND-605",
+          "code": "MND",
+          "number": "2846"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "MND-604",
+          "code": "MND",
+          "number": "2297"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "MND-603",
+          "code": "MND",
+          "number": "9370"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "MND-602",
+          "code": "MND",
+          "number": "1507"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "MND-601",
+          "code": "MND",
+          "number": "8552"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "MND-600",
+          "code": "MND",
+          "number": "7733"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "MND-599",
+          "code": "MND",
+          "number": "6575"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "MND-598",
+          "code": "MND",
+          "number": "5384"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "MND-597",
+          "code": "MND",
+          "number": "2524"
+        },
+        {
+          "date": "2026-08-16",
+          "period": "MND-596",
+          "code": "MND",
+          "number": "7621"
+        },
+        {
+          "date": "2026-08-15",
+          "period": "MND-595",
+          "code": "MND",
+          "number": "9791"
         }
       ]
     },
@@ -10848,6 +11093,12 @@
       "url": "https://dana100nl.com/draw-history?m=2835",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "TXSM-526",
+          "code": "TXSM",
+          "number": "2440"
+        },
+        {
           "date": "2026-09-02",
           "period": "TXSM-525",
           "code": "TXSM",
@@ -10960,12 +11211,6 @@
           "period": "TXSM-507",
           "code": "TXSM",
           "number": "2810"
-        },
-        {
-          "date": "2026-08-11",
-          "period": "TXSM-506",
-          "code": "TXSM",
-          "number": "1114"
         }
       ]
     },
@@ -11616,6 +11861,12 @@
       "url": "https://dana100nl.com/draw-history?m=3390",
       "rows": [
         {
+          "date": "2026-09-03",
+          "period": "",
+          "code": null,
+          "number": "0457"
+        },
+        {
           "date": "2026-09-02",
           "period": "",
           "code": null,
@@ -11728,12 +11979,6 @@
           "period": "",
           "code": null,
           "number": "3026"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "",
-          "code": null,
-          "number": "1828"
         }
       ]
     },
