@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T04:41:41.974863+00:00",
+  "updated_at": "2026-09-04T05:12:04.963787+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8075,6 +8075,12 @@
       "url": "https://dana100nl.com/draw-history?m=2801",
       "rows": [
         {
+          "date": "2026-09-04",
+          "period": "CD-614",
+          "code": "CD",
+          "number": "4499"
+        },
+        {
           "date": "2026-09-03",
           "period": "CD-613",
           "code": "CD",
@@ -8187,12 +8193,6 @@
           "period": "CD-595",
           "code": "CD",
           "number": "5194"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "CD-594",
-          "code": "CD",
-          "number": "7894"
         }
       ]
     },
@@ -8202,6 +8202,12 @@
       "name": "Result Togel - Pasaran BUSAN Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2802",
       "rows": [
+        {
+          "date": "2026-09-04",
+          "period": "BSN-614",
+          "code": "BSN",
+          "number": "9862"
+        },
         {
           "date": "2026-09-03",
           "period": "BSN-613",
@@ -8315,12 +8321,6 @@
           "period": "BSN-595",
           "code": "BSN",
           "number": "9278"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "BSN-594",
-          "code": "BSN",
-          "number": "9580"
         }
       ]
     },
@@ -8587,6 +8587,12 @@
       "url": "https://dana100nl.com/draw-history?m=2805",
       "rows": [
         {
+          "date": "2026-09-04",
+          "period": "OR4-614",
+          "code": "OR4",
+          "number": "8231"
+        },
+        {
           "date": "2026-09-03",
           "period": "OR4-613",
           "code": "OR4",
@@ -8699,12 +8705,6 @@
           "period": "OR4-595",
           "code": "OR4",
           "number": "5051"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "OR4-594",
-          "code": "OR4",
-          "number": "7190"
         }
       ]
     },
