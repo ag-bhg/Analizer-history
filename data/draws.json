@@ -1,8 +1,14 @@
 {
-  "updated_at": "2026-09-04T14:43:12.173537+00:00",
+  "updated_at": "2026-09-04T15:13:52.559975+00:00",
   "configured_markets": 95,
-  "loaded_markets": 95,
-  "errors": [],
+  "loaded_markets": 94,
+  "errors": [
+    {
+      "url": "https://dana100nl.com/draw-history?m=2792",
+      "id": "2792",
+      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
+    }
+  ],
   "markets": [
     {
       "id": "2699",
@@ -7301,134 +7307,6 @@
       ]
     },
     {
-      "id": "2792",
-      "code": "INDE",
-      "name": "Result Togel - Pasaran INDIANA EVE Terbaru - DANA100",
-      "url": "https://dana100nl.com/draw-history?m=2792",
-      "rows": [
-        {
-          "date": "2026-09-04",
-          "period": "INDE-614",
-          "code": "INDE",
-          "number": "8757"
-        },
-        {
-          "date": "2026-09-03",
-          "period": "INDE-613",
-          "code": "INDE",
-          "number": "9844"
-        },
-        {
-          "date": "2026-09-02",
-          "period": "INDE-612",
-          "code": "INDE",
-          "number": "0361"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "INDE-611",
-          "code": "INDE",
-          "number": "0924"
-        },
-        {
-          "date": "2026-08-31",
-          "period": "INDE-610",
-          "code": "INDE",
-          "number": "8793"
-        },
-        {
-          "date": "2026-08-30",
-          "period": "INDE-609",
-          "code": "INDE",
-          "number": "2797"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "INDE-608",
-          "code": "INDE",
-          "number": "6070"
-        },
-        {
-          "date": "2026-08-28",
-          "period": "INDE-607",
-          "code": "INDE",
-          "number": "9967"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "INDE-606",
-          "code": "INDE",
-          "number": "9703"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "INDE-605",
-          "code": "INDE",
-          "number": "6528"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "INDE-604",
-          "code": "INDE",
-          "number": "5650"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "INDE-603",
-          "code": "INDE",
-          "number": "9239"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "INDE-602",
-          "code": "INDE",
-          "number": "1503"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "INDE-601",
-          "code": "INDE",
-          "number": "3146"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "INDE-600",
-          "code": "INDE",
-          "number": "4274"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "INDE-599",
-          "code": "INDE",
-          "number": "4215"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "INDE-598",
-          "code": "INDE",
-          "number": "5541"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "INDE-597",
-          "code": "INDE",
-          "number": "9198"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "INDE-596",
-          "code": "INDE",
-          "number": "4884"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "INDE-595",
-          "code": "INDE",
-          "number": "0612"
-        }
-      ]
-    },
-    {
       "id": "2794",
       "code": "TXSN",
       "name": "Result Togel - Pasaran TEXAS NGT Terbaru - DANA100",
@@ -11093,6 +10971,12 @@
       "url": "https://dana100nl.com/draw-history?m=2835",
       "rows": [
         {
+          "date": "2026-09-04",
+          "period": "TXSM-527",
+          "code": "TXSM",
+          "number": "2997"
+        },
+        {
           "date": "2026-09-03",
           "period": "TXSM-526",
           "code": "TXSM",
@@ -11205,12 +11089,6 @@
           "period": "TXSM-508",
           "code": "TXSM",
           "number": "0743"
-        },
-        {
-          "date": "2026-08-12",
-          "period": "TXSM-507",
-          "code": "TXSM",
-          "number": "2810"
         }
       ]
     },
@@ -11861,6 +11739,12 @@
       "url": "https://dana100nl.com/draw-history?m=3390",
       "rows": [
         {
+          "date": "2026-09-04",
+          "period": "",
+          "code": null,
+          "number": "9849"
+        },
+        {
           "date": "2026-09-03",
           "period": "",
           "code": null,
@@ -11973,12 +11857,6 @@
           "period": "",
           "code": null,
           "number": "7003"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "",
-          "code": null,
-          "number": "3026"
         }
       ]
     },
