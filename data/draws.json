@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T10:13:11.746978+00:00",
+  "updated_at": "2026-09-04T10:41:50.789060+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9813,6 +9813,12 @@
       "url": "https://dana100nl.com/draw-history?m=2819",
       "rows": [
         {
+          "date": "2026-09-04",
+          "period": "JP-615",
+          "code": "JP",
+          "number": "8478"
+        },
+        {
           "date": "2026-09-03",
           "period": "JP-614",
           "code": "JP",
@@ -9925,12 +9931,6 @@
           "period": "JP-596",
           "code": "JP",
           "number": "5204"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "JP-595",
-          "code": "JP",
-          "number": "0378"
         }
       ]
     },
