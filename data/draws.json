@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T02:40:36.810000+00:00",
+  "updated_at": "2026-09-04T03:13:06.728634+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -6027,6 +6027,12 @@
       "url": "https://dana100nl.com/draw-history?m=2776",
       "rows": [
         {
+          "date": "2026-09-04",
+          "period": "SZ-614",
+          "code": "SZ",
+          "number": "4155"
+        },
+        {
           "date": "2026-09-03",
           "period": "SZ-613",
           "code": "SZ",
@@ -6139,12 +6145,6 @@
           "period": "SZ-595",
           "code": "SZ",
           "number": "2599"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "SZ-594",
-          "code": "SZ",
-          "number": "9569"
         }
       ]
     },
@@ -6923,6 +6923,12 @@
       "url": "https://dana100nl.com/draw-history?m=2786",
       "rows": [
         {
+          "date": "2026-09-04",
+          "period": "NJE-613",
+          "code": "NJE",
+          "number": "6077"
+        },
+        {
           "date": "2026-09-03",
           "period": "NJE-612",
           "code": "NJE",
@@ -7035,12 +7041,6 @@
           "period": "NJE-594",
           "code": "NJE",
           "number": "3016"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "NJE-593",
-          "code": "NJE",
-          "number": "1437"
         }
       ]
     },
@@ -7050,6 +7050,12 @@
       "name": "Result Togel - Pasaran VIRGINIA NGT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2788",
       "rows": [
+        {
+          "date": "2026-09-04",
+          "period": "VIRN-614",
+          "code": "VIRN",
+          "number": "7998"
+        },
         {
           "date": "2026-09-03",
           "period": "VIRN-613",
@@ -7163,12 +7169,6 @@
           "period": "VIRN-595",
           "code": "VIRN",
           "number": "9717"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "VIRN-594",
-          "code": "VIRN",
-          "number": "2305"
         }
       ]
     },
@@ -7178,6 +7178,12 @@
       "name": "Result Togel - Pasaran KENTUCKY EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2790",
       "rows": [
+        {
+          "date": "2026-09-04",
+          "period": "KTE-614",
+          "code": "KTE",
+          "number": "6736"
+        },
         {
           "date": "2026-09-03",
           "period": "KTE-613",
@@ -7291,12 +7297,6 @@
           "period": "KTE-595",
           "code": "KTE",
           "number": "7087"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "KTE-594",
-          "code": "KTE",
-          "number": "9923"
         }
       ]
     },
@@ -7306,6 +7306,12 @@
       "name": "Result Togel - Pasaran INDIANA EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2792",
       "rows": [
+        {
+          "date": "2026-09-04",
+          "period": "INDE-614",
+          "code": "INDE",
+          "number": "8757"
+        },
         {
           "date": "2026-09-03",
           "period": "INDE-613",
@@ -7419,12 +7425,6 @@
           "period": "INDE-595",
           "code": "INDE",
           "number": "0612"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "INDE-594",
-          "code": "INDE",
-          "number": "1338"
         }
       ]
     },
