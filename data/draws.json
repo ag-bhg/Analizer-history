@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T23:11:22.746052+00:00",
+  "updated_at": "2026-09-04T23:37:25.866983+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4107,6 +4107,12 @@
       "url": "https://dana100nl.com/draw-history?m=2754",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "HWI-616",
+          "code": "HWI",
+          "number": "4219"
+        },
+        {
           "date": "2026-09-04",
           "period": "HWI-615",
           "code": "HWI",
@@ -4219,12 +4225,6 @@
           "period": "HWI-597",
           "code": "HWI",
           "number": "4331"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "HWI-596",
-          "code": "HWI",
-          "number": "5926"
         }
       ]
     },
@@ -4747,6 +4747,12 @@
       "url": "https://dana100nl.com/draw-history?m=2762",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "TENE-616",
+          "code": "TENE",
+          "number": "4189"
+        },
+        {
           "date": "2026-09-04",
           "period": "TENE-615",
           "code": "TENE",
@@ -4859,12 +4865,6 @@
           "period": "TENE-597",
           "code": "TENE",
           "number": "6850"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "TENE-596",
-          "code": "TENE",
-          "number": "2318"
         }
       ]
     },
