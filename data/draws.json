@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T07:11:28.811308+00:00",
+  "updated_at": "2026-09-05T07:38:47.825355+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8843,6 +8843,12 @@
       "url": "https://dana100nl.com/draw-history?m=2808",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "SDYL-616",
+          "code": "SDYL",
+          "number": "6184"
+        },
+        {
           "date": "2026-09-04",
           "period": "SDYL-615",
           "code": "SDYL",
@@ -8955,12 +8961,6 @@
           "period": "SDYL-597",
           "code": "SDYL",
           "number": "1982"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "SDYL-596",
-          "code": "SDYL",
-          "number": "4435"
         }
       ]
     },
@@ -8970,6 +8970,12 @@
       "name": "Result Togel - Pasaran BOLAI Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2809",
       "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "BLI-616",
+          "code": "BLI",
+          "number": "7863"
+        },
         {
           "date": "2026-09-04",
           "period": "BLI-615",
@@ -9083,12 +9089,6 @@
           "period": "BLI-597",
           "code": "BLI",
           "number": "4639"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "BLI-596",
-          "code": "BLI",
-          "number": "4159"
         }
       ]
     },
@@ -9098,6 +9098,12 @@
       "name": "Result Togel - Pasaran HANOI Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2811",
       "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "HNO-616",
+          "code": "HNO",
+          "number": "8469"
+        },
         {
           "date": "2026-09-04",
           "period": "HNO-615",
@@ -9211,12 +9217,6 @@
           "period": "HNO-597",
           "code": "HNO",
           "number": "3730"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "HNO-596",
-          "code": "HNO",
-          "number": "9660"
         }
       ]
     },
