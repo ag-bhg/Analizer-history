@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T18:13:35.586561+00:00",
+  "updated_at": "2026-09-05T18:42:31.662438+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -1291,6 +1291,12 @@
       "url": "https://dana100nl.com/draw-history?m=2719",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "TRK-617",
+          "code": "TRK",
+          "number": "4294"
+        },
+        {
           "date": "2026-09-05",
           "period": "TRK-616",
           "code": "TRK",
@@ -1403,12 +1409,6 @@
           "period": "TRK-598",
           "code": "TRK",
           "number": "4422"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "TRK-597",
-          "code": "TRK",
-          "number": "4712"
         }
       ]
     },
@@ -1803,6 +1803,12 @@
       "url": "https://dana100nl.com/draw-history?m=2723",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "BLRS-617",
+          "code": "BLRS",
+          "number": "9213"
+        },
+        {
           "date": "2026-09-05",
           "period": "BLRS-616",
           "code": "BLRS",
@@ -1915,12 +1921,6 @@
           "period": "BLRS-598",
           "code": "BLRS",
           "number": "8589"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "BLRS-597",
-          "code": "BLRS",
-          "number": "4716"
         }
       ]
     },
@@ -2443,6 +2443,12 @@
       "url": "https://dana100nl.com/draw-history?m=2731",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "DELD-616",
+          "code": "DELD",
+          "number": "7837"
+        },
+        {
           "date": "2026-09-05",
           "period": "DELD-615",
           "code": "DELD",
@@ -2555,12 +2561,6 @@
           "period": "DELD-597",
           "code": "DELD",
           "number": "8144"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "DELD-596",
-          "code": "DELD",
-          "number": "7076"
         }
       ]
     },
@@ -2699,6 +2699,12 @@
       "url": "https://dana100nl.com/draw-history?m=2734",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "WDM-617",
+          "code": "WDM",
+          "number": "0937"
+        },
+        {
           "date": "2026-09-05",
           "period": "WDM-616",
           "code": "WDM",
@@ -2811,12 +2817,6 @@
           "period": "WDM-598",
           "code": "WDM",
           "number": "5934"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "WDM-597",
-          "code": "WDM",
-          "number": "8683"
         }
       ]
     },
@@ -2955,6 +2955,12 @@
       "url": "https://dana100nl.com/draw-history?m=2736",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "NYM-617",
+          "code": "NYM",
+          "number": "1349"
+        },
+        {
           "date": "2026-09-05",
           "period": "NYM-616",
           "code": "NYM",
@@ -3067,12 +3073,6 @@
           "period": "NYM-598",
           "code": "NYM",
           "number": "8370"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "NYM-597",
-          "code": "NYM",
-          "number": "1807"
         }
       ]
     },
