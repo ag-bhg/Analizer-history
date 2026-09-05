@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T23:11:13.486598+00:00",
+  "updated_at": "2026-09-05T23:37:53.967970+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4107,6 +4107,12 @@
       "url": "https://dana100nl.com/draw-history?m=2754",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "HWI-617",
+          "code": "HWI",
+          "number": "0991"
+        },
+        {
           "date": "2026-09-05",
           "period": "HWI-616",
           "code": "HWI",
@@ -4219,12 +4225,6 @@
           "period": "HWI-598",
           "code": "HWI",
           "number": "8657"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "HWI-597",
-          "code": "HWI",
-          "number": "4331"
         }
       ]
     },
@@ -4363,6 +4363,12 @@
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "GEOE-616",
+          "code": "GEOE",
+          "number": "4442"
+        },
+        {
           "date": "2026-09-05",
           "period": "GEOE-615",
           "code": "GEOE",
@@ -4475,12 +4481,6 @@
           "period": "GEOE-597",
           "code": "GEOE",
           "number": "4061"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "GEOE-596",
-          "code": "GEOE",
-          "number": "6669"
         }
       ]
     },
@@ -4747,6 +4747,12 @@
       "url": "https://dana100nl.com/draw-history?m=2762",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "TENE-617",
+          "code": "TENE",
+          "number": "8778"
+        },
+        {
           "date": "2026-09-05",
           "period": "TENE-616",
           "code": "TENE",
@@ -4859,12 +4865,6 @@
           "period": "TENE-598",
           "code": "TENE",
           "number": "8065"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "TENE-597",
-          "code": "TENE",
-          "number": "6850"
         }
       ]
     },
