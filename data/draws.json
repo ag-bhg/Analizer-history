@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T16:40:24.085301+00:00",
+  "updated_at": "2026-09-05T17:11:36.005570+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -1035,6 +1035,12 @@
       "url": "https://dana100nl.com/draw-history?m=2716",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "NJM-616",
+          "code": "NJM",
+          "number": "2408"
+        },
+        {
           "date": "2026-09-05",
           "period": "NJM-615",
           "code": "NJM",
@@ -1147,12 +1153,6 @@
           "period": "NJM-597",
           "code": "NJM",
           "number": "3416"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "NJM-596",
-          "code": "NJM",
-          "number": "1875"
         }
       ]
     },
@@ -11343,6 +11343,12 @@
       "url": "https://dana100nl.com/draw-history?m=2838",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "BLG-616",
+          "code": "BLG",
+          "number": "6362"
+        },
+        {
           "date": "2026-09-04",
           "period": "BLG-615",
           "code": "BLG",
@@ -11455,12 +11461,6 @@
           "period": "BLG-597",
           "code": "BLG",
           "number": "1438"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "BLG-596",
-          "code": "BLG",
-          "number": "5241"
         }
       ]
     },
@@ -11470,6 +11470,12 @@
       "name": "Result Togel - Pasaran TOTO MACAU 00:00 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=3387",
       "rows": [
+        {
+          "date": "2026-09-06",
+          "period": "",
+          "code": null,
+          "number": "8576"
+        },
         {
           "date": "2026-09-05",
           "period": "",
@@ -11583,12 +11589,6 @@
           "period": "",
           "code": null,
           "number": "7262"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "",
-          "code": null,
-          "number": "8474"
         }
       ]
     },
