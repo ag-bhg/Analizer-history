@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T22:38:05.855442+00:00",
+  "updated_at": "2026-09-05T23:11:13.486598+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3979,6 +3979,12 @@
       "url": "https://dana100nl.com/draw-history?m=2753",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "DET-617",
+          "code": "DET",
+          "number": "3471"
+        },
+        {
           "date": "2026-09-05",
           "period": "DET-616",
           "code": "DET",
@@ -4091,12 +4097,6 @@
           "period": "DET-598",
           "code": "DET",
           "number": "3723"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "DET-597",
-          "code": "DET",
-          "number": "1872"
         }
       ]
     },
@@ -4491,6 +4491,12 @@
       "url": "https://dana100nl.com/draw-history?m=2759",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "OR2-616",
+          "code": "OR2",
+          "number": "8351"
+        },
+        {
           "date": "2026-09-05",
           "period": "OR2-615",
           "code": "OR2",
@@ -4603,12 +4609,6 @@
           "period": "OR2-597",
           "code": "OR2",
           "number": "1239"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "OR2-596",
-          "code": "OR2",
-          "number": "0790"
         }
       ]
     },
@@ -4618,6 +4618,12 @@
       "name": "Result Togel - Pasaran TEXAS EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2761",
       "rows": [
+        {
+          "date": "2026-09-06",
+          "period": "TXSE-529",
+          "code": "TXSE",
+          "number": "5690"
+        },
         {
           "date": "2026-09-05",
           "period": "TXSE-528",
@@ -4731,12 +4737,6 @@
           "period": "TXSE-510",
           "code": "TXSE",
           "number": "7048"
-        },
-        {
-          "date": "2026-08-14",
-          "period": "TXSE-509",
-          "code": "TXSE",
-          "number": "1579"
         }
       ]
     },
