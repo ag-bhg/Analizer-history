@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T13:11:26.383172+00:00",
+  "updated_at": "2026-09-05T13:39:14.708982+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10453,6 +10453,12 @@
       "url": "https://dana100nl.com/draw-history?m=2826",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "PEN-616",
+          "code": "PEN",
+          "number": "9612"
+        },
+        {
           "date": "2026-09-04",
           "period": "PEN-615",
           "code": "PEN",
@@ -10565,12 +10571,6 @@
           "period": "PEN-597",
           "code": "PEN",
           "number": "8989"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "PEN-596",
-          "code": "PEN",
-          "number": "2452"
         }
       ]
     },
@@ -10580,6 +10580,12 @@
       "name": "Result Togel - Pasaran PCSO Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2828",
       "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "PCSO-522",
+          "code": "PCSO",
+          "number": "1688"
+        },
         {
           "date": "2026-09-04",
           "period": "PCSO-521",
@@ -10693,12 +10699,6 @@
           "period": "PCSO-503",
           "code": "PCSO",
           "number": "0054"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "PCSO-502",
-          "code": "PCSO",
-          "number": "2330"
         }
       ]
     },
