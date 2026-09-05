@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T09:39:03.073189+00:00",
+  "updated_at": "2026-09-05T10:11:33.545482+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9611,6 +9611,12 @@
       "url": "https://dana100nl.com/draw-history?m=2816",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "KR-616",
+          "code": "KR",
+          "number": "5406"
+        },
+        {
           "date": "2026-09-04",
           "period": "KR-615",
           "code": "KR",
@@ -9723,12 +9729,6 @@
           "period": "KR-597",
           "code": "KR",
           "number": "2466"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "KR-596",
-          "code": "KR",
-          "number": "2811"
         }
       ]
     },
@@ -9738,6 +9738,12 @@
       "name": "Result Togel - Pasaran KINGKONG Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2818",
       "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "KK-1231",
+          "code": "KK",
+          "number": "6638"
+        },
         {
           "date": "2026-09-04",
           "period": "KK-1230",
