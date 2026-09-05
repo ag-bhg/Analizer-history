@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T06:42:17.827439+00:00",
+  "updated_at": "2026-09-05T07:11:28.811308+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -267,6 +267,12 @@
       "url": "https://dana100nl.com/draw-history?m=2704",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "SYD-616",
+          "code": "SYD",
+          "number": "8809"
+        },
+        {
           "date": "2026-09-04",
           "period": "SYD-615",
           "code": "SYD",
@@ -379,12 +385,6 @@
           "period": "SYD-597",
           "code": "SYD",
           "number": "0709"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "SYD-596",
-          "code": "SYD",
-          "number": "5065"
         }
       ]
     },
