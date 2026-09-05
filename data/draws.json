@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T04:40:08.810154+00:00",
+  "updated_at": "2026-09-05T05:11:32.165511+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8075,6 +8075,12 @@
       "url": "https://dana100nl.com/draw-history?m=2801",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "CD-615",
+          "code": "CD",
+          "number": "0936"
+        },
+        {
           "date": "2026-09-04",
           "period": "CD-614",
           "code": "CD",
@@ -8187,12 +8193,6 @@
           "period": "CD-596",
           "code": "CD",
           "number": "2679"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "CD-595",
-          "code": "CD",
-          "number": "5194"
         }
       ]
     },
@@ -8202,6 +8202,12 @@
       "name": "Result Togel - Pasaran BUSAN Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2802",
       "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "BSN-615",
+          "code": "BSN",
+          "number": "6249"
+        },
         {
           "date": "2026-09-04",
           "period": "BSN-614",
@@ -8315,12 +8321,6 @@
           "period": "BSN-596",
           "code": "BSN",
           "number": "1817"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "BSN-595",
-          "code": "BSN",
-          "number": "9278"
         }
       ]
     },
@@ -8587,6 +8587,12 @@
       "url": "https://dana100nl.com/draw-history?m=2805",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "OR4-615",
+          "code": "OR4",
+          "number": "3867"
+        },
+        {
           "date": "2026-09-04",
           "period": "OR4-614",
           "code": "OR4",
@@ -8699,12 +8705,6 @@
           "period": "OR4-596",
           "code": "OR4",
           "number": "3327"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "OR4-595",
-          "code": "OR4",
-          "number": "5051"
         }
       ]
     },
