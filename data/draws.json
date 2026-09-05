@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T12:14:51.046084+00:00",
+  "updated_at": "2026-09-05T12:43:17.254298+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10197,6 +10197,12 @@
       "url": "https://dana100nl.com/draw-history?m=2824",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "KBJ-616",
+          "code": "KBJ",
+          "number": "2663"
+        },
+        {
           "date": "2026-09-04",
           "period": "KBJ-615",
           "code": "KBJ",
@@ -10309,12 +10315,6 @@
           "period": "KBJ-597",
           "code": "KBJ",
           "number": "1000"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "KBJ-596",
-          "code": "KBJ",
-          "number": "1406"
         }
       ]
     },
@@ -10324,6 +10324,12 @@
       "name": "Result Togel - Pasaran JEJU Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2825",
       "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "JJ-616",
+          "code": "JJ",
+          "number": "1411"
+        },
         {
           "date": "2026-09-04",
           "period": "JJ-615",
@@ -10437,12 +10443,6 @@
           "period": "JJ-597",
           "code": "JJ",
           "number": "3593"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "JJ-596",
-          "code": "JJ",
-          "number": "5199"
         }
       ]
     },
