@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T00:19:38.591076+00:00",
+  "updated_at": "2026-09-05T00:45:08.136652+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5131,6 +5131,12 @@
       "url": "https://dana100nl.com/draw-history?m=2766",
       "rows": [
         {
+          "date": "2026-09-05",
+          "period": "TKY-616",
+          "code": "TKY",
+          "number": "7727"
+        },
+        {
           "date": "2026-09-04",
           "period": "TKY-615",
           "code": "TKY",
@@ -5243,12 +5249,6 @@
           "period": "TKY-597",
           "code": "TKY",
           "number": "3966"
-        },
-        {
-          "date": "2026-08-16",
-          "period": "TKY-596",
-          "code": "TKY",
-          "number": "7596"
         }
       ]
     },
