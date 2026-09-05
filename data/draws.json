@@ -1,109 +1,8 @@
 {
-  "updated_at": "2026-09-05T14:44:35.039374+00:00",
+  "updated_at": "2026-09-05T15:11:53.946754+00:00",
   "configured_markets": 95,
-  "loaded_markets": 75,
-  "errors": [
-    {
-      "url": "https://dana100nl.com/draw-history?m=2775",
-      "id": "2775",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2780",
-      "id": "2780",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2780"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2800",
-      "id": "2800",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2800"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2801",
-      "id": "2801",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2801"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2815",
-      "id": "2815",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2815"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2818",
-      "id": "2818",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2818"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2824",
-      "id": "2824",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2824"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2825",
-      "id": "2825",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2826",
-      "id": "2826",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2826"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2828",
-      "id": "2828",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2828"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2830",
-      "id": "2830",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2830"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2831",
-      "id": "2831",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2833",
-      "id": "2833",
-      "error": "500 Server Error: Internal Server Error for url: https://dana100nl.com/draw-history?m=2833"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2835",
-      "id": "2835",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2836",
-      "id": "2836",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=2838",
-      "id": "2838",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=3387",
-      "id": "3387",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=3388",
-      "id": "3388",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=3390",
-      "id": "3390",
-      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-      "url": "https://dana100nl.com/draw-history?m=3391",
-      "id": "3391",
-      "error": "522 Server Error: <none> for url: https://dana100nl.com/draw-history?m=3391"
-    }
-  ],
+  "loaded_markets": 95,
+  "errors": [],
   "markets": [
     {
       "id": "2699",
@@ -5994,6 +5893,134 @@
       ]
     },
     {
+      "id": "2775",
+      "code": "FLRE",
+      "name": "Result Togel - Pasaran FLORIDA EVE Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2775",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "FLRE-615",
+          "code": "FLRE",
+          "number": "2371"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "FLRE-614",
+          "code": "FLRE",
+          "number": "5706"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "FLRE-613",
+          "code": "FLRE",
+          "number": "2493"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "FLRE-612",
+          "code": "FLRE",
+          "number": "2511"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "FLRE-611",
+          "code": "FLRE",
+          "number": "7395"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "FLRE-610",
+          "code": "FLRE",
+          "number": "0406"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "FLRE-609",
+          "code": "FLRE",
+          "number": "3543"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "FLRE-608",
+          "code": "FLRE",
+          "number": "7529"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "FLRE-607",
+          "code": "FLRE",
+          "number": "3717"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "FLRE-606",
+          "code": "FLRE",
+          "number": "2552"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "FLRE-605",
+          "code": "FLRE",
+          "number": "3095"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "FLRE-604",
+          "code": "FLRE",
+          "number": "0209"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "FLRE-603",
+          "code": "FLRE",
+          "number": "4353"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "FLRE-602",
+          "code": "FLRE",
+          "number": "1137"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "FLRE-601",
+          "code": "FLRE",
+          "number": "1608"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "FLRE-600",
+          "code": "FLRE",
+          "number": "5489"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "FLRE-599",
+          "code": "FLRE",
+          "number": "6814"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "FLRE-598",
+          "code": "FLRE",
+          "number": "4332"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "FLRE-597",
+          "code": "FLRE",
+          "number": "3340"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "FLRE-596",
+          "code": "FLRE",
+          "number": "8133"
+        }
+      ]
+    },
+    {
       "id": "2776",
       "code": "SZ",
       "name": "Result Togel - Pasaran SHENZHEN Terbaru - DANA100",
@@ -6374,6 +6401,134 @@
           "period": "MISE-596",
           "code": "MISE",
           "number": "2905"
+        }
+      ]
+    },
+    {
+      "id": "2780",
+      "code": "SHG",
+      "name": "Result Togel - Pasaran SHANGHAI Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2780",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "SHG-615",
+          "code": "SHG",
+          "number": "2057"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "SHG-614",
+          "code": "SHG",
+          "number": "9125"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "SHG-613",
+          "code": "SHG",
+          "number": "7675"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "SHG-612",
+          "code": "SHG",
+          "number": "3211"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "SHG-611",
+          "code": "SHG",
+          "number": "6476"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "SHG-610",
+          "code": "SHG",
+          "number": "1003"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "SHG-609",
+          "code": "SHG",
+          "number": "1387"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "SHG-608",
+          "code": "SHG",
+          "number": "1814"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "SHG-607",
+          "code": "SHG",
+          "number": "2783"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "SHG-606",
+          "code": "SHG",
+          "number": "2059"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "SHG-605",
+          "code": "SHG",
+          "number": "7547"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "SHG-604",
+          "code": "SHG",
+          "number": "0415"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "SHG-603",
+          "code": "SHG",
+          "number": "1752"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "SHG-602",
+          "code": "SHG",
+          "number": "1303"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "SHG-601",
+          "code": "SHG",
+          "number": "3176"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "SHG-600",
+          "code": "SHG",
+          "number": "4571"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "SHG-599",
+          "code": "SHG",
+          "number": "5125"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "SHG-598",
+          "code": "SHG",
+          "number": "5275"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "SHG-597",
+          "code": "SHG",
+          "number": "3802"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "SHG-596",
+          "code": "SHG",
+          "number": "9877"
         }
       ]
     },
@@ -7786,6 +7941,262 @@
       ]
     },
     {
+      "id": "2800",
+      "code": "GEON",
+      "name": "Result Togel - Pasaran GEORGIA NGT Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2800",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "GEON-615",
+          "code": "GEON",
+          "number": "2678"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "GEON-614",
+          "code": "GEON",
+          "number": "6509"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "GEON-613",
+          "code": "GEON",
+          "number": "5591"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "GEON-612",
+          "code": "GEON",
+          "number": "8443"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "GEON-611",
+          "code": "GEON",
+          "number": "8503"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "GEON-610",
+          "code": "GEON",
+          "number": "1366"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "GEON-609",
+          "code": "GEON",
+          "number": "5324"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "GEON-608",
+          "code": "GEON",
+          "number": "5162"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "GEON-607",
+          "code": "GEON",
+          "number": "2089"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "GEON-606",
+          "code": "GEON",
+          "number": "3328"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "GEON-605",
+          "code": "GEON",
+          "number": "0186"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "GEON-604",
+          "code": "GEON",
+          "number": "6148"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "GEON-603",
+          "code": "GEON",
+          "number": "8349"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "GEON-602",
+          "code": "GEON",
+          "number": "6458"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "GEON-601",
+          "code": "GEON",
+          "number": "4194"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "GEON-600",
+          "code": "GEON",
+          "number": "7560"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "GEON-599",
+          "code": "GEON",
+          "number": "9612"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "GEON-598",
+          "code": "GEON",
+          "number": "3206"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "GEON-597",
+          "code": "GEON",
+          "number": "8930"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "GEON-596",
+          "code": "GEON",
+          "number": "9089"
+        }
+      ]
+    },
+    {
+      "id": "2801",
+      "code": "CD",
+      "name": "Result Togel - Pasaran CAMBODIA Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2801",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "CD-615",
+          "code": "CD",
+          "number": "0936"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "CD-614",
+          "code": "CD",
+          "number": "4499"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "CD-613",
+          "code": "CD",
+          "number": "2264"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "CD-612",
+          "code": "CD",
+          "number": "2932"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "CD-611",
+          "code": "CD",
+          "number": "8507"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "CD-610",
+          "code": "CD",
+          "number": "0281"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "CD-609",
+          "code": "CD",
+          "number": "2508"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "CD-608",
+          "code": "CD",
+          "number": "0672"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "CD-607",
+          "code": "CD",
+          "number": "1699"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "CD-606",
+          "code": "CD",
+          "number": "5006"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "CD-605",
+          "code": "CD",
+          "number": "0190"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "CD-604",
+          "code": "CD",
+          "number": "0646"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "CD-603",
+          "code": "CD",
+          "number": "6332"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "CD-602",
+          "code": "CD",
+          "number": "0892"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "CD-601",
+          "code": "CD",
+          "number": "2973"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "CD-600",
+          "code": "CD",
+          "number": "4491"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "CD-599",
+          "code": "CD",
+          "number": "4302"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "CD-598",
+          "code": "CD",
+          "number": "2707"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "CD-597",
+          "code": "CD",
+          "number": "6714"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "CD-596",
+          "code": "CD",
+          "number": "2679"
+        }
+      ]
+    },
+    {
       "id": "2802",
       "code": "BSN",
       "name": "Result Togel - Pasaran BUSAN Terbaru - DANA100",
@@ -9066,6 +9477,134 @@
       ]
     },
     {
+      "id": "2815",
+      "code": "BJI",
+      "name": "Result Togel - Pasaran BEIJING Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2815",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "BJI-616",
+          "code": "BJI",
+          "number": "4850"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "BJI-615",
+          "code": "BJI",
+          "number": "8608"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "BJI-614",
+          "code": "BJI",
+          "number": "6977"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "BJI-613",
+          "code": "BJI",
+          "number": "4366"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "BJI-612",
+          "code": "BJI",
+          "number": "3034"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "BJI-611",
+          "code": "BJI",
+          "number": "9910"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "BJI-610",
+          "code": "BJI",
+          "number": "1995"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "BJI-609",
+          "code": "BJI",
+          "number": "5500"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "BJI-608",
+          "code": "BJI",
+          "number": "7758"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "BJI-607",
+          "code": "BJI",
+          "number": "8789"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "BJI-606",
+          "code": "BJI",
+          "number": "7014"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "BJI-605",
+          "code": "BJI",
+          "number": "9202"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "BJI-604",
+          "code": "BJI",
+          "number": "8131"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "BJI-603",
+          "code": "BJI",
+          "number": "3967"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "BJI-602",
+          "code": "BJI",
+          "number": "8780"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "BJI-601",
+          "code": "BJI",
+          "number": "3686"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "BJI-600",
+          "code": "BJI",
+          "number": "9840"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "BJI-599",
+          "code": "BJI",
+          "number": "8402"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "BJI-598",
+          "code": "BJI",
+          "number": "5543"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "BJI-597",
+          "code": "BJI",
+          "number": "9576"
+        }
+      ]
+    },
+    {
       "id": "2816",
       "code": "KR",
       "name": "Result Togel - Pasaran KOREA Terbaru - DANA100",
@@ -9190,6 +9729,80 @@
           "period": "KR-597",
           "code": "KR",
           "number": "2466"
+        }
+      ]
+    },
+    {
+      "id": "2818",
+      "code": "KK",
+      "name": "Result Togel - Pasaran KINGKONG Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2818",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "KK-1231",
+          "code": "KK",
+          "number": "6638"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "KK-1230",
+          "code": "KK",
+          "number": "0629"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "KK-1228",
+          "code": "KK",
+          "number": "0559"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "KK-1226",
+          "code": "KK",
+          "number": "9209"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "KK-1224",
+          "code": "KK",
+          "number": "6842"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "KK-1222",
+          "code": "KK",
+          "number": "0875"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "KK-1220",
+          "code": "KK",
+          "number": "2617"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "KK-1218",
+          "code": "KK",
+          "number": "4097"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "KK-1216",
+          "code": "KK",
+          "number": "3348"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "KK-1214",
+          "code": "KK",
+          "number": "7633"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "KK-1212",
+          "code": "KK",
+          "number": "3305"
         }
       ]
     },
@@ -9578,6 +10191,1542 @@
       ]
     },
     {
+      "id": "2824",
+      "code": "KBJ",
+      "name": "Result Togel - Pasaran KAMBOJA Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2824",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "KBJ-616",
+          "code": "KBJ",
+          "number": "2663"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "KBJ-615",
+          "code": "KBJ",
+          "number": "9561"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "KBJ-614",
+          "code": "KBJ",
+          "number": "8193"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "KBJ-613",
+          "code": "KBJ",
+          "number": "6833"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "KBJ-612",
+          "code": "KBJ",
+          "number": "0759"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "KBJ-611",
+          "code": "KBJ",
+          "number": "7445"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "KBJ-610",
+          "code": "KBJ",
+          "number": "1623"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "KBJ-609",
+          "code": "KBJ",
+          "number": "0133"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "KBJ-608",
+          "code": "KBJ",
+          "number": "4108"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "KBJ-607",
+          "code": "KBJ",
+          "number": "6764"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "KBJ-606",
+          "code": "KBJ",
+          "number": "2981"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "KBJ-605",
+          "code": "KBJ",
+          "number": "6166"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "KBJ-604",
+          "code": "KBJ",
+          "number": "7388"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "KBJ-603",
+          "code": "KBJ",
+          "number": "4081"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "KBJ-602",
+          "code": "KBJ",
+          "number": "1655"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "KBJ-601",
+          "code": "KBJ",
+          "number": "7177"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "KBJ-600",
+          "code": "KBJ",
+          "number": "3356"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "KBJ-599",
+          "code": "KBJ",
+          "number": "7048"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "KBJ-598",
+          "code": "KBJ",
+          "number": "8761"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "KBJ-597",
+          "code": "KBJ",
+          "number": "1000"
+        }
+      ]
+    },
+    {
+      "id": "2825",
+      "code": "JJ",
+      "name": "Result Togel - Pasaran JEJU Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2825",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "JJ-616",
+          "code": "JJ",
+          "number": "1411"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "JJ-615",
+          "code": "JJ",
+          "number": "3158"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "JJ-614",
+          "code": "JJ",
+          "number": "7803"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "JJ-613",
+          "code": "JJ",
+          "number": "4618"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "JJ-612",
+          "code": "JJ",
+          "number": "0144"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "JJ-611",
+          "code": "JJ",
+          "number": "6919"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "JJ-610",
+          "code": "JJ",
+          "number": "1622"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "JJ-609",
+          "code": "JJ",
+          "number": "7143"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "JJ-608",
+          "code": "JJ",
+          "number": "0037"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "JJ-607",
+          "code": "JJ",
+          "number": "6316"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "JJ-606",
+          "code": "JJ",
+          "number": "4939"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "JJ-605",
+          "code": "JJ",
+          "number": "0426"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "JJ-604",
+          "code": "JJ",
+          "number": "2322"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "JJ-603",
+          "code": "JJ",
+          "number": "1040"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "JJ-602",
+          "code": "JJ",
+          "number": "6977"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "JJ-601",
+          "code": "JJ",
+          "number": "8456"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "JJ-600",
+          "code": "JJ",
+          "number": "2385"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "JJ-599",
+          "code": "JJ",
+          "number": "1155"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "JJ-598",
+          "code": "JJ",
+          "number": "4352"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "JJ-597",
+          "code": "JJ",
+          "number": "3593"
+        }
+      ]
+    },
+    {
+      "id": "2826",
+      "code": "PEN",
+      "name": "Result Togel - Pasaran PENANG Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2826",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "PEN-616",
+          "code": "PEN",
+          "number": "9612"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "PEN-615",
+          "code": "PEN",
+          "number": "8031"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "PEN-614",
+          "code": "PEN",
+          "number": "1494"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "PEN-613",
+          "code": "PEN",
+          "number": "6062"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "PEN-612",
+          "code": "PEN",
+          "number": "7799"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "PEN-611",
+          "code": "PEN",
+          "number": "0187"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "PEN-610",
+          "code": "PEN",
+          "number": "7362"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "PEN-609",
+          "code": "PEN",
+          "number": "6006"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "PEN-608",
+          "code": "PEN",
+          "number": "1382"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "PEN-607",
+          "code": "PEN",
+          "number": "8307"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "PEN-606",
+          "code": "PEN",
+          "number": "6007"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "PEN-605",
+          "code": "PEN",
+          "number": "5788"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "PEN-604",
+          "code": "PEN",
+          "number": "8045"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "PEN-603",
+          "code": "PEN",
+          "number": "2657"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "PEN-602",
+          "code": "PEN",
+          "number": "8165"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "PEN-601",
+          "code": "PEN",
+          "number": "7996"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "PEN-600",
+          "code": "PEN",
+          "number": "5265"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "PEN-599",
+          "code": "PEN",
+          "number": "7810"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "PEN-598",
+          "code": "PEN",
+          "number": "2572"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "PEN-597",
+          "code": "PEN",
+          "number": "8989"
+        }
+      ]
+    },
+    {
+      "id": "2828",
+      "code": "PCSO",
+      "name": "Result Togel - Pasaran PCSO Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2828",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "PCSO-522",
+          "code": "PCSO",
+          "number": "1688"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "PCSO-521",
+          "code": "PCSO",
+          "number": "3796"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "PCSO-520",
+          "code": "PCSO",
+          "number": "7432"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "PCSO-519",
+          "code": "PCSO",
+          "number": "9981"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "PCSO-518",
+          "code": "PCSO",
+          "number": "7796"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "PCSO-517",
+          "code": "PCSO",
+          "number": "6762"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "PCSO-516",
+          "code": "PCSO",
+          "number": "3686"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "PCSO-515",
+          "code": "PCSO",
+          "number": "8914"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "PCSO-514",
+          "code": "PCSO",
+          "number": "5390"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "PCSO-513",
+          "code": "PCSO",
+          "number": "8359"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "PCSO-512",
+          "code": "PCSO",
+          "number": "1890"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "PCSO-511",
+          "code": "PCSO",
+          "number": "6670"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "PCSO-510",
+          "code": "PCSO",
+          "number": "9009"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "PCSO-509",
+          "code": "PCSO",
+          "number": "0745"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "PCSO-508",
+          "code": "PCSO",
+          "number": "7999"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "PCSO-507",
+          "code": "PCSO",
+          "number": "2358"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "PCSO-506",
+          "code": "PCSO",
+          "number": "4662"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "PCSO-505",
+          "code": "PCSO",
+          "number": "4845"
+        },
+        {
+          "date": "2026-08-15",
+          "period": "PCSO-504",
+          "code": "PCSO",
+          "number": "3750"
+        },
+        {
+          "date": "2026-08-14",
+          "period": "PCSO-503",
+          "code": "PCSO",
+          "number": "0054"
+        }
+      ]
+    },
+    {
+      "id": "2830",
+      "code": "TW",
+      "name": "Result Togel - Pasaran TAIWAN Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2830",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "TW-616",
+          "code": "TW",
+          "number": "2792"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "TW-615",
+          "code": "TW",
+          "number": "8862"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "TW-614",
+          "code": "TW",
+          "number": "1439"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "TW-613",
+          "code": "TW",
+          "number": "1357"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "TW-612",
+          "code": "TW",
+          "number": "7905"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "TW-611",
+          "code": "TW",
+          "number": "4543"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "TW-610",
+          "code": "TW",
+          "number": "2865"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "TW-609",
+          "code": "TW",
+          "number": "1454"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "TW-608",
+          "code": "TW",
+          "number": "3858"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "TW-607",
+          "code": "TW",
+          "number": "8945"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "TW-606",
+          "code": "TW",
+          "number": "0363"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "TW-605",
+          "code": "TW",
+          "number": "9623"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "TW-604",
+          "code": "TW",
+          "number": "5911"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "TW-603",
+          "code": "TW",
+          "number": "7030"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "TW-602",
+          "code": "TW",
+          "number": "4932"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "TW-601",
+          "code": "TW",
+          "number": "7159"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "TW-600",
+          "code": "TW",
+          "number": "7132"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "TW-599",
+          "code": "TW",
+          "number": "6726"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "TW-598",
+          "code": "TW",
+          "number": "0803"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "TW-597",
+          "code": "TW",
+          "number": "6670"
+        }
+      ]
+    },
+    {
+      "id": "2831",
+      "code": "LDN",
+      "name": "Result Togel - Pasaran LONDON Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2831",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "LDN-616",
+          "code": "LDN",
+          "number": "1078"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "LDN-615",
+          "code": "LDN",
+          "number": "9761"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "LDN-614",
+          "code": "LDN",
+          "number": "5122"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "LDN-613",
+          "code": "LDN",
+          "number": "1741"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "LDN-612",
+          "code": "LDN",
+          "number": "7300"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "LDN-611",
+          "code": "LDN",
+          "number": "1866"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "LDN-610",
+          "code": "LDN",
+          "number": "5729"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "LDN-609",
+          "code": "LDN",
+          "number": "8187"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "LDN-608",
+          "code": "LDN",
+          "number": "7791"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "LDN-607",
+          "code": "LDN",
+          "number": "3082"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "LDN-606",
+          "code": "LDN",
+          "number": "7921"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "LDN-605",
+          "code": "LDN",
+          "number": "8245"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "LDN-604",
+          "code": "LDN",
+          "number": "4691"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "LDN-603",
+          "code": "LDN",
+          "number": "1226"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "LDN-602",
+          "code": "LDN",
+          "number": "4167"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "LDN-601",
+          "code": "LDN",
+          "number": "0015"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "LDN-600",
+          "code": "LDN",
+          "number": "9244"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "LDN-599",
+          "code": "LDN",
+          "number": "8107"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "LDN-598",
+          "code": "LDN",
+          "number": "7341"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "LDN-597",
+          "code": "LDN",
+          "number": "9933"
+        }
+      ]
+    },
+    {
+      "id": "2833",
+      "code": "TENM",
+      "name": "Result Togel - Pasaran TENNESSE MOR Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2833",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "TENM-528",
+          "code": "TENM",
+          "number": "2708"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "TENM-527",
+          "code": "TENM",
+          "number": "4996"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "TENM-526",
+          "code": "TENM",
+          "number": "7953"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "TENM-525",
+          "code": "TENM",
+          "number": "2963"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "TENM-524",
+          "code": "TENM",
+          "number": "0941"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "TENM-523",
+          "code": "TENM",
+          "number": "3688"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "TENM-522",
+          "code": "TENM",
+          "number": "1389"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "TENM-521",
+          "code": "TENM",
+          "number": "5994"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "TENM-520",
+          "code": "TENM",
+          "number": "4740"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "TENM-519",
+          "code": "TENM",
+          "number": "5431"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "TENM-518",
+          "code": "TENM",
+          "number": "7565"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "TENM-517",
+          "code": "TENM",
+          "number": "1214"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "TENM-516",
+          "code": "TENM",
+          "number": "3498"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "TENM-515",
+          "code": "TENM",
+          "number": "4745"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "TENM-514",
+          "code": "TENM",
+          "number": "7028"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "TENM-513",
+          "code": "TENM",
+          "number": "6033"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "TENM-512",
+          "code": "TENM",
+          "number": "4534"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "TENM-511",
+          "code": "TENM",
+          "number": "9560"
+        },
+        {
+          "date": "2026-08-15",
+          "period": "TENM-510",
+          "code": "TENM",
+          "number": "1959"
+        },
+        {
+          "date": "2026-08-14",
+          "period": "TENM-509",
+          "code": "TENM",
+          "number": "0228"
+        }
+      ]
+    },
+    {
+      "id": "2835",
+      "code": "TXSM",
+      "name": "Result Togel - Pasaran TEXAS MOR Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2835",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "TXSM-528",
+          "code": "TXSM",
+          "number": "8037"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "TXSM-527",
+          "code": "TXSM",
+          "number": "2997"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "TXSM-526",
+          "code": "TXSM",
+          "number": "2440"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "TXSM-525",
+          "code": "TXSM",
+          "number": "4107"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "TXSM-524",
+          "code": "TXSM",
+          "number": "8519"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "TXSM-523",
+          "code": "TXSM",
+          "number": "4627"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "TXSM-522",
+          "code": "TXSM",
+          "number": "5032"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "TXSM-521",
+          "code": "TXSM",
+          "number": "3314"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "TXSM-520",
+          "code": "TXSM",
+          "number": "2502"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "TXSM-519",
+          "code": "TXSM",
+          "number": "2826"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "TXSM-518",
+          "code": "TXSM",
+          "number": "4262"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "TXSM-517",
+          "code": "TXSM",
+          "number": "7458"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "TXSM-516",
+          "code": "TXSM",
+          "number": "3494"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "TXSM-515",
+          "code": "TXSM",
+          "number": "9710"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "TXSM-514",
+          "code": "TXSM",
+          "number": "5017"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "TXSM-513",
+          "code": "TXSM",
+          "number": "2843"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "TXSM-512",
+          "code": "TXSM",
+          "number": "3214"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "TXSM-511",
+          "code": "TXSM",
+          "number": "1027"
+        },
+        {
+          "date": "2026-08-15",
+          "period": "TXSM-510",
+          "code": "TXSM",
+          "number": "3688"
+        },
+        {
+          "date": "2026-08-14",
+          "period": "TXSM-509",
+          "code": "TXSM",
+          "number": "9719"
+        }
+      ]
+    },
+    {
+      "id": "2836",
+      "code": "HKL",
+      "name": "Result Togel - Pasaran HONGKONG LOTTO Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2836",
+      "rows": [
+        {
+          "date": "2026-09-04",
+          "period": "HKL-615",
+          "code": "HKL",
+          "number": "4566"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "HKL-614",
+          "code": "HKL",
+          "number": "4824"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "HKL-613",
+          "code": "HKL",
+          "number": "7209"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "HKL-612",
+          "code": "HKL",
+          "number": "3965"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "HKL-611",
+          "code": "HKL",
+          "number": "6458"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "HKL-610",
+          "code": "HKL",
+          "number": "3108"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "HKL-609",
+          "code": "HKL",
+          "number": "9293"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "HKL-608",
+          "code": "HKL",
+          "number": "7379"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "HKL-607",
+          "code": "HKL",
+          "number": "5295"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "HKL-606",
+          "code": "HKL",
+          "number": "6486"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "HKL-605",
+          "code": "HKL",
+          "number": "0326"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "HKL-604",
+          "code": "HKL",
+          "number": "2306"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "HKL-603",
+          "code": "HKL",
+          "number": "7392"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "HKL-602",
+          "code": "HKL",
+          "number": "0981"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "HKL-601",
+          "code": "HKL",
+          "number": "7371"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "HKL-600",
+          "code": "HKL",
+          "number": "0762"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "HKL-599",
+          "code": "HKL",
+          "number": "7841"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "HKL-598",
+          "code": "HKL",
+          "number": "6643"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "HKL-597",
+          "code": "HKL",
+          "number": "5270"
+        },
+        {
+          "date": "2026-08-16",
+          "period": "HKL-596",
+          "code": "HKL",
+          "number": "5594"
+        }
+      ]
+    },
+    {
+      "id": "2838",
+      "code": "BLG",
+      "name": "Result Togel - Pasaran BULGARIA Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=2838",
+      "rows": [
+        {
+          "date": "2026-09-04",
+          "period": "BLG-615",
+          "code": "BLG",
+          "number": "1396"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "BLG-614",
+          "code": "BLG",
+          "number": "1221"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "BLG-613",
+          "code": "BLG",
+          "number": "2526"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "BLG-612",
+          "code": "BLG",
+          "number": "7569"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "BLG-611",
+          "code": "BLG",
+          "number": "4271"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "BLG-610",
+          "code": "BLG",
+          "number": "9958"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "BLG-609",
+          "code": "BLG",
+          "number": "1641"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "BLG-608",
+          "code": "BLG",
+          "number": "1856"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "BLG-607",
+          "code": "BLG",
+          "number": "3325"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "BLG-606",
+          "code": "BLG",
+          "number": "9980"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "BLG-605",
+          "code": "BLG",
+          "number": "4448"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "BLG-604",
+          "code": "BLG",
+          "number": "0715"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "BLG-603",
+          "code": "BLG",
+          "number": "1476"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "BLG-602",
+          "code": "BLG",
+          "number": "7997"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "BLG-601",
+          "code": "BLG",
+          "number": "6278"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "BLG-600",
+          "code": "BLG",
+          "number": "6196"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "BLG-599",
+          "code": "BLG",
+          "number": "4863"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "BLG-598",
+          "code": "BLG",
+          "number": "8781"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "BLG-597",
+          "code": "BLG",
+          "number": "1438"
+        },
+        {
+          "date": "2026-08-16",
+          "period": "BLG-596",
+          "code": "BLG",
+          "number": "5241"
+        }
+      ]
+    },
+    {
+      "id": "3387",
+      "code": "3387",
+      "name": "Result Togel - Pasaran TOTO MACAU 00:00 Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=3387",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "",
+          "code": null,
+          "number": "6745"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "",
+          "code": null,
+          "number": "4607"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "",
+          "code": null,
+          "number": "0034"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "",
+          "code": null,
+          "number": "7716"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "",
+          "code": null,
+          "number": "6541"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "code": null,
+          "number": "9713"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "",
+          "code": null,
+          "number": "9385"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "",
+          "code": null,
+          "number": "7098"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "",
+          "code": null,
+          "number": "7691"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "",
+          "code": null,
+          "number": "8456"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "",
+          "code": null,
+          "number": "6625"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "",
+          "code": null,
+          "number": "6641"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "",
+          "code": null,
+          "number": "8927"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "",
+          "code": null,
+          "number": "9177"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "",
+          "code": null,
+          "number": "4237"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "",
+          "code": null,
+          "number": "8771"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "",
+          "code": null,
+          "number": "5717"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "",
+          "code": null,
+          "number": "9532"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "",
+          "code": null,
+          "number": "7262"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "",
+          "code": null,
+          "number": "8474"
+        }
+      ]
+    },
+    {
+      "id": "3388",
+      "code": "3388",
+      "name": "Result Togel - Pasaran TOTO MACAU 16:00 Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=3388",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "",
+          "code": null,
+          "number": "0690"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "",
+          "code": null,
+          "number": "5859"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "",
+          "code": null,
+          "number": "3042"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "",
+          "code": null,
+          "number": "5258"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "",
+          "code": null,
+          "number": "5299"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "code": null,
+          "number": "0366"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "",
+          "code": null,
+          "number": "0009"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "",
+          "code": null,
+          "number": "4458"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "",
+          "code": null,
+          "number": "0862"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "",
+          "code": null,
+          "number": "1141"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "",
+          "code": null,
+          "number": "3202"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "",
+          "code": null,
+          "number": "0257"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "",
+          "code": null,
+          "number": "8052"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "",
+          "code": null,
+          "number": "5088"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "",
+          "code": null,
+          "number": "8542"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "",
+          "code": null,
+          "number": "2576"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "",
+          "code": null,
+          "number": "2673"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "",
+          "code": null,
+          "number": "6284"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "",
+          "code": null,
+          "number": "7324"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "",
+          "code": null,
+          "number": "4641"
+        }
+      ]
+    },
+    {
       "id": "3389",
       "code": "3389",
       "name": "Result Togel - Pasaran TOTO MACAU 19:00 Terbaru - DANA100",
@@ -9702,6 +11851,262 @@
           "period": "",
           "code": null,
           "number": "8372"
+        }
+      ]
+    },
+    {
+      "id": "3390",
+      "code": "3390",
+      "name": "Result Togel - Pasaran TOTO MACAU 22:00 Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=3390",
+      "rows": [
+        {
+          "date": "2026-09-05",
+          "period": "",
+          "code": null,
+          "number": "2600"
+        },
+        {
+          "date": "2026-09-04",
+          "period": "",
+          "code": null,
+          "number": "9849"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "",
+          "code": null,
+          "number": "0457"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "",
+          "code": null,
+          "number": "3382"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "",
+          "code": null,
+          "number": "5178"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "code": null,
+          "number": "3393"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "",
+          "code": null,
+          "number": "7851"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "",
+          "code": null,
+          "number": "6349"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "",
+          "code": null,
+          "number": "8919"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "",
+          "code": null,
+          "number": "3571"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "",
+          "code": null,
+          "number": "5862"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "",
+          "code": null,
+          "number": "4424"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "",
+          "code": null,
+          "number": "0655"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "",
+          "code": null,
+          "number": "1595"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "",
+          "code": null,
+          "number": "5832"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "",
+          "code": null,
+          "number": "3222"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "",
+          "code": null,
+          "number": "4105"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "",
+          "code": null,
+          "number": "2023"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "",
+          "code": null,
+          "number": "2197"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "",
+          "code": null,
+          "number": "0607"
+        }
+      ]
+    },
+    {
+      "id": "3391",
+      "code": "3391",
+      "name": "Result Togel - Pasaran TOTO MACAU 23:00 Terbaru - DANA100",
+      "url": "https://dana100nl.com/draw-history?m=3391",
+      "rows": [
+        {
+          "date": "2026-09-04",
+          "period": "",
+          "code": null,
+          "number": "0702"
+        },
+        {
+          "date": "2026-09-03",
+          "period": "",
+          "code": null,
+          "number": "0880"
+        },
+        {
+          "date": "2026-09-02",
+          "period": "",
+          "code": null,
+          "number": "9395"
+        },
+        {
+          "date": "2026-09-01",
+          "period": "",
+          "code": null,
+          "number": "9582"
+        },
+        {
+          "date": "2026-08-31",
+          "period": "",
+          "code": null,
+          "number": "7296"
+        },
+        {
+          "date": "2026-08-30",
+          "period": "",
+          "code": null,
+          "number": "6802"
+        },
+        {
+          "date": "2026-08-29",
+          "period": "",
+          "code": null,
+          "number": "3981"
+        },
+        {
+          "date": "2026-08-28",
+          "period": "",
+          "code": null,
+          "number": "5564"
+        },
+        {
+          "date": "2026-08-27",
+          "period": "",
+          "code": null,
+          "number": "9711"
+        },
+        {
+          "date": "2026-08-26",
+          "period": "",
+          "code": null,
+          "number": "3184"
+        },
+        {
+          "date": "2026-08-25",
+          "period": "",
+          "code": null,
+          "number": "2697"
+        },
+        {
+          "date": "2026-08-24",
+          "period": "",
+          "code": null,
+          "number": "4518"
+        },
+        {
+          "date": "2026-08-23",
+          "period": "",
+          "code": null,
+          "number": "3697"
+        },
+        {
+          "date": "2026-08-22",
+          "period": "",
+          "code": null,
+          "number": "3297"
+        },
+        {
+          "date": "2026-08-21",
+          "period": "",
+          "code": null,
+          "number": "8080"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "",
+          "code": null,
+          "number": "6138"
+        },
+        {
+          "date": "2026-08-19",
+          "period": "",
+          "code": null,
+          "number": "6038"
+        },
+        {
+          "date": "2026-08-18",
+          "period": "",
+          "code": null,
+          "number": "2194"
+        },
+        {
+          "date": "2026-08-17",
+          "period": "",
+          "code": null,
+          "number": "5697"
+        },
+        {
+          "date": "2026-08-16",
+          "period": "",
+          "code": null,
+          "number": "2060"
         }
       ]
     }
