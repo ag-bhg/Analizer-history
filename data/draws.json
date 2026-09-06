@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T20:40:11.474619+00:00",
+  "updated_at": "2026-09-06T21:11:35.611794+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3595,6 +3595,12 @@
       "url": "https://dana100nl.com/draw-history?m=2748",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "POL-618",
+          "code": "POL",
+          "number": "0884"
+        },
+        {
           "date": "2026-09-06",
           "period": "POL-617",
           "code": "POL",
@@ -3707,12 +3713,6 @@
           "period": "POL-599",
           "code": "POL",
           "number": "2752"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "POL-598",
-          "code": "POL",
-          "number": "6327"
         }
       ]
     },
