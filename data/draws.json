@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T22:38:56.523838+00:00",
+  "updated_at": "2026-09-06T23:11:19.052720+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3979,6 +3979,12 @@
       "url": "https://dana100nl.com/draw-history?m=2753",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "DET-618",
+          "code": "DET",
+          "number": "9170"
+        },
+        {
           "date": "2026-09-06",
           "period": "DET-617",
           "code": "DET",
@@ -4091,12 +4097,6 @@
           "period": "DET-599",
           "code": "DET",
           "number": "5048"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "DET-598",
-          "code": "DET",
-          "number": "3723"
         }
       ]
     },
@@ -4491,6 +4491,12 @@
       "url": "https://dana100nl.com/draw-history?m=2759",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "OR2-617",
+          "code": "OR2",
+          "number": "6504"
+        },
+        {
           "date": "2026-09-06",
           "period": "OR2-616",
           "code": "OR2",
@@ -4603,12 +4609,6 @@
           "period": "OR2-598",
           "code": "OR2",
           "number": "5505"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "OR2-597",
-          "code": "OR2",
-          "number": "1239"
         }
       ]
     },
