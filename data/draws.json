@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T00:21:34.430036+00:00",
+  "updated_at": "2026-09-06T00:47:41.391785+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5131,6 +5131,12 @@
       "url": "https://dana100nl.com/draw-history?m=2766",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "TKY-617",
+          "code": "TKY",
+          "number": "6106"
+        },
+        {
           "date": "2026-09-05",
           "period": "TKY-616",
           "code": "TKY",
@@ -5243,12 +5249,6 @@
           "period": "TKY-598",
           "code": "TKY",
           "number": "5252"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "TKY-597",
-          "code": "TKY",
-          "number": "3966"
         }
       ]
     },
@@ -5515,6 +5515,12 @@
       "url": "https://dana100nl.com/draw-history?m=2770",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "WDE-616",
+          "code": "WDE",
+          "number": "6903"
+        },
+        {
           "date": "2026-09-05",
           "period": "WDE-615",
           "code": "WDE",
@@ -5627,12 +5633,6 @@
           "period": "WDE-597",
           "code": "WDE",
           "number": "8593"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "WDE-596",
-          "code": "WDE",
-          "number": "8807"
         }
       ]
     },
