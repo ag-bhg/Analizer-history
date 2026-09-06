@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T23:11:19.052720+00:00",
+  "updated_at": "2026-09-06T23:38:57.293866+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4107,6 +4107,12 @@
       "url": "https://dana100nl.com/draw-history?m=2754",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "HWI-618",
+          "code": "HWI",
+          "number": "4643"
+        },
+        {
           "date": "2026-09-06",
           "period": "HWI-617",
           "code": "HWI",
@@ -4219,12 +4225,6 @@
           "period": "HWI-599",
           "code": "HWI",
           "number": "7473"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "HWI-598",
-          "code": "HWI",
-          "number": "8657"
         }
       ]
     },
@@ -4363,6 +4363,12 @@
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "GEOE-617",
+          "code": "GEOE",
+          "number": "4790"
+        },
+        {
           "date": "2026-09-06",
           "period": "GEOE-616",
           "code": "GEOE",
@@ -4475,12 +4481,6 @@
           "period": "GEOE-598",
           "code": "GEOE",
           "number": "2075"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "GEOE-597",
-          "code": "GEOE",
-          "number": "4061"
         }
       ]
     },
@@ -4747,6 +4747,12 @@
       "url": "https://dana100nl.com/draw-history?m=2762",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "TENE-618",
+          "code": "TENE",
+          "number": "5261"
+        },
+        {
           "date": "2026-09-06",
           "period": "TENE-617",
           "code": "TENE",
@@ -4859,12 +4865,6 @@
           "period": "TENE-599",
           "code": "TENE",
           "number": "2788"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "TENE-598",
-          "code": "TENE",
-          "number": "8065"
         }
       ]
     },
@@ -5003,6 +5003,12 @@
       "url": "https://dana100nl.com/draw-history?m=2765",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "OHIE-618",
+          "code": "OHIE",
+          "number": "5078"
+        },
+        {
           "date": "2026-09-06",
           "period": "OHIE-617",
           "code": "OHIE",
@@ -5115,12 +5121,6 @@
           "period": "OHIE-599",
           "code": "OHIE",
           "number": "1650"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "OHIE-598",
-          "code": "OHIE",
-          "number": "1849"
         }
       ]
     },
