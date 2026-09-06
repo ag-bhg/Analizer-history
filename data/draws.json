@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T19:10:56.870001+00:00",
+  "updated_at": "2026-09-06T19:38:10.825974+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -2827,6 +2827,12 @@
       "url": "https://dana100nl.com/draw-history?m=2735",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "RM-617",
+          "code": "RM",
+          "number": "7349"
+        },
+        {
           "date": "2026-09-06",
           "period": "RM-616",
           "code": "RM",
@@ -2939,12 +2945,6 @@
           "period": "RM-598",
           "code": "RM",
           "number": "1873"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "RM-597",
-          "code": "RM",
-          "number": "2548"
         }
       ]
     },
@@ -3083,6 +3083,12 @@
       "url": "https://dana100nl.com/draw-history?m=2738",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "HELS-618",
+          "code": "HELS",
+          "number": "7561"
+        },
+        {
           "date": "2026-09-06",
           "period": "HELS-617",
           "code": "HELS",
@@ -3195,12 +3201,6 @@
           "period": "HELS-599",
           "code": "HELS",
           "number": "2918"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "HELS-598",
-          "code": "HELS",
-          "number": "3396"
         }
       ]
     },
@@ -3210,6 +3210,12 @@
       "name": "Result Togel - Pasaran CAROLINE DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2744",
       "rows": [
+        {
+          "date": "2026-09-07",
+          "period": "CRD-618",
+          "code": "CRD",
+          "number": "3721"
+        },
         {
           "date": "2026-09-06",
           "period": "CRD-617",
@@ -3323,12 +3329,6 @@
           "period": "CRD-599",
           "code": "CRD",
           "number": "4503"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "CRD-598",
-          "code": "CRD",
-          "number": "9230"
         }
       ]
     },
