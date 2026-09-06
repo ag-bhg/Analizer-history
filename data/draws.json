@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T10:12:27.850810+00:00",
+  "updated_at": "2026-09-06T10:40:08.718927+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9739,6 +9739,12 @@
       "url": "https://dana100nl.com/draw-history?m=2818",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "KK-1233",
+          "code": "KK",
+          "number": "2513"
+        },
+        {
           "date": "2026-09-05",
           "period": "KK-1232",
           "code": "KK",
@@ -9806,6 +9812,12 @@
       "name": "Result Togel - Pasaran JAPAN Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2819",
       "rows": [
+        {
+          "date": "2026-09-06",
+          "period": "JP-617",
+          "code": "JP",
+          "number": "0269"
+        },
         {
           "date": "2026-09-05",
           "period": "JP-616",
@@ -9919,12 +9931,6 @@
           "period": "JP-598",
           "code": "JP",
           "number": "6560"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "JP-597",
-          "code": "JP",
-          "number": "8706"
         }
       ]
     },
