@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T13:41:09.103358+00:00",
+  "updated_at": "2026-09-06T14:12:46.489546+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10709,6 +10709,12 @@
       "url": "https://dana100nl.com/draw-history?m=2830",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "TW-617",
+          "code": "TW",
+          "number": "0285"
+        },
+        {
           "date": "2026-09-05",
           "period": "TW-616",
           "code": "TW",
@@ -10821,12 +10827,6 @@
           "period": "TW-598",
           "code": "TW",
           "number": "0803"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "TW-597",
-          "code": "TW",
-          "number": "6670"
         }
       ]
     },
@@ -10836,6 +10836,12 @@
       "name": "Result Togel - Pasaran LONDON Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2831",
       "rows": [
+        {
+          "date": "2026-09-06",
+          "period": "LDN-617",
+          "code": "LDN",
+          "number": "3464"
+        },
         {
           "date": "2026-09-05",
           "period": "LDN-616",
@@ -10949,12 +10955,6 @@
           "period": "LDN-598",
           "code": "LDN",
           "number": "7341"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "LDN-597",
-          "code": "LDN",
-          "number": "9933"
         }
       ]
     },
