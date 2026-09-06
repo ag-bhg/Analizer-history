@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T11:39:42.175416+00:00",
+  "updated_at": "2026-09-06T12:15:28.472184+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -11733,6 +11733,12 @@
       "url": "https://dana100nl.com/draw-history?m=3389",
       "rows": [
         {
+          "date": "2026-09-06",
+          "period": "",
+          "code": null,
+          "number": "7488"
+        },
+        {
           "date": "2026-09-05",
           "period": "",
           "code": null,
@@ -11845,12 +11851,6 @@
           "period": "",
           "code": null,
           "number": "8755"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "",
-          "code": null,
-          "number": "8372"
         }
       ]
     },
