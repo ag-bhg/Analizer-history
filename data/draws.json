@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T17:38:40.241936+00:00",
+  "updated_at": "2026-09-06T18:14:28.728964+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -907,6 +907,12 @@
       "url": "https://dana100nl.com/draw-history?m=2714",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "ORL-618",
+          "code": "ORL",
+          "number": "7482"
+        },
+        {
           "date": "2026-09-06",
           "period": "ORL-617",
           "code": "ORL",
@@ -1019,12 +1025,6 @@
           "period": "ORL-599",
           "code": "ORL",
           "number": "4735"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "ORL-598",
-          "code": "ORL",
-          "number": "1152"
         }
       ]
     },
@@ -2187,6 +2187,12 @@
       "url": "https://dana100nl.com/draw-history?m=2728",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "ILM-618",
+          "code": "ILM",
+          "number": "3072"
+        },
+        {
           "date": "2026-09-06",
           "period": "ILM-617",
           "code": "ILM",
@@ -2299,12 +2305,6 @@
           "period": "ILM-599",
           "code": "ILM",
           "number": "3470"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "ILM-598",
-          "code": "ILM",
-          "number": "5701"
         }
       ]
     },
@@ -2314,6 +2314,12 @@
       "name": "Result Togel - Pasaran MISSOURI MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2729",
       "rows": [
+        {
+          "date": "2026-09-07",
+          "period": "MISM-618",
+          "code": "MISM",
+          "number": "4238"
+        },
         {
           "date": "2026-09-06",
           "period": "MISM-617",
@@ -2427,12 +2433,6 @@
           "period": "MISM-599",
           "code": "MISM",
           "number": "7697"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "MISM-598",
-          "code": "MISM",
-          "number": "9396"
         }
       ]
     },
@@ -2442,6 +2442,12 @@
       "name": "Result Togel - Pasaran DELAWARE DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2731",
       "rows": [
+        {
+          "date": "2026-09-07",
+          "period": "DELD-617",
+          "code": "DELD",
+          "number": "0170"
+        },
         {
           "date": "2026-09-06",
           "period": "DELD-616",
@@ -2555,12 +2561,6 @@
           "period": "DELD-598",
           "code": "DELD",
           "number": "1912"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "DELD-597",
-          "code": "DELD",
-          "number": "8144"
         }
       ]
     },
@@ -2570,6 +2570,12 @@
       "name": "Result Togel - Pasaran VIRGINIA DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2733",
       "rows": [
+        {
+          "date": "2026-09-07",
+          "period": "VIRD-618",
+          "code": "VIRD",
+          "number": "9439"
+        },
         {
           "date": "2026-09-06",
           "period": "VIRD-617",
@@ -2683,12 +2689,6 @@
           "period": "VIRD-599",
           "code": "VIRD",
           "number": "1616"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "VIRD-598",
-          "code": "VIRD",
-          "number": "9233"
         }
       ]
     },
@@ -2698,6 +2698,12 @@
       "name": "Result Togel - Pasaran WASHINGTON MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2734",
       "rows": [
+        {
+          "date": "2026-09-07",
+          "period": "WDM-618",
+          "code": "WDM",
+          "number": "5432"
+        },
         {
           "date": "2026-09-06",
           "period": "WDM-617",
@@ -2811,12 +2817,6 @@
           "period": "WDM-599",
           "code": "WDM",
           "number": "8251"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "WDM-598",
-          "code": "WDM",
-          "number": "5934"
         }
       ]
     },
