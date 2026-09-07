@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T03:13:28.308122+00:00",
+  "updated_at": "2026-09-07T03:43:20.652619+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -6539,6 +6539,12 @@
       "url": "https://dana100nl.com/draw-history?m=2781",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "TWM-617",
+          "code": "TWM",
+          "number": "7933"
+        },
+        {
           "date": "2026-09-06",
           "period": "TWM-616",
           "code": "TWM",
@@ -6651,12 +6657,6 @@
           "period": "TWM-598",
           "code": "TWM",
           "number": "2389"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "TWM-597",
-          "code": "TWM",
-          "number": "3691"
         }
       ]
     },
@@ -7691,6 +7691,12 @@
       "url": "https://dana100nl.com/draw-history?m=2797",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "CRE-617",
+          "code": "CRE",
+          "number": "5360"
+        },
+        {
           "date": "2026-09-06",
           "period": "CRE-616",
           "code": "CRE",
@@ -7803,12 +7809,6 @@
           "period": "CRE-598",
           "code": "CRE",
           "number": "0681"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "CRE-597",
-          "code": "CRE",
-          "number": "8008"
         }
       ]
     },
