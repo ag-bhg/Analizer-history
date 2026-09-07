@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T08:14:40.584040+00:00",
+  "updated_at": "2026-09-07T08:43:48.683411+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9355,6 +9355,12 @@
       "url": "https://dana100nl.com/draw-history?m=2814",
       "rows": [
         {
+          "date": "2026-09-07",
+          "period": "CHN-618",
+          "code": "CHN",
+          "number": "3490"
+        },
+        {
           "date": "2026-09-06",
           "period": "CHN-617",
           "code": "CHN",
@@ -9467,12 +9473,6 @@
           "period": "CHN-599",
           "code": "CHN",
           "number": "4433"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "CHN-598",
-          "code": "CHN",
-          "number": "1840"
         }
       ]
     },
