@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T19:40:23.870746+00:00",
+  "updated_at": "2026-09-08T20:12:58.917538+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3339,6 +3339,12 @@
       "url": "https://dana100nl.com/draw-history?m=2746",
       "rows": [
         {
+          "date": "2026-09-09",
+          "period": "PNM-620",
+          "code": "PNM",
+          "number": "1518"
+        },
+        {
           "date": "2026-09-08",
           "period": "PNM-619",
           "code": "PNM",
@@ -3451,12 +3457,6 @@
           "period": "PNM-601",
           "code": "PNM",
           "number": "2788"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "PNM-600",
-          "code": "PNM",
-          "number": "3140"
         }
       ]
     },
@@ -3723,6 +3723,12 @@
       "url": "https://dana100nl.com/draw-history?m=2750",
       "rows": [
         {
+          "date": "2026-09-09",
+          "period": "OR1-619",
+          "code": "OR1",
+          "number": "3875"
+        },
+        {
           "date": "2026-09-08",
           "period": "OR1-618",
           "code": "OR1",
@@ -3835,12 +3841,6 @@
           "period": "OR1-600",
           "code": "OR1",
           "number": "2607"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "OR1-599",
-          "code": "OR1",
-          "number": "8975"
         }
       ]
     },
