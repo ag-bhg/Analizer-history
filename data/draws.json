@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T16:14:58.211236+00:00",
+  "updated_at": "2026-09-08T16:43:02.824529+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -523,6 +523,12 @@
       "url": "https://dana100nl.com/draw-history?m=2709",
       "rows": [
         {
+          "date": "2026-09-08",
+          "period": "GGM-620",
+          "code": "GGM",
+          "number": "7663"
+        },
+        {
           "date": "2026-09-07",
           "period": "GGM-619",
           "code": "GGM",
@@ -635,12 +641,6 @@
           "period": "GGM-601",
           "code": "GGM",
           "number": "5711"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "GGM-600",
-          "code": "GGM",
-          "number": "7743"
         }
       ]
     },
@@ -650,6 +650,12 @@
       "name": "Result Togel - Pasaran MARYLAND MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2710",
       "rows": [
+        {
+          "date": "2026-09-08",
+          "period": "MRM-620",
+          "code": "MRM",
+          "number": "6854"
+        },
         {
           "date": "2026-09-07",
           "period": "MRM-619",
@@ -763,12 +769,6 @@
           "period": "MRM-601",
           "code": "MRM",
           "number": "4866"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "MRM-600",
-          "code": "MRM",
-          "number": "1246"
         }
       ]
     },
@@ -778,6 +778,12 @@
       "name": "Result Togel - Pasaran OHIO MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2712",
       "rows": [
+        {
+          "date": "2026-09-08",
+          "period": "OHM-620",
+          "code": "OHM",
+          "number": "5535"
+        },
         {
           "date": "2026-09-07",
           "period": "OHM-619",
@@ -891,12 +897,6 @@
           "period": "OHM-601",
           "code": "OHM",
           "number": "1874"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "OHM-600",
-          "code": "OHM",
-          "number": "8069"
         }
       ]
     },
@@ -9740,9 +9740,9 @@
       "rows": [
         {
           "date": "2026-09-08",
-          "period": "KK-1237",
+          "period": "KK-1238",
           "code": "KK",
-          "number": "9315"
+          "number": "0423"
         },
         {
           "date": "2026-09-07",
@@ -9797,12 +9797,6 @@
           "period": "KK-1220",
           "code": "KK",
           "number": "2617"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "KK-1218",
-          "code": "KK",
-          "number": "4097"
         }
       ]
     },
@@ -11349,6 +11343,12 @@
       "url": "https://dana100nl.com/draw-history?m=2838",
       "rows": [
         {
+          "date": "2026-09-08",
+          "period": "BLG-619",
+          "code": "BLG",
+          "number": "4929"
+        },
+        {
           "date": "2026-09-07",
           "period": "BLG-618",
           "code": "BLG",
@@ -11461,12 +11461,6 @@
           "period": "BLG-600",
           "code": "BLG",
           "number": "6196"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "BLG-599",
-          "code": "BLG",
-          "number": "4863"
         }
       ]
     },
