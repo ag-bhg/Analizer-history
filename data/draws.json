@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T05:42:36.854915+00:00",
+  "updated_at": "2026-09-08T06:16:39.453886+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10,6 +10,12 @@
       "name": "Result Togel - Pasaran TOTO MACAU 13:00 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2699",
       "rows": [
+        {
+          "date": "2026-09-08",
+          "period": "",
+          "code": null,
+          "number": "2272"
+        },
         {
           "date": "2026-09-07",
           "period": "",
@@ -123,12 +129,6 @@
           "period": "",
           "code": null,
           "number": "3653"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "",
-          "code": null,
-          "number": "4831"
         }
       ]
     },
@@ -8331,6 +8331,12 @@
       "url": "https://dana100nl.com/draw-history?m=2803",
       "rows": [
         {
+          "date": "2026-09-08",
+          "period": "BUE-618",
+          "code": "BUE",
+          "number": "8898"
+        },
+        {
           "date": "2026-09-07",
           "period": "BUE-617",
           "code": "BUE",
@@ -8443,12 +8449,6 @@
           "period": "BUE-599",
           "code": "BUE",
           "number": "2410"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "BUE-598",
-          "code": "BUE",
-          "number": "5540"
         }
       ]
     },
@@ -8715,6 +8715,12 @@
       "url": "https://dana100nl.com/draw-history?m=2806",
       "rows": [
         {
+          "date": "2026-09-08",
+          "period": "MND-619",
+          "code": "MND",
+          "number": "3391"
+        },
+        {
           "date": "2026-09-07",
           "period": "MND-618",
           "code": "MND",
@@ -8827,12 +8833,6 @@
           "period": "MND-600",
           "code": "MND",
           "number": "7733"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "MND-599",
-          "code": "MND",
-          "number": "6575"
         }
       ]
     },
