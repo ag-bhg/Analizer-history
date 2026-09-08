@@ -1,8 +1,14 @@
 {
-  "updated_at": "2026-09-08T13:14:59.385314+00:00",
+  "updated_at": "2026-09-08T13:46:46.540673+00:00",
   "configured_markets": 95,
-  "loaded_markets": 95,
-  "errors": [],
+  "loaded_markets": 94,
+  "errors": [
+    {
+      "url": "https://dana100nl.com/draw-history?m=2828",
+      "id": "2828",
+      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
+    }
+  ],
   "markets": [
     {
       "id": "2699",
@@ -10571,134 +10577,6 @@
           "period": "PEN-600",
           "code": "PEN",
           "number": "5265"
-        }
-      ]
-    },
-    {
-      "id": "2828",
-      "code": "PCSO",
-      "name": "Result Togel - Pasaran PCSO Terbaru - DANA100",
-      "url": "https://dana100nl.com/draw-history?m=2828",
-      "rows": [
-        {
-          "date": "2026-09-07",
-          "period": "PCSO-523",
-          "code": "PCSO",
-          "number": "7254"
-        },
-        {
-          "date": "2026-09-05",
-          "period": "PCSO-522",
-          "code": "PCSO",
-          "number": "1688"
-        },
-        {
-          "date": "2026-09-04",
-          "period": "PCSO-521",
-          "code": "PCSO",
-          "number": "3796"
-        },
-        {
-          "date": "2026-09-03",
-          "period": "PCSO-520",
-          "code": "PCSO",
-          "number": "7432"
-        },
-        {
-          "date": "2026-09-02",
-          "period": "PCSO-519",
-          "code": "PCSO",
-          "number": "9981"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "PCSO-518",
-          "code": "PCSO",
-          "number": "7796"
-        },
-        {
-          "date": "2026-08-31",
-          "period": "PCSO-517",
-          "code": "PCSO",
-          "number": "6762"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "PCSO-516",
-          "code": "PCSO",
-          "number": "3686"
-        },
-        {
-          "date": "2026-08-28",
-          "period": "PCSO-515",
-          "code": "PCSO",
-          "number": "8914"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "PCSO-514",
-          "code": "PCSO",
-          "number": "5390"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "PCSO-513",
-          "code": "PCSO",
-          "number": "8359"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "PCSO-512",
-          "code": "PCSO",
-          "number": "1890"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "PCSO-511",
-          "code": "PCSO",
-          "number": "6670"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "PCSO-510",
-          "code": "PCSO",
-          "number": "9009"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "PCSO-509",
-          "code": "PCSO",
-          "number": "0745"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "PCSO-508",
-          "code": "PCSO",
-          "number": "7999"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "PCSO-507",
-          "code": "PCSO",
-          "number": "2358"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "PCSO-506",
-          "code": "PCSO",
-          "number": "4662"
-        },
-        {
-          "date": "2026-08-17",
-          "period": "PCSO-505",
-          "code": "PCSO",
-          "number": "4845"
-        },
-        {
-          "date": "2026-08-15",
-          "period": "PCSO-504",
-          "code": "PCSO",
-          "number": "3750"
         }
       ]
     },
