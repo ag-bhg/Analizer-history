@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T19:12:07.917957+00:00",
+  "updated_at": "2026-09-08T19:40:23.870746+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3083,6 +3083,12 @@
       "url": "https://dana100nl.com/draw-history?m=2738",
       "rows": [
         {
+          "date": "2026-09-09",
+          "period": "HELS-620",
+          "code": "HELS",
+          "number": "1864"
+        },
+        {
           "date": "2026-09-08",
           "period": "HELS-619",
           "code": "HELS",
@@ -3195,12 +3201,6 @@
           "period": "HELS-601",
           "code": "HELS",
           "number": "4973"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "HELS-600",
-          "code": "HELS",
-          "number": "2657"
         }
       ]
     },
@@ -3210,6 +3210,12 @@
       "name": "Result Togel - Pasaran CAROLINE DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2744",
       "rows": [
+        {
+          "date": "2026-09-09",
+          "period": "CRD-620",
+          "code": "CRD",
+          "number": "2571"
+        },
         {
           "date": "2026-09-08",
           "period": "CRD-619",
@@ -3323,12 +3329,6 @@
           "period": "CRD-601",
           "code": "CRD",
           "number": "3216"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "CRD-600",
-          "code": "CRD",
-          "number": "4940"
         }
       ]
     },
