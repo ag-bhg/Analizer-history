@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T05:12:28.599538+00:00",
+  "updated_at": "2026-09-08T05:42:36.854915+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8459,6 +8459,12 @@
       "url": "https://dana100nl.com/draw-history?m=2804",
       "rows": [
         {
+          "date": "2026-09-08",
+          "period": "VTM-618",
+          "code": "VTM",
+          "number": "7166"
+        },
+        {
           "date": "2026-09-07",
           "period": "VTM-617",
           "code": "VTM",
@@ -8571,12 +8577,6 @@
           "period": "VTM-599",
           "code": "VTM",
           "number": "4169"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "VTM-598",
-          "code": "VTM",
-          "number": "5417"
         }
       ]
     },
