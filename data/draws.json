@@ -1,8 +1,19 @@
 {
-  "updated_at": "2026-09-09T13:44:44.199762+00:00",
+  "updated_at": "2026-09-09T14:16:44.798601+00:00",
   "configured_markets": 95,
-  "loaded_markets": 95,
-  "errors": [],
+  "loaded_markets": 93,
+  "errors": [
+    {
+      "url": "https://dana100nl.com/draw-history?m=2744",
+      "id": "2744",
+      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+      "url": "https://dana100nl.com/draw-history?m=2818",
+      "id": "2818",
+      "error": "HTTPSConnectionPool(host='dana100nl.com', port=443): Read timed out. (read timeout=30)"
+    }
+  ],
   "markets": [
     {
       "id": "2699",
@@ -3201,134 +3212,6 @@
           "period": "HELS-601",
           "code": "HELS",
           "number": "4973"
-        }
-      ]
-    },
-    {
-      "id": "2744",
-      "code": "CRD",
-      "name": "Result Togel - Pasaran CAROLINE DAY Terbaru - DANA100",
-      "url": "https://dana100nl.com/draw-history?m=2744",
-      "rows": [
-        {
-          "date": "2026-09-09",
-          "period": "CRD-620",
-          "code": "CRD",
-          "number": "2571"
-        },
-        {
-          "date": "2026-09-08",
-          "period": "CRD-619",
-          "code": "CRD",
-          "number": "9772"
-        },
-        {
-          "date": "2026-09-07",
-          "period": "CRD-618",
-          "code": "CRD",
-          "number": "3721"
-        },
-        {
-          "date": "2026-09-06",
-          "period": "CRD-617",
-          "code": "CRD",
-          "number": "6959"
-        },
-        {
-          "date": "2026-09-05",
-          "period": "CRD-616",
-          "code": "CRD",
-          "number": "0326"
-        },
-        {
-          "date": "2026-09-04",
-          "period": "CRD-615",
-          "code": "CRD",
-          "number": "2178"
-        },
-        {
-          "date": "2026-09-03",
-          "period": "CRD-614",
-          "code": "CRD",
-          "number": "4696"
-        },
-        {
-          "date": "2026-09-02",
-          "period": "CRD-613",
-          "code": "CRD",
-          "number": "7795"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "CRD-612",
-          "code": "CRD",
-          "number": "8658"
-        },
-        {
-          "date": "2026-08-31",
-          "period": "CRD-611",
-          "code": "CRD",
-          "number": "7005"
-        },
-        {
-          "date": "2026-08-30",
-          "period": "CRD-610",
-          "code": "CRD",
-          "number": "4105"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "CRD-609",
-          "code": "CRD",
-          "number": "8735"
-        },
-        {
-          "date": "2026-08-28",
-          "period": "CRD-608",
-          "code": "CRD",
-          "number": "4358"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "CRD-607",
-          "code": "CRD",
-          "number": "6106"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "CRD-606",
-          "code": "CRD",
-          "number": "6153"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "CRD-605",
-          "code": "CRD",
-          "number": "3455"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "CRD-604",
-          "code": "CRD",
-          "number": "6686"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "CRD-603",
-          "code": "CRD",
-          "number": "0109"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "CRD-602",
-          "code": "CRD",
-          "number": "4398"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "CRD-601",
-          "code": "CRD",
-          "number": "3216"
         }
       ]
     },
@@ -9733,80 +9616,6 @@
       ]
     },
     {
-      "id": "2818",
-      "code": "KK",
-      "name": "Result Togel - Pasaran KINGKONG Terbaru - DANA100",
-      "url": "https://dana100nl.com/draw-history?m=2818",
-      "rows": [
-        {
-          "date": "2026-09-09",
-          "period": "KK-1239",
-          "code": "KK",
-          "number": "2631"
-        },
-        {
-          "date": "2026-09-08",
-          "period": "KK-1238",
-          "code": "KK",
-          "number": "0423"
-        },
-        {
-          "date": "2026-09-07",
-          "period": "KK-1236",
-          "code": "KK",
-          "number": "2264"
-        },
-        {
-          "date": "2026-09-06",
-          "period": "KK-1234",
-          "code": "KK",
-          "number": "4013"
-        },
-        {
-          "date": "2026-09-05",
-          "period": "KK-1232",
-          "code": "KK",
-          "number": "5690"
-        },
-        {
-          "date": "2026-09-04",
-          "period": "KK-1230",
-          "code": "KK",
-          "number": "0629"
-        },
-        {
-          "date": "2026-09-03",
-          "period": "KK-1228",
-          "code": "KK",
-          "number": "0559"
-        },
-        {
-          "date": "2026-09-02",
-          "period": "KK-1226",
-          "code": "KK",
-          "number": "9209"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "KK-1224",
-          "code": "KK",
-          "number": "6842"
-        },
-        {
-          "date": "2026-08-31",
-          "period": "KK-1222",
-          "code": "KK",
-          "number": "0875"
-        },
-        {
-          "date": "2026-08-30",
-          "period": "KK-1220",
-          "code": "KK",
-          "number": "2617"
-        }
-      ]
-    },
-    {
       "id": "2819",
       "code": "JP",
       "name": "Result Togel - Pasaran JAPAN Terbaru - DANA100",
@@ -10709,6 +10518,12 @@
       "url": "https://dana100nl.com/draw-history?m=2830",
       "rows": [
         {
+          "date": "2026-09-09",
+          "period": "TW-620",
+          "code": "TW",
+          "number": "4844"
+        },
+        {
           "date": "2026-09-08",
           "period": "TW-619",
           "code": "TW",
@@ -10821,12 +10636,6 @@
           "period": "TW-601",
           "code": "TW",
           "number": "7159"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "TW-600",
-          "code": "TW",
-          "number": "7132"
         }
       ]
     },
@@ -10836,6 +10645,12 @@
       "name": "Result Togel - Pasaran LONDON Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2831",
       "rows": [
+        {
+          "date": "2026-09-09",
+          "period": "LDN-620",
+          "code": "LDN",
+          "number": "5415"
+        },
         {
           "date": "2026-09-08",
           "period": "LDN-619",
@@ -10949,12 +10764,6 @@
           "period": "LDN-601",
           "code": "LDN",
           "number": "0015"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "LDN-600",
-          "code": "LDN",
-          "number": "9244"
         }
       ]
     },
