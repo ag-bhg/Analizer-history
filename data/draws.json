@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T19:12:04.178598+00:00",
+  "updated_at": "2026-09-09T19:39:28.763254+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3083,6 +3083,12 @@
       "url": "https://dana100nl.com/draw-history?m=2738",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "HELS-621",
+          "code": "HELS",
+          "number": "5509"
+        },
+        {
           "date": "2026-09-09",
           "period": "HELS-620",
           "code": "HELS",
@@ -3195,12 +3201,6 @@
           "period": "HELS-602",
           "code": "HELS",
           "number": "0015"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "HELS-601",
-          "code": "HELS",
-          "number": "4973"
         }
       ]
     },
