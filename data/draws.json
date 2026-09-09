@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T23:11:50.739817+00:00",
+  "updated_at": "2026-09-09T23:40:12.439478+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4363,6 +4363,12 @@
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "GEOE-620",
+          "code": "GEOE",
+          "number": "4086"
+        },
+        {
           "date": "2026-09-09",
           "period": "GEOE-619",
           "code": "GEOE",
@@ -4475,12 +4481,6 @@
           "period": "GEOE-601",
           "code": "GEOE",
           "number": "9584"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "GEOE-600",
-          "code": "GEOE",
-          "number": "0954"
         }
       ]
     },
@@ -4747,6 +4747,12 @@
       "url": "https://dana100nl.com/draw-history?m=2762",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "TENE-621",
+          "code": "TENE",
+          "number": "3958"
+        },
+        {
           "date": "2026-09-09",
           "period": "TENE-620",
           "code": "TENE",
@@ -4859,12 +4865,6 @@
           "period": "TENE-602",
           "code": "TENE",
           "number": "3327"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "TENE-601",
-          "code": "TENE",
-          "number": "2122"
         }
       ]
     },
@@ -5003,6 +5003,12 @@
       "url": "https://dana100nl.com/draw-history?m=2765",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "OHIE-621",
+          "code": "OHIE",
+          "number": "5150"
+        },
+        {
           "date": "2026-09-09",
           "period": "OHIE-620",
           "code": "OHIE",
@@ -5115,12 +5121,6 @@
           "period": "OHIE-602",
           "code": "OHIE",
           "number": "4038"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "OHIE-601",
-          "code": "OHIE",
-          "number": "9812"
         }
       ]
     },
