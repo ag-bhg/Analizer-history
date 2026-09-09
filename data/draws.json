@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T01:41:59.601075+00:00",
+  "updated_at": "2026-09-09T02:12:55.263111+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5899,6 +5899,12 @@
       "url": "https://dana100nl.com/draw-history?m=2775",
       "rows": [
         {
+          "date": "2026-09-09",
+          "period": "FLRE-619",
+          "code": "FLRE",
+          "number": "3176"
+        },
+        {
           "date": "2026-09-08",
           "period": "FLRE-618",
           "code": "FLRE",
@@ -6011,12 +6017,6 @@
           "period": "FLRE-600",
           "code": "FLRE",
           "number": "5489"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "FLRE-599",
-          "code": "FLRE",
-          "number": "6814"
         }
       ]
     },
@@ -6155,6 +6155,12 @@
       "url": "https://dana100nl.com/draw-history?m=2777",
       "rows": [
         {
+          "date": "2026-09-09",
+          "period": "OR3-619",
+          "code": "OR3",
+          "number": "4031"
+        },
+        {
           "date": "2026-09-08",
           "period": "OR3-618",
           "code": "OR3",
@@ -6267,12 +6273,6 @@
           "period": "OR3-600",
           "code": "OR3",
           "number": "4981"
-        },
-        {
-          "date": "2026-08-20",
-          "period": "OR3-599",
-          "code": "OR3",
-          "number": "8436"
         }
       ]
     },
