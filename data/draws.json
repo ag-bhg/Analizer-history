@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T02:13:23.356544+00:00",
+  "updated_at": "2026-09-10T02:42:35.084187+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5131,6 +5131,12 @@
       "url": "https://dana100nl.com/draw-history?m=2766",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "TKY-621",
+          "code": "TKY",
+          "number": "5006"
+        },
+        {
           "date": "2026-09-09",
           "period": "TKY-620",
           "code": "TKY",
@@ -5243,12 +5249,6 @@
           "period": "TKY-602",
           "code": "TKY",
           "number": "0704"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "TKY-601",
-          "code": "TKY",
-          "number": "8948"
         }
       ]
     },
@@ -5643,6 +5643,12 @@
       "url": "https://dana100nl.com/draw-history?m=2771",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "PP-620",
+          "code": "PP",
+          "number": "0109"
+        },
+        {
           "date": "2026-09-09",
           "period": "PP-619",
           "code": "PP",
@@ -5755,12 +5761,6 @@
           "period": "PP-601",
           "code": "PP",
           "number": "0903"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "PP-600",
-          "code": "PP",
-          "number": "9856"
         }
       ]
     },
@@ -5770,6 +5770,12 @@
       "name": "Result Togel - Pasaran MEXICO Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2773",
       "rows": [
+        {
+          "date": "2026-09-10",
+          "period": "MXC-620",
+          "code": "MXC",
+          "number": "5495"
+        },
         {
           "date": "2026-09-09",
           "period": "MXC-619",
@@ -5883,12 +5889,6 @@
           "period": "MXC-601",
           "code": "MXC",
           "number": "6231"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "MXC-600",
-          "code": "MXC",
-          "number": "8245"
         }
       ]
     },
@@ -6283,6 +6283,12 @@
       "url": "https://dana100nl.com/draw-history?m=2779",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "MISE-620",
+          "code": "MISE",
+          "number": "0198"
+        },
+        {
           "date": "2026-09-09",
           "period": "MISE-619",
           "code": "MISE",
@@ -6395,12 +6401,6 @@
           "period": "MISE-601",
           "code": "MISE",
           "number": "6870"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "MISE-600",
-          "code": "MISE",
-          "number": "2093"
         }
       ]
     },
@@ -6667,6 +6667,12 @@
       "url": "https://dana100nl.com/draw-history?m=2783",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "NYE-620",
+          "code": "NYE",
+          "number": "9849"
+        },
+        {
           "date": "2026-09-09",
           "period": "NYE-619",
           "code": "NYE",
@@ -6779,12 +6785,6 @@
           "period": "NYE-601",
           "code": "NYE",
           "number": "7940"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "NYE-600",
-          "code": "NYE",
-          "number": "2615"
         }
       ]
     },
@@ -6794,6 +6794,12 @@
       "name": "Result Togel - Pasaran ILLINOIS EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2785",
       "rows": [
+        {
+          "date": "2026-09-10",
+          "period": "ILE-620",
+          "code": "ILE",
+          "number": "5915"
+        },
         {
           "date": "2026-09-09",
           "period": "ILE-619",
@@ -6907,12 +6913,6 @@
           "period": "ILE-601",
           "code": "ILE",
           "number": "2021"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "ILE-600",
-          "code": "ILE",
-          "number": "1256"
         }
       ]
     },
