@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T17:12:47.035290+00:00",
+  "updated_at": "2026-09-10T17:40:44.242455+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -1163,6 +1163,12 @@
       "url": "https://dana100nl.com/draw-history?m=2717",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "MICM-622",
+          "code": "MICM",
+          "number": "9999"
+        },
+        {
           "date": "2026-09-10",
           "period": "MICM-621",
           "code": "MICM",
@@ -1275,12 +1281,6 @@
           "period": "MICM-603",
           "code": "MICM",
           "number": "7801"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "MICM-602",
-          "code": "MICM",
-          "number": "7827"
         }
       ]
     },
@@ -1419,6 +1419,12 @@
       "url": "https://dana100nl.com/draw-history?m=2720",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "INDM-622",
+          "code": "INDM",
+          "number": "1989"
+        },
+        {
           "date": "2026-09-10",
           "period": "INDM-621",
           "code": "INDM",
@@ -1531,12 +1537,6 @@
           "period": "INDM-603",
           "code": "INDM",
           "number": "2415"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "INDM-602",
-          "code": "INDM",
-          "number": "0745"
         }
       ]
     },
@@ -1546,6 +1546,12 @@
       "name": "Result Togel - Pasaran KENTUCKY MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2721",
       "rows": [
+        {
+          "date": "2026-09-11",
+          "period": "KTM-622",
+          "code": "KTM",
+          "number": "3934"
+        },
         {
           "date": "2026-09-10",
           "period": "KTM-621",
@@ -1659,12 +1665,6 @@
           "period": "KTM-603",
           "code": "KTM",
           "number": "6143"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "KTM-602",
-          "code": "KTM",
-          "number": "9138"
         }
       ]
     },
@@ -1674,6 +1674,12 @@
       "name": "Result Togel - Pasaran TENNESSE MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2722",
       "rows": [
+        {
+          "date": "2026-09-11",
+          "period": "TENMD-533",
+          "code": "TENMD",
+          "number": "9723"
+        },
         {
           "date": "2026-09-10",
           "period": "TENMD-532",
@@ -1787,12 +1793,6 @@
           "period": "TENMD-514",
           "code": "TENMD",
           "number": "4568"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "TENMD-513",
-          "code": "TENMD",
-          "number": "0032"
         }
       ]
     },
@@ -1931,6 +1931,12 @@
       "url": "https://dana100nl.com/draw-history?m=2725",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "TXD-533",
+          "code": "TXD",
+          "number": "1126"
+        },
+        {
           "date": "2026-09-10",
           "period": "TXD-532",
           "code": "TXD",
@@ -2043,12 +2049,6 @@
           "period": "TXD-514",
           "code": "TXD",
           "number": "5943"
-        },
-        {
-          "date": "2026-08-19",
-          "period": "TXD-513",
-          "code": "TXD",
-          "number": "0528"
         }
       ]
     },
@@ -2058,6 +2058,12 @@
       "name": "Result Togel - Pasaran FLORIDA MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2726",
       "rows": [
+        {
+          "date": "2026-09-11",
+          "period": "FLRM-622",
+          "code": "FLRM",
+          "number": "2552"
+        },
         {
           "date": "2026-09-10",
           "period": "FLRM-621",
@@ -2171,12 +2177,6 @@
           "period": "FLRM-603",
           "code": "FLRM",
           "number": "0502"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "FLRM-602",
-          "code": "FLRM",
-          "number": "9268"
         }
       ]
     },
@@ -9935,6 +9935,12 @@
       "url": "https://dana100nl.com/draw-history?m=2821",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "DXB-621",
+          "code": "DXB",
+          "number": "9498"
+        },
+        {
           "date": "2026-09-10",
           "period": "DXB-620",
           "code": "DXB",
@@ -10047,12 +10053,6 @@
           "period": "DXB-602",
           "code": "DXB",
           "number": "0766"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "DXB-601",
-          "code": "DXB",
-          "number": "1610"
         }
       ]
     },
@@ -11471,6 +11471,12 @@
       "url": "https://dana100nl.com/draw-history?m=3387",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "",
+          "code": null,
+          "number": "8690"
+        },
+        {
           "date": "2026-09-10",
           "period": "",
           "code": null,
@@ -11583,12 +11589,6 @@
           "period": "",
           "code": null,
           "number": "9177"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "",
-          "code": null,
-          "number": "4237"
         }
       ]
     },
