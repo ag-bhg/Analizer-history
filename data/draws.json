@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T14:12:39.111115+00:00",
+  "updated_at": "2026-09-10T14:44:42.677880+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10965,6 +10965,12 @@
       "url": "https://dana100nl.com/draw-history?m=2833",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "TENM-532",
+          "code": "TENM",
+          "number": "2276"
+        },
+        {
           "date": "2026-09-09",
           "period": "TENM-531",
           "code": "TENM",
@@ -11077,12 +11083,6 @@
           "period": "TENM-513",
           "code": "TENM",
           "number": "6033"
-        },
-        {
-          "date": "2026-08-18",
-          "period": "TENM-512",
-          "code": "TENM",
-          "number": "4534"
         }
       ]
     },
