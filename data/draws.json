@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T10:13:38.513128+00:00",
+  "updated_at": "2026-09-10T10:42:43.950016+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -395,6 +395,12 @@
       "url": "https://dana100nl.com/draw-history?m=2706",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "SG-445",
+          "code": "SG",
+          "number": "2997"
+        },
+        {
           "date": "2026-09-09",
           "period": "SG-444",
           "code": "SG",
@@ -507,12 +513,6 @@
           "period": "SG-426",
           "code": "SG",
           "number": "6714"
-        },
-        {
-          "date": "2026-08-13",
-          "period": "SG-425",
-          "code": "SG",
-          "number": "3200"
         }
       ]
     },
@@ -9813,6 +9813,12 @@
       "url": "https://dana100nl.com/draw-history?m=2819",
       "rows": [
         {
+          "date": "2026-09-10",
+          "period": "JP-621",
+          "code": "JP",
+          "number": "6386"
+        },
+        {
           "date": "2026-09-09",
           "period": "JP-620",
           "code": "JP",
@@ -9925,12 +9931,6 @@
           "period": "JP-602",
           "code": "JP",
           "number": "7992"
-        },
-        {
-          "date": "2026-08-21",
-          "period": "JP-601",
-          "code": "JP",
-          "number": "4537"
         }
       ]
     },
