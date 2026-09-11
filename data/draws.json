@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T21:38:31.557437+00:00",
+  "updated_at": "2026-09-11T22:12:53.448918+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3851,6 +3851,12 @@
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "NWC-622",
+          "code": "NWC",
+          "number": "0255"
+        },
+        {
           "date": "2026-09-11",
           "period": "NWC-621",
           "code": "NWC",
@@ -3963,12 +3969,6 @@
           "period": "NWC-603",
           "code": "NWC",
           "number": "2775"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "NWC-602",
-          "code": "NWC",
-          "number": "5159"
         }
       ]
     },
