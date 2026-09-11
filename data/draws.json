@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T06:45:53.558688+00:00",
+  "updated_at": "2026-09-11T07:13:47.368290+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10,6 +10,12 @@
       "name": "Result Togel - Pasaran TOTO MACAU 13:00 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2699",
       "rows": [
+        {
+          "date": "2026-09-11",
+          "period": "",
+          "code": null,
+          "number": "0481"
+        },
         {
           "date": "2026-09-10",
           "period": "",
@@ -123,12 +129,6 @@
           "period": "",
           "code": null,
           "number": "6739"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "",
-          "code": null,
-          "number": "0799"
         }
       ]
     },
@@ -267,6 +267,12 @@
       "url": "https://dana100nl.com/draw-history?m=2704",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "SYD-622",
+          "code": "SYD",
+          "number": "7962"
+        },
+        {
           "date": "2026-09-10",
           "period": "SYD-621",
           "code": "SYD",
@@ -379,12 +385,6 @@
           "period": "SYD-603",
           "code": "SYD",
           "number": "8493"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "SYD-602",
-          "code": "SYD",
-          "number": "0189"
         }
       ]
     },
@@ -8843,6 +8843,12 @@
       "url": "https://dana100nl.com/draw-history?m=2808",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "SDYL-622",
+          "code": "SDYL",
+          "number": "5749"
+        },
+        {
           "date": "2026-09-10",
           "period": "SDYL-621",
           "code": "SDYL",
@@ -8955,12 +8961,6 @@
           "period": "SDYL-603",
           "code": "SDYL",
           "number": "3485"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "SDYL-602",
-          "code": "SDYL",
-          "number": "3105"
         }
       ]
     },
