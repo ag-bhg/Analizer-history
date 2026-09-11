@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T23:38:59.460796+00:00",
+  "updated_at": "2026-09-11T00:18:21.057476+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4235,6 +4235,12 @@
       "url": "https://dana100nl.com/draw-history?m=2756",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "GDC-622",
+          "code": "GDC",
+          "number": "1097"
+        },
+        {
           "date": "2026-09-10",
           "period": "GDC-621",
           "code": "GDC",
@@ -4347,12 +4353,6 @@
           "period": "GDC-603",
           "code": "GDC",
           "number": "7664"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "GDC-602",
-          "code": "GDC",
-          "number": "0583"
         }
       ]
     },
@@ -4875,6 +4875,12 @@
       "url": "https://dana100nl.com/draw-history?m=2763",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "MICE-622",
+          "code": "MICE",
+          "number": "8313"
+        },
+        {
           "date": "2026-09-10",
           "period": "MICE-621",
           "code": "MICE",
@@ -4987,12 +4993,6 @@
           "period": "MICE-603",
           "code": "MICE",
           "number": "8436"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "MICE-602",
-          "code": "MICE",
-          "number": "3255"
         }
       ]
     },
@@ -5387,6 +5387,12 @@
       "url": "https://dana100nl.com/draw-history?m=2769",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "MLE-621",
+          "code": "MLE",
+          "number": "8646"
+        },
+        {
           "date": "2026-09-10",
           "period": "MLE-620",
           "code": "MLE",
@@ -5499,12 +5505,6 @@
           "period": "MLE-602",
           "code": "MLE",
           "number": "6096"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "MLE-601",
-          "code": "MLE",
-          "number": "7201"
         }
       ]
     },
