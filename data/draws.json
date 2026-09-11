@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T05:41:27.133378+00:00",
+  "updated_at": "2026-09-11T06:16:21.395095+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8331,6 +8331,12 @@
       "url": "https://dana100nl.com/draw-history?m=2803",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "BUE-621",
+          "code": "BUE",
+          "number": "1141"
+        },
+        {
           "date": "2026-09-10",
           "period": "BUE-620",
           "code": "BUE",
@@ -8443,12 +8449,6 @@
           "period": "BUE-602",
           "code": "BUE",
           "number": "8453"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "BUE-601",
-          "code": "BUE",
-          "number": "5257"
         }
       ]
     },
@@ -8715,6 +8715,12 @@
       "url": "https://dana100nl.com/draw-history?m=2806",
       "rows": [
         {
+          "date": "2026-09-11",
+          "period": "MND-622",
+          "code": "MND",
+          "number": "0497"
+        },
+        {
           "date": "2026-09-10",
           "period": "MND-621",
           "code": "MND",
@@ -8827,12 +8833,6 @@
           "period": "MND-603",
           "code": "MND",
           "number": "9370"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "MND-602",
-          "code": "MND",
-          "number": "1507"
         }
       ]
     },
