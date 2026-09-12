@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T05:11:45.833375+00:00",
+  "updated_at": "2026-09-12T05:40:13.078297+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8203,6 +8203,12 @@
       "url": "https://dana100nl.com/draw-history?m=2802",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "BSN-622",
+          "code": "BSN",
+          "number": "7782"
+        },
+        {
           "date": "2026-09-11",
           "period": "BSN-621",
           "code": "BSN",
@@ -8315,12 +8321,6 @@
           "period": "BSN-603",
           "code": "BSN",
           "number": "2005"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "BSN-602",
-          "code": "BSN",
-          "number": "9361"
         }
       ]
     },
@@ -8459,6 +8459,12 @@
       "url": "https://dana100nl.com/draw-history?m=2804",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "VTM-622",
+          "code": "VTM",
+          "number": "3137"
+        },
+        {
           "date": "2026-09-11",
           "period": "VTM-621",
           "code": "VTM",
@@ -8571,12 +8577,6 @@
           "period": "VTM-603",
           "code": "VTM",
           "number": "1143"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "VTM-602",
-          "code": "VTM",
-          "number": "9239"
         }
       ]
     },
