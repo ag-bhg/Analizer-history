@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T17:38:59.719515+00:00",
+  "updated_at": "2026-09-12T18:13:49.876852+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -907,6 +907,12 @@
       "url": "https://dana100nl.com/draw-history?m=2714",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "ORL-624",
+          "code": "ORL",
+          "number": "0147"
+        },
+        {
           "date": "2026-09-12",
           "period": "ORL-623",
           "code": "ORL",
@@ -1019,12 +1025,6 @@
           "period": "ORL-605",
           "code": "ORL",
           "number": "4412"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "ORL-604",
-          "code": "ORL",
-          "number": "2706"
         }
       ]
     },
@@ -2059,6 +2059,12 @@
       "url": "https://dana100nl.com/draw-history?m=2726",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "FLRM-624",
+          "code": "FLRM",
+          "number": "6607"
+        },
+        {
           "date": "2026-09-12",
           "period": "FLRM-623",
           "code": "FLRM",
@@ -2171,12 +2177,6 @@
           "period": "FLRM-605",
           "code": "FLRM",
           "number": "9806"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "FLRM-604",
-          "code": "FLRM",
-          "number": "2863"
         }
       ]
     },
@@ -2186,6 +2186,12 @@
       "name": "Result Togel - Pasaran ILLINOIS MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2728",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "ILM-624",
+          "code": "ILM",
+          "number": "0505"
+        },
         {
           "date": "2026-09-12",
           "period": "ILM-623",
@@ -2299,12 +2305,6 @@
           "period": "ILM-605",
           "code": "ILM",
           "number": "7828"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "ILM-604",
-          "code": "ILM",
-          "number": "1662"
         }
       ]
     },
@@ -2314,6 +2314,12 @@
       "name": "Result Togel - Pasaran MISSOURI MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2729",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "MISM-624",
+          "code": "MISM",
+          "number": "4556"
+        },
         {
           "date": "2026-09-12",
           "period": "MISM-623",
@@ -2427,12 +2433,6 @@
           "period": "MISM-605",
           "code": "MISM",
           "number": "4518"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "MISM-604",
-          "code": "MISM",
-          "number": "5212"
         }
       ]
     },
@@ -2442,6 +2442,12 @@
       "name": "Result Togel - Pasaran DELAWARE DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2731",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "DELD-623",
+          "code": "DELD",
+          "number": "0018"
+        },
         {
           "date": "2026-09-12",
           "period": "DELD-622",
@@ -2555,12 +2561,6 @@
           "period": "DELD-604",
           "code": "DELD",
           "number": "1546"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "DELD-603",
-          "code": "DELD",
-          "number": "5505"
         }
       ]
     },
@@ -2570,6 +2570,12 @@
       "name": "Result Togel - Pasaran VIRGINIA DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2733",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "VIRD-624",
+          "code": "VIRD",
+          "number": "0645"
+        },
         {
           "date": "2026-09-12",
           "period": "VIRD-623",
@@ -2683,12 +2689,6 @@
           "period": "VIRD-605",
           "code": "VIRD",
           "number": "9669"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "VIRD-604",
-          "code": "VIRD",
-          "number": "3182"
         }
       ]
     },
@@ -2698,6 +2698,12 @@
       "name": "Result Togel - Pasaran WASHINGTON MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2734",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "WDM-624",
+          "code": "WDM",
+          "number": "1532"
+        },
         {
           "date": "2026-09-12",
           "period": "WDM-623",
@@ -2811,12 +2817,6 @@
           "period": "WDM-605",
           "code": "WDM",
           "number": "2063"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "WDM-604",
-          "code": "WDM",
-          "number": "3429"
         }
       ]
     },
