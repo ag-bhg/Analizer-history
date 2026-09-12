@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T03:41:23.039717+00:00",
+  "updated_at": "2026-09-12T04:13:08.756507+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -7563,6 +7563,12 @@
       "url": "https://dana100nl.com/draw-history?m=2796",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "HCM-622",
+          "code": "HCM",
+          "number": "6711"
+        },
+        {
           "date": "2026-09-11",
           "period": "HCM-621",
           "code": "HCM",
@@ -7675,12 +7681,6 @@
           "period": "HCM-603",
           "code": "HCM",
           "number": "4347"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "HCM-602",
-          "code": "HCM",
-          "number": "8770"
         }
       ]
     },
@@ -7947,6 +7947,12 @@
       "url": "https://dana100nl.com/draw-history?m=2800",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "GEON-622",
+          "code": "GEON",
+          "number": "2006"
+        },
+        {
           "date": "2026-09-11",
           "period": "GEON-621",
           "code": "GEON",
@@ -8059,12 +8065,6 @@
           "period": "GEON-603",
           "code": "GEON",
           "number": "8349"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "GEON-602",
-          "code": "GEON",
-          "number": "6458"
         }
       ]
     },
