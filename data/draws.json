@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T16:40:34.701869+00:00",
+  "updated_at": "2026-09-12T17:11:19.571302+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -1035,6 +1035,12 @@
       "url": "https://dana100nl.com/draw-history?m=2716",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "NJM-623",
+          "code": "NJM",
+          "number": "2011"
+        },
+        {
           "date": "2026-09-12",
           "period": "NJM-622",
           "code": "NJM",
@@ -1147,12 +1153,6 @@
           "period": "NJM-604",
           "code": "NJM",
           "number": "5582"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "NJM-603",
-          "code": "NJM",
-          "number": "2046"
         }
       ]
     },
@@ -11343,6 +11343,12 @@
       "url": "https://dana100nl.com/draw-history?m=2838",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "BLG-623",
+          "code": "BLG",
+          "number": "0605"
+        },
+        {
           "date": "2026-09-11",
           "period": "BLG-622",
           "code": "BLG",
@@ -11455,12 +11461,6 @@
           "period": "BLG-604",
           "code": "BLG",
           "number": "0715"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "BLG-603",
-          "code": "BLG",
-          "number": "1476"
         }
       ]
     },
@@ -11470,6 +11470,12 @@
       "name": "Result Togel - Pasaran TOTO MACAU 00:00 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=3387",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "",
+          "code": null,
+          "number": "4319"
+        },
         {
           "date": "2026-09-12",
           "period": "",
@@ -11583,12 +11589,6 @@
           "period": "",
           "code": null,
           "number": "6641"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "",
-          "code": null,
-          "number": "8927"
         }
       ]
     },
