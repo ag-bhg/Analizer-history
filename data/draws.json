@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T01:10:55.949224+00:00",
+  "updated_at": "2026-09-12T01:40:11.856591+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5643,6 +5643,12 @@
       "url": "https://dana100nl.com/draw-history?m=2771",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "PP-622",
+          "code": "PP",
+          "number": "0012"
+        },
+        {
           "date": "2026-09-11",
           "period": "PP-621",
           "code": "PP",
@@ -5755,12 +5761,6 @@
           "period": "PP-603",
           "code": "PP",
           "number": "1712"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "PP-602",
-          "code": "PP",
-          "number": "3744"
         }
       ]
     },
