@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T19:10:35.640148+00:00",
+  "updated_at": "2026-09-12T19:39:19.440741+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -2827,6 +2827,12 @@
       "url": "https://dana100nl.com/draw-history?m=2735",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "RM-623",
+          "code": "RM",
+          "number": "1883"
+        },
+        {
           "date": "2026-09-12",
           "period": "RM-622",
           "code": "RM",
@@ -2939,12 +2945,6 @@
           "period": "RM-604",
           "code": "RM",
           "number": "8838"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "RM-603",
-          "code": "RM",
-          "number": "9301"
         }
       ]
     },
@@ -3083,6 +3083,12 @@
       "url": "https://dana100nl.com/draw-history?m=2738",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "HELS-624",
+          "code": "HELS",
+          "number": "4441"
+        },
+        {
           "date": "2026-09-12",
           "period": "HELS-623",
           "code": "HELS",
@@ -3195,12 +3201,6 @@
           "period": "HELS-605",
           "code": "HELS",
           "number": "5587"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "HELS-604",
-          "code": "HELS",
-          "number": "7259"
         }
       ]
     },
