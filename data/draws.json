@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T23:38:54.712657+00:00",
+  "updated_at": "2026-09-12T00:17:13.521482+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -4235,6 +4235,12 @@
       "url": "https://dana100nl.com/draw-history?m=2756",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "GDC-623",
+          "code": "GDC",
+          "number": "7434"
+        },
+        {
           "date": "2026-09-11",
           "period": "GDC-622",
           "code": "GDC",
@@ -4347,12 +4353,6 @@
           "period": "GDC-604",
           "code": "GDC",
           "number": "6188"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "GDC-603",
-          "code": "GDC",
-          "number": "7664"
         }
       ]
     },
@@ -4875,6 +4875,12 @@
       "url": "https://dana100nl.com/draw-history?m=2763",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "MICE-623",
+          "code": "MICE",
+          "number": "2086"
+        },
+        {
           "date": "2026-09-11",
           "period": "MICE-622",
           "code": "MICE",
@@ -4987,12 +4993,6 @@
           "period": "MICE-604",
           "code": "MICE",
           "number": "8234"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "MICE-603",
-          "code": "MICE",
-          "number": "8436"
         }
       ]
     },
@@ -5259,6 +5259,12 @@
       "url": "https://dana100nl.com/draw-history?m=2767",
       "rows": [
         {
+          "date": "2026-09-12",
+          "period": "DLWN-621",
+          "code": "DLWN",
+          "number": "3137"
+        },
+        {
           "date": "2026-09-11",
           "period": "DLWN-620",
           "code": "DLWN",
@@ -5371,12 +5377,6 @@
           "period": "DLWN-602",
           "code": "DLWN",
           "number": "7339"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "DLWN-601",
-          "code": "DLWN",
-          "number": "4078"
         }
       ]
     },
@@ -5386,6 +5386,12 @@
       "name": "Result Togel - Pasaran MARYLAND EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2769",
       "rows": [
+        {
+          "date": "2026-09-12",
+          "period": "MLE-622",
+          "code": "MLE",
+          "number": "7232"
+        },
         {
           "date": "2026-09-11",
           "period": "MLE-621",
@@ -5499,12 +5505,6 @@
           "period": "MLE-603",
           "code": "MLE",
           "number": "3840"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "MLE-602",
-          "code": "MLE",
-          "number": "6096"
         }
       ]
     },
@@ -5514,6 +5514,12 @@
       "name": "Result Togel - Pasaran WASHINGTON EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2770",
       "rows": [
+        {
+          "date": "2026-09-12",
+          "period": "WDE-622",
+          "code": "WDE",
+          "number": "1800"
+        },
         {
           "date": "2026-09-11",
           "period": "WDE-621",
@@ -5627,12 +5633,6 @@
           "period": "WDE-603",
           "code": "WDE",
           "number": "4169"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "WDE-602",
-          "code": "WDE",
-          "number": "8204"
         }
       ]
     },
