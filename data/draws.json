@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T08:41:46.714435+00:00",
+  "updated_at": "2026-09-13T09:38:52.875547+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -9483,6 +9483,12 @@
       "url": "https://dana100nl.com/draw-history?m=2815",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "BJI-624",
+          "code": "BJI",
+          "number": "9797"
+        },
+        {
           "date": "2026-09-12",
           "period": "BJI-623",
           "code": "BJI",
@@ -9595,12 +9601,6 @@
           "period": "BJI-605",
           "code": "BJI",
           "number": "9202"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "BJI-604",
-          "code": "BJI",
-          "number": "8131"
         }
       ]
     },
@@ -11599,6 +11599,12 @@
       "url": "https://dana100nl.com/draw-history?m=3388",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "",
+          "code": null,
+          "number": "7810"
+        },
+        {
           "date": "2026-09-12",
           "period": "",
           "code": null,
@@ -11711,12 +11717,6 @@
           "period": "",
           "code": null,
           "number": "0257"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "",
-          "code": null,
-          "number": "8052"
         }
       ]
     },
