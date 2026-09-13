@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T03:41:37.340920+00:00",
+  "updated_at": "2026-09-13T04:34:44.948288+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -7563,6 +7563,12 @@
       "url": "https://dana100nl.com/draw-history?m=2796",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "HCM-623",
+          "code": "HCM",
+          "number": "8229"
+        },
+        {
           "date": "2026-09-12",
           "period": "HCM-622",
           "code": "HCM",
@@ -7675,12 +7681,6 @@
           "period": "HCM-604",
           "code": "HCM",
           "number": "2833"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "HCM-603",
-          "code": "HCM",
-          "number": "4347"
         }
       ]
     },
@@ -7819,6 +7819,12 @@
       "url": "https://dana100nl.com/draw-history?m=2798",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "MNL-623",
+          "code": "MNL",
+          "number": "7054"
+        },
+        {
           "date": "2026-09-12",
           "period": "MNL-622",
           "code": "MNL",
@@ -7931,12 +7937,6 @@
           "period": "MNL-604",
           "code": "MNL",
           "number": "8675"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "MNL-603",
-          "code": "MNL",
-          "number": "4287"
         }
       ]
     },
@@ -7946,6 +7946,12 @@
       "name": "Result Togel - Pasaran GEORGIA NGT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2800",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "GEON-623",
+          "code": "GEON",
+          "number": "9848"
+        },
         {
           "date": "2026-09-12",
           "period": "GEON-622",
@@ -8059,12 +8065,6 @@
           "period": "GEON-604",
           "code": "GEON",
           "number": "6148"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "GEON-603",
-          "code": "GEON",
-          "number": "8349"
         }
       ]
     },
