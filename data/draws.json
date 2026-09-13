@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T07:11:59.177403+00:00",
+  "updated_at": "2026-09-13T07:40:48.299844+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8971,6 +8971,12 @@
       "url": "https://dana100nl.com/draw-history?m=2809",
       "rows": [
         {
+          "date": "2026-09-13",
+          "period": "BLI-624",
+          "code": "BLI",
+          "number": "9815"
+        },
+        {
           "date": "2026-09-12",
           "period": "BLI-623",
           "code": "BLI",
@@ -9083,12 +9089,6 @@
           "period": "BLI-605",
           "code": "BLI",
           "number": "7732"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "BLI-604",
-          "code": "BLI",
-          "number": "7965"
         }
       ]
     },
@@ -9098,6 +9098,12 @@
       "name": "Result Togel - Pasaran HANOI Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2811",
       "rows": [
+        {
+          "date": "2026-09-13",
+          "period": "HNO-624",
+          "code": "HNO",
+          "number": "0688"
+        },
         {
           "date": "2026-09-12",
           "period": "HNO-623",
@@ -9211,12 +9217,6 @@
           "period": "HNO-605",
           "code": "HNO",
           "number": "4158"
-        },
-        {
-          "date": "2026-08-24",
-          "period": "HNO-604",
-          "code": "HNO",
-          "number": "3786"
         }
       ]
     },
