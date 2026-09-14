@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T03:43:44.255092+00:00",
+  "updated_at": "2026-09-14T04:13:23.721056+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -7563,6 +7563,12 @@
       "url": "https://dana100nl.com/draw-history?m=2796",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "HCM-624",
+          "code": "HCM",
+          "number": "3801"
+        },
+        {
           "date": "2026-09-13",
           "period": "HCM-623",
           "code": "HCM",
@@ -7675,12 +7681,6 @@
           "period": "HCM-605",
           "code": "HCM",
           "number": "3793"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "HCM-604",
-          "code": "HCM",
-          "number": "2833"
         }
       ]
     },
