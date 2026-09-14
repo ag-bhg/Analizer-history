@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:14:26.618789+00:00",
+  "updated_at": "2026-09-14T07:43:43.132909+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8971,6 +8971,12 @@
       "url": "https://dana100nl.com/draw-history?m=2809",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "BLI-625",
+          "code": "BLI",
+          "number": "3965"
+        },
+        {
           "date": "2026-09-13",
           "period": "BLI-624",
           "code": "BLI",
@@ -9083,12 +9089,6 @@
           "period": "BLI-606",
           "code": "BLI",
           "number": "4486"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "BLI-605",
-          "code": "BLI",
-          "number": "7732"
         }
       ]
     },
