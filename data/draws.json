@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T18:14:10.097523+00:00",
+  "updated_at": "2026-09-14T18:46:08.705310+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -1291,6 +1291,12 @@
       "url": "https://dana100nl.com/draw-history?m=2719",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "TRK-626",
+          "code": "TRK",
+          "number": "3160"
+        },
+        {
           "date": "2026-09-14",
           "period": "TRK-625",
           "code": "TRK",
@@ -1403,12 +1409,6 @@
           "period": "TRK-607",
           "code": "TRK",
           "number": "0751"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "TRK-606",
-          "code": "TRK",
-          "number": "5377"
         }
       ]
     },
@@ -1803,6 +1803,12 @@
       "url": "https://dana100nl.com/draw-history?m=2723",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "BLRS-626",
+          "code": "BLRS",
+          "number": "6830"
+        },
+        {
           "date": "2026-09-14",
           "period": "BLRS-625",
           "code": "BLRS",
@@ -1915,12 +1921,6 @@
           "period": "BLRS-607",
           "code": "BLRS",
           "number": "2195"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "BLRS-606",
-          "code": "BLRS",
-          "number": "8531"
         }
       ]
     },
@@ -2443,6 +2443,12 @@
       "url": "https://dana100nl.com/draw-history?m=2731",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "DELD-625",
+          "code": "DELD",
+          "number": "8065"
+        },
+        {
           "date": "2026-09-14",
           "period": "DELD-624",
           "code": "DELD",
@@ -2555,12 +2561,6 @@
           "period": "DELD-606",
           "code": "DELD",
           "number": "4355"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "DELD-605",
-          "code": "DELD",
-          "number": "5435"
         }
       ]
     },
@@ -2955,6 +2955,12 @@
       "url": "https://dana100nl.com/draw-history?m=2736",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "NYM-626",
+          "code": "NYM",
+          "number": "9494"
+        },
+        {
           "date": "2026-09-14",
           "period": "NYM-625",
           "code": "NYM",
@@ -3067,12 +3073,6 @@
           "period": "NYM-607",
           "code": "NYM",
           "number": "6905"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "NYM-606",
-          "code": "NYM",
-          "number": "4711"
         }
       ]
     },
