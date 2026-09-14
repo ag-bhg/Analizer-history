@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T11:43:29.212793+00:00",
+  "updated_at": "2026-09-14T12:17:27.926613+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -10197,6 +10197,12 @@
       "url": "https://dana100nl.com/draw-history?m=2824",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "KBJ-625",
+          "code": "KBJ",
+          "number": "5411"
+        },
+        {
           "date": "2026-09-13",
           "period": "KBJ-624",
           "code": "KBJ",
@@ -10309,12 +10315,6 @@
           "period": "KBJ-606",
           "code": "KBJ",
           "number": "2981"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "KBJ-605",
-          "code": "KBJ",
-          "number": "6166"
         }
       ]
     },
@@ -11733,6 +11733,12 @@
       "url": "https://dana100nl.com/draw-history?m=3389",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "",
+          "code": null,
+          "number": "2755"
+        },
+        {
           "date": "2026-09-13",
           "period": "",
           "code": null,
@@ -11845,12 +11851,6 @@
           "period": "",
           "code": null,
           "number": "5366"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "",
-          "code": null,
-          "number": "5338"
         }
       ]
     },
