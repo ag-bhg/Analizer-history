@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T02:13:24.545624+00:00",
+  "updated_at": "2026-09-14T02:42:46.192565+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5771,6 +5771,12 @@
       "url": "https://dana100nl.com/draw-history?m=2773",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "MXC-624",
+          "code": "MXC",
+          "number": "6833"
+        },
+        {
           "date": "2026-09-13",
           "period": "MXC-623",
           "code": "MXC",
@@ -5883,12 +5889,6 @@
           "period": "MXC-605",
           "code": "MXC",
           "number": "2608"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "MXC-604",
-          "code": "MXC",
-          "number": "9593"
         }
       ]
     },
@@ -6667,6 +6667,12 @@
       "url": "https://dana100nl.com/draw-history?m=2783",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "NYE-624",
+          "code": "NYE",
+          "number": "3238"
+        },
+        {
           "date": "2026-09-13",
           "period": "NYE-623",
           "code": "NYE",
@@ -6779,12 +6785,6 @@
           "period": "NYE-605",
           "code": "NYE",
           "number": "7409"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "NYE-604",
-          "code": "NYE",
-          "number": "6442"
         }
       ]
     },
