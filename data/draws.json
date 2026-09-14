@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T03:13:28.806556+00:00",
+  "updated_at": "2026-09-14T03:43:44.255092+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -6411,6 +6411,12 @@
       "url": "https://dana100nl.com/draw-history?m=2780",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "SHG-624",
+          "code": "SHG",
+          "number": "7048"
+        },
+        {
           "date": "2026-09-13",
           "period": "SHG-623",
           "code": "SHG",
@@ -6523,12 +6529,6 @@
           "period": "SHG-605",
           "code": "SHG",
           "number": "7547"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "SHG-604",
-          "code": "SHG",
-          "number": "0415"
         }
       ]
     },
@@ -6538,6 +6538,12 @@
       "name": "Result Togel - Pasaran TAIWANMOR Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2781",
       "rows": [
+        {
+          "date": "2026-09-14",
+          "period": "TWM-624",
+          "code": "TWM",
+          "number": "2551"
+        },
         {
           "date": "2026-09-13",
           "period": "TWM-623",
@@ -6651,12 +6657,6 @@
           "period": "TWM-605",
           "code": "TWM",
           "number": "2847"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "TWM-604",
-          "code": "TWM",
-          "number": "8819"
         }
       ]
     },
@@ -6923,6 +6923,12 @@
       "url": "https://dana100nl.com/draw-history?m=2786",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "NJE-623",
+          "code": "NJE",
+          "number": "1607"
+        },
+        {
           "date": "2026-09-13",
           "period": "NJE-622",
           "code": "NJE",
@@ -7035,12 +7041,6 @@
           "period": "NJE-604",
           "code": "NJE",
           "number": "1086"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "NJE-603",
-          "code": "NJE",
-          "number": "8506"
         }
       ]
     },
@@ -7691,6 +7691,12 @@
       "url": "https://dana100nl.com/draw-history?m=2797",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "CRE-624",
+          "code": "CRE",
+          "number": "7161"
+        },
+        {
           "date": "2026-09-13",
           "period": "CRE-623",
           "code": "CRE",
@@ -7803,12 +7809,6 @@
           "period": "CRE-605",
           "code": "CRE",
           "number": "0600"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "CRE-604",
-          "code": "CRE",
-          "number": "7161"
         }
       ]
     },
@@ -7947,6 +7947,12 @@
       "url": "https://dana100nl.com/draw-history?m=2800",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "GEON-624",
+          "code": "GEON",
+          "number": "0560"
+        },
+        {
           "date": "2026-09-13",
           "period": "GEON-623",
           "code": "GEON",
@@ -8059,12 +8065,6 @@
           "period": "GEON-605",
           "code": "GEON",
           "number": "0186"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "GEON-604",
-          "code": "GEON",
-          "number": "6148"
         }
       ]
     },
