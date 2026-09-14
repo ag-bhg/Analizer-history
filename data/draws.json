@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T02:42:46.192565+00:00",
+  "updated_at": "2026-09-14T03:13:28.806556+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -6027,6 +6027,12 @@
       "url": "https://dana100nl.com/draw-history?m=2776",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "SZ-624",
+          "code": "SZ",
+          "number": "2631"
+        },
+        {
           "date": "2026-09-13",
           "period": "SZ-623",
           "code": "SZ",
@@ -6139,12 +6145,6 @@
           "period": "SZ-605",
           "code": "SZ",
           "number": "3261"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "SZ-604",
-          "code": "SZ",
-          "number": "8091"
         }
       ]
     },
@@ -6795,6 +6795,12 @@
       "url": "https://dana100nl.com/draw-history?m=2785",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "ILE-624",
+          "code": "ILE",
+          "number": "3631"
+        },
+        {
           "date": "2026-09-13",
           "period": "ILE-623",
           "code": "ILE",
@@ -6907,12 +6913,6 @@
           "period": "ILE-605",
           "code": "ILE",
           "number": "9599"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "ILE-604",
-          "code": "ILE",
-          "number": "4883"
         }
       ]
     },
@@ -7051,6 +7051,12 @@
       "url": "https://dana100nl.com/draw-history?m=2788",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "VIRN-624",
+          "code": "VIRN",
+          "number": "5932"
+        },
+        {
           "date": "2026-09-13",
           "period": "VIRN-623",
           "code": "VIRN",
@@ -7163,12 +7169,6 @@
           "period": "VIRN-605",
           "code": "VIRN",
           "number": "7523"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "VIRN-604",
-          "code": "VIRN",
-          "number": "0983"
         }
       ]
     },
@@ -7178,6 +7178,12 @@
       "name": "Result Togel - Pasaran KENTUCKY EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2790",
       "rows": [
+        {
+          "date": "2026-09-14",
+          "period": "KTE-624",
+          "code": "KTE",
+          "number": "2703"
+        },
         {
           "date": "2026-09-13",
           "period": "KTE-623",
@@ -7291,12 +7297,6 @@
           "period": "KTE-605",
           "code": "KTE",
           "number": "8389"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "KTE-604",
-          "code": "KTE",
-          "number": "1377"
         }
       ]
     },
@@ -7306,6 +7306,12 @@
       "name": "Result Togel - Pasaran INDIANA EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2792",
       "rows": [
+        {
+          "date": "2026-09-14",
+          "period": "INDE-624",
+          "code": "INDE",
+          "number": "2844"
+        },
         {
           "date": "2026-09-13",
           "period": "INDE-623",
@@ -7419,12 +7425,6 @@
           "period": "INDE-605",
           "code": "INDE",
           "number": "6528"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "INDE-604",
-          "code": "INDE",
-          "number": "5650"
         }
       ]
     },
