@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T04:43:49.012251+00:00",
+  "updated_at": "2026-09-14T05:12:20.721956+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -8075,6 +8075,12 @@
       "url": "https://dana100nl.com/draw-history?m=2801",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "CD-624",
+          "code": "CD",
+          "number": "5906"
+        },
+        {
           "date": "2026-09-13",
           "period": "CD-623",
           "code": "CD",
@@ -8187,12 +8193,6 @@
           "period": "CD-605",
           "code": "CD",
           "number": "0190"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "CD-604",
-          "code": "CD",
-          "number": "0646"
         }
       ]
     },
@@ -8202,6 +8202,12 @@
       "name": "Result Togel - Pasaran BUSAN Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2802",
       "rows": [
+        {
+          "date": "2026-09-14",
+          "period": "BSN-624",
+          "code": "BSN",
+          "number": "9481"
+        },
         {
           "date": "2026-09-13",
           "period": "BSN-623",
@@ -8315,12 +8321,6 @@
           "period": "BSN-605",
           "code": "BSN",
           "number": "8733"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "BSN-604",
-          "code": "BSN",
-          "number": "2828"
         }
       ]
     },
@@ -8587,6 +8587,12 @@
       "url": "https://dana100nl.com/draw-history?m=2805",
       "rows": [
         {
+          "date": "2026-09-14",
+          "period": "OR4-624",
+          "code": "OR4",
+          "number": "1995"
+        },
+        {
           "date": "2026-09-13",
           "period": "OR4-623",
           "code": "OR4",
@@ -8699,12 +8705,6 @@
           "period": "OR4-605",
           "code": "OR4",
           "number": "5559"
-        },
-        {
-          "date": "2026-08-25",
-          "period": "OR4-604",
-          "code": "OR4",
-          "number": "7961"
         }
       ]
     },
