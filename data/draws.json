@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T22:40:08.516747+00:00",
+  "updated_at": "2026-09-15T23:11:52.346166+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3979,6 +3979,12 @@
       "url": "https://dana100nl.com/draw-history?m=2753",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "DET-627",
+          "code": "DET",
+          "number": "8432"
+        },
+        {
           "date": "2026-09-15",
           "period": "DET-626",
           "code": "DET",
@@ -4091,12 +4097,6 @@
           "period": "DET-608",
           "code": "DET",
           "number": "0046"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "DET-607",
-          "code": "DET",
-          "number": "8789"
         }
       ]
     },
@@ -4363,6 +4363,12 @@
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "GEOE-626",
+          "code": "GEOE",
+          "number": "1877"
+        },
+        {
           "date": "2026-09-15",
           "period": "GEOE-625",
           "code": "GEOE",
@@ -4475,12 +4481,6 @@
           "period": "GEOE-607",
           "code": "GEOE",
           "number": "7940"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "GEOE-606",
-          "code": "GEOE",
-          "number": "0635"
         }
       ]
     },
@@ -4490,6 +4490,12 @@
       "name": "Result Togel - Pasaran OREGON 2 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2759",
       "rows": [
+        {
+          "date": "2026-09-16",
+          "period": "OR2-626",
+          "code": "OR2",
+          "number": "7864"
+        },
         {
           "date": "2026-09-15",
           "period": "OR2-625",
@@ -4603,12 +4609,6 @@
           "period": "OR2-607",
           "code": "OR2",
           "number": "6793"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "OR2-606",
-          "code": "OR2",
-          "number": "8924"
         }
       ]
     },
@@ -4618,6 +4618,12 @@
       "name": "Result Togel - Pasaran TEXAS EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2761",
       "rows": [
+        {
+          "date": "2026-09-16",
+          "period": "TXSE-537",
+          "code": "TXSE",
+          "number": "8279"
+        },
         {
           "date": "2026-09-15",
           "period": "TXSE-536",
@@ -4731,12 +4737,6 @@
           "period": "TXSE-518",
           "code": "TXSE",
           "number": "2904"
-        },
-        {
-          "date": "2026-08-23",
-          "period": "TXSE-517",
-          "code": "TXSE",
-          "number": "9653"
         }
       ]
     },
