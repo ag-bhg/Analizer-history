@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T02:14:54.307972+00:00",
+  "updated_at": "2026-09-15T02:43:31.469966+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5771,6 +5771,12 @@
       "url": "https://dana100nl.com/draw-history?m=2773",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "MXC-625",
+          "code": "MXC",
+          "number": "1084"
+        },
+        {
           "date": "2026-09-14",
           "period": "MXC-624",
           "code": "MXC",
@@ -5883,12 +5889,6 @@
           "period": "MXC-606",
           "code": "MXC",
           "number": "9293"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "MXC-605",
-          "code": "MXC",
-          "number": "2608"
         }
       ]
     },
@@ -6283,6 +6283,12 @@
       "url": "https://dana100nl.com/draw-history?m=2779",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "MISE-625",
+          "code": "MISE",
+          "number": "7796"
+        },
+        {
           "date": "2026-09-14",
           "period": "MISE-624",
           "code": "MISE",
@@ -6395,12 +6401,6 @@
           "period": "MISE-606",
           "code": "MISE",
           "number": "6113"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "MISE-605",
-          "code": "MISE",
-          "number": "5810"
         }
       ]
     },
@@ -6667,6 +6667,12 @@
       "url": "https://dana100nl.com/draw-history?m=2783",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "NYE-625",
+          "code": "NYE",
+          "number": "5835"
+        },
+        {
           "date": "2026-09-14",
           "period": "NYE-624",
           "code": "NYE",
@@ -6779,12 +6785,6 @@
           "period": "NYE-606",
           "code": "NYE",
           "number": "3760"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "NYE-605",
-          "code": "NYE",
-          "number": "7409"
         }
       ]
     },
@@ -6794,6 +6794,12 @@
       "name": "Result Togel - Pasaran ILLINOIS EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2785",
       "rows": [
+        {
+          "date": "2026-09-15",
+          "period": "ILE-625",
+          "code": "ILE",
+          "number": "6456"
+        },
         {
           "date": "2026-09-14",
           "period": "ILE-624",
@@ -6907,12 +6913,6 @@
           "period": "ILE-606",
           "code": "ILE",
           "number": "6388"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "ILE-605",
-          "code": "ILE",
-          "number": "9599"
         }
       ]
     },
