@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T16:44:46.968687+00:00",
+  "updated_at": "2026-09-15T17:13:08.090406+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -1035,6 +1035,12 @@
       "url": "https://dana100nl.com/draw-history?m=2716",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "NJM-626",
+          "code": "NJM",
+          "number": "4762"
+        },
+        {
           "date": "2026-09-15",
           "period": "NJM-625",
           "code": "NJM",
@@ -1147,12 +1153,6 @@
           "period": "NJM-607",
           "code": "NJM",
           "number": "9306"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "NJM-606",
-          "code": "NJM",
-          "number": "2086"
         }
       ]
     },
@@ -11471,6 +11471,12 @@
       "url": "https://dana100nl.com/draw-history?m=3387",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "",
+          "code": null,
+          "number": "1508"
+        },
+        {
           "date": "2026-09-15",
           "period": "",
           "code": null,
@@ -11583,12 +11589,6 @@
           "period": "",
           "code": null,
           "number": "7691"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "",
-          "code": null,
-          "number": "8456"
         }
       ]
     },
