@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T18:14:38.035668+00:00",
+  "updated_at": "2026-09-15T18:44:13.467223+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -1291,6 +1291,12 @@
       "url": "https://dana100nl.com/draw-history?m=2719",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "TRK-627",
+          "code": "TRK",
+          "number": "8670"
+        },
+        {
           "date": "2026-09-15",
           "period": "TRK-626",
           "code": "TRK",
@@ -1403,12 +1409,6 @@
           "period": "TRK-608",
           "code": "TRK",
           "number": "6944"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "TRK-607",
-          "code": "TRK",
-          "number": "0751"
         }
       ]
     },
@@ -1803,6 +1803,12 @@
       "url": "https://dana100nl.com/draw-history?m=2723",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "BLRS-627",
+          "code": "BLRS",
+          "number": "0316"
+        },
+        {
           "date": "2026-09-15",
           "period": "BLRS-626",
           "code": "BLRS",
@@ -1915,12 +1921,6 @@
           "period": "BLRS-608",
           "code": "BLRS",
           "number": "4333"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "BLRS-607",
-          "code": "BLRS",
-          "number": "2195"
         }
       ]
     },
@@ -2955,6 +2955,12 @@
       "url": "https://dana100nl.com/draw-history?m=2736",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "NYM-627",
+          "code": "NYM",
+          "number": "4284"
+        },
+        {
           "date": "2026-09-15",
           "period": "NYM-626",
           "code": "NYM",
@@ -3067,12 +3073,6 @@
           "period": "NYM-608",
           "code": "NYM",
           "number": "1540"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "NYM-607",
-          "code": "NYM",
-          "number": "6905"
         }
       ]
     },
