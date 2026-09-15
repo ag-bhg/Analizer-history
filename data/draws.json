@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T03:14:12.782321+00:00",
+  "updated_at": "2026-09-15T03:43:47.476197+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -6411,6 +6411,12 @@
       "url": "https://dana100nl.com/draw-history?m=2780",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "SHG-625",
+          "code": "SHG",
+          "number": "2671"
+        },
+        {
           "date": "2026-09-14",
           "period": "SHG-624",
           "code": "SHG",
@@ -6523,12 +6529,6 @@
           "period": "SHG-606",
           "code": "SHG",
           "number": "2059"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "SHG-605",
-          "code": "SHG",
-          "number": "7547"
         }
       ]
     },
@@ -6538,6 +6538,12 @@
       "name": "Result Togel - Pasaran TAIWANMOR Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2781",
       "rows": [
+        {
+          "date": "2026-09-15",
+          "period": "TWM-625",
+          "code": "TWM",
+          "number": "3050"
+        },
         {
           "date": "2026-09-14",
           "period": "TWM-624",
@@ -6651,12 +6657,6 @@
           "period": "TWM-606",
           "code": "TWM",
           "number": "8111"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "TWM-605",
-          "code": "TWM",
-          "number": "2847"
         }
       ]
     },
@@ -7307,6 +7307,12 @@
       "url": "https://dana100nl.com/draw-history?m=2792",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "INDE-625",
+          "code": "INDE",
+          "number": "0668"
+        },
+        {
           "date": "2026-09-14",
           "period": "INDE-624",
           "code": "INDE",
@@ -7419,12 +7425,6 @@
           "period": "INDE-606",
           "code": "INDE",
           "number": "9703"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "INDE-605",
-          "code": "INDE",
-          "number": "6528"
         }
       ]
     },
@@ -7434,6 +7434,12 @@
       "name": "Result Togel - Pasaran TEXAS NGT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2794",
       "rows": [
+        {
+          "date": "2026-09-15",
+          "period": "TXSN-535",
+          "code": "TXSN",
+          "number": "5947"
+        },
         {
           "date": "2026-09-13",
           "period": "TXSN-534",
@@ -7547,12 +7553,6 @@
           "period": "TXSN-516",
           "code": "TXSN",
           "number": "7549"
-        },
-        {
-          "date": "2026-08-22",
-          "period": "TXSN-515",
-          "code": "TXSN",
-          "number": "8571"
         }
       ]
     },
@@ -7691,6 +7691,12 @@
       "url": "https://dana100nl.com/draw-history?m=2797",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "CRE-625",
+          "code": "CRE",
+          "number": "3276"
+        },
+        {
           "date": "2026-09-14",
           "period": "CRE-624",
           "code": "CRE",
@@ -7803,12 +7809,6 @@
           "period": "CRE-606",
           "code": "CRE",
           "number": "8090"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "CRE-605",
-          "code": "CRE",
-          "number": "0600"
         }
       ]
     },
