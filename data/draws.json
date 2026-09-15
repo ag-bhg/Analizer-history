@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T06:48:19.071811+00:00",
+  "updated_at": "2026-09-15T07:15:04.686569+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -267,6 +267,12 @@
       "url": "https://dana100nl.com/draw-history?m=2704",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "SYD-626",
+          "code": "SYD",
+          "number": "8463"
+        },
+        {
           "date": "2026-09-14",
           "period": "SYD-625",
           "code": "SYD",
@@ -379,12 +385,6 @@
           "period": "SYD-607",
           "code": "SYD",
           "number": "8695"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "SYD-606",
-          "code": "SYD",
-          "number": "1925"
         }
       ]
     },
@@ -8843,6 +8843,12 @@
       "url": "https://dana100nl.com/draw-history?m=2808",
       "rows": [
         {
+          "date": "2026-09-15",
+          "period": "SDYL-626",
+          "code": "SDYL",
+          "number": "0065"
+        },
+        {
           "date": "2026-09-14",
           "period": "SDYL-625",
           "code": "SDYL",
@@ -8955,12 +8961,6 @@
           "period": "SDYL-607",
           "code": "SDYL",
           "number": "9203"
-        },
-        {
-          "date": "2026-08-26",
-          "period": "SDYL-606",
-          "code": "SDYL",
-          "number": "7493"
         }
       ]
     },
