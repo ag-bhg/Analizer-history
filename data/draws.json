@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T02:13:00.286303+00:00",
+  "updated_at": "2026-09-16T02:42:00.626609+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -5771,6 +5771,12 @@
       "url": "https://dana100nl.com/draw-history?m=2773",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "MXC-626",
+          "code": "MXC",
+          "number": "6308"
+        },
+        {
           "date": "2026-09-15",
           "period": "MXC-625",
           "code": "MXC",
@@ -5883,12 +5889,6 @@
           "period": "MXC-607",
           "code": "MXC",
           "number": "3007"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "MXC-606",
-          "code": "MXC",
-          "number": "9293"
         }
       ]
     },
@@ -6283,6 +6283,12 @@
       "url": "https://dana100nl.com/draw-history?m=2779",
       "rows": [
         {
+          "date": "2026-09-16",
+          "period": "MISE-626",
+          "code": "MISE",
+          "number": "4927"
+        },
+        {
           "date": "2026-09-15",
           "period": "MISE-625",
           "code": "MISE",
@@ -6395,12 +6401,6 @@
           "period": "MISE-607",
           "code": "MISE",
           "number": "7807"
-        },
-        {
-          "date": "2026-08-27",
-          "period": "MISE-606",
-          "code": "MISE",
-          "number": "6113"
         }
       ]
     },
