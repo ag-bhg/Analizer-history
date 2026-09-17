@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T19:11:11.417138+00:00",
+  "updated_at": "2026-09-17T22:21:57.725467+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -2827,6 +2827,12 @@
       "url": "https://dana100nl.com/draw-history?m=2735",
       "rows": [
         {
+          "date": "2026-09-18",
+          "period": "RM-628",
+          "code": "RM",
+          "number": "3107"
+        },
+        {
           "date": "2026-09-17",
           "period": "RM-627",
           "code": "RM",
@@ -2939,12 +2945,6 @@
           "period": "RM-609",
           "code": "RM",
           "number": "7122"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "RM-608",
-          "code": "RM",
-          "number": "6625"
         }
       ]
     },
@@ -3083,6 +3083,12 @@
       "url": "https://dana100nl.com/draw-history?m=2738",
       "rows": [
         {
+          "date": "2026-09-18",
+          "period": "HELS-629",
+          "code": "HELS",
+          "number": "5363"
+        },
+        {
           "date": "2026-09-17",
           "period": "HELS-628",
           "code": "HELS",
@@ -3195,12 +3201,6 @@
           "period": "HELS-610",
           "code": "HELS",
           "number": "2714"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "HELS-609",
-          "code": "HELS",
-          "number": "9106"
         }
       ]
     },
@@ -3339,6 +3339,12 @@
       "url": "https://dana100nl.com/draw-history?m=2746",
       "rows": [
         {
+          "date": "2026-09-18",
+          "period": "PNM-629",
+          "code": "PNM",
+          "number": "7186"
+        },
+        {
           "date": "2026-09-17",
           "period": "PNM-628",
           "code": "PNM",
@@ -3451,12 +3457,6 @@
           "period": "PNM-610",
           "code": "PNM",
           "number": "4755"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "PNM-609",
-          "code": "PNM",
-          "number": "8366"
         }
       ]
     },
@@ -3466,6 +3466,12 @@
       "name": "Result Togel - Pasaran YERUSALEM Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2747",
       "rows": [
+        {
+          "date": "2026-09-18",
+          "period": "YSLM-629",
+          "code": "YSLM",
+          "number": "7723"
+        },
         {
           "date": "2026-09-17",
           "period": "YSLM-628",
@@ -3579,12 +3585,6 @@
           "period": "YSLM-610",
           "code": "YSLM",
           "number": "0570"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "YSLM-609",
-          "code": "YSLM",
-          "number": "9897"
         }
       ]
     },
@@ -3594,6 +3594,12 @@
       "name": "Result Togel - Pasaran POLANDIA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2748",
       "rows": [
+        {
+          "date": "2026-09-18",
+          "period": "POL-629",
+          "code": "POL",
+          "number": "2568"
+        },
         {
           "date": "2026-09-17",
           "period": "POL-628",
@@ -3707,12 +3713,6 @@
           "period": "POL-610",
           "code": "POL",
           "number": "3813"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "POL-609",
-          "code": "POL",
-          "number": "7529"
         }
       ]
     },
@@ -3722,6 +3722,12 @@
       "name": "Result Togel - Pasaran OREGON 1 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2750",
       "rows": [
+        {
+          "date": "2026-09-18",
+          "period": "OR1-628",
+          "code": "OR1",
+          "number": "5988"
+        },
         {
           "date": "2026-09-17",
           "period": "OR1-627",
@@ -3835,12 +3841,6 @@
           "period": "OR1-609",
           "code": "OR1",
           "number": "6498"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "OR1-608",
-          "code": "OR1",
-          "number": "3163"
         }
       ]
     },
@@ -3850,6 +3850,12 @@
       "name": "Result Togel - Pasaran NEWCASTLE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
+        {
+          "date": "2026-09-18",
+          "period": "NWC-628",
+          "code": "NWC",
+          "number": "1743"
+        },
         {
           "date": "2026-09-17",
           "period": "NWC-627",
@@ -3963,12 +3969,6 @@
           "period": "NWC-609",
           "code": "NWC",
           "number": "1654"
-        },
-        {
-          "date": "2026-08-29",
-          "period": "NWC-608",
-          "code": "NWC",
-          "number": "4391"
         }
       ]
     },
