@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T21:00:00.959759+00:00",
+  "updated_at": "2026-09-20T23:10:35.829536+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3851,6 +3851,12 @@
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
         {
+          "date": "2026-09-21",
+          "period": "NWC-631",
+          "code": "NWC",
+          "number": "9820"
+        },
+        {
           "date": "2026-09-20",
           "period": "NWC-630",
           "code": "NWC",
@@ -3963,12 +3969,6 @@
           "period": "NWC-612",
           "code": "NWC",
           "number": "0976"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "NWC-611",
-          "code": "NWC",
-          "number": "1662"
         }
       ]
     },
@@ -3978,6 +3978,12 @@
       "name": "Result Togel - Pasaran DETROIT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2753",
       "rows": [
+        {
+          "date": "2026-09-21",
+          "period": "DET-632",
+          "code": "DET",
+          "number": "0240"
+        },
         {
           "date": "2026-09-20",
           "period": "DET-631",
@@ -4091,12 +4097,6 @@
           "period": "DET-613",
           "code": "DET",
           "number": "2888"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "DET-612",
-          "code": "DET",
-          "number": "5187"
         }
       ]
     },
@@ -4363,6 +4363,12 @@
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
         {
+          "date": "2026-09-21",
+          "period": "GEOE-631",
+          "code": "GEOE",
+          "number": "6242"
+        },
+        {
           "date": "2026-09-20",
           "period": "GEOE-630",
           "code": "GEOE",
@@ -4475,12 +4481,6 @@
           "period": "GEOE-612",
           "code": "GEOE",
           "number": "2457"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "GEOE-611",
-          "code": "GEOE",
-          "number": "2215"
         }
       ]
     },
@@ -4490,6 +4490,12 @@
       "name": "Result Togel - Pasaran OREGON 2 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2759",
       "rows": [
+        {
+          "date": "2026-09-21",
+          "period": "OR2-631",
+          "code": "OR2",
+          "number": "3802"
+        },
         {
           "date": "2026-09-20",
           "period": "OR2-630",
@@ -4603,12 +4609,6 @@
           "period": "OR2-612",
           "code": "OR2",
           "number": "8183"
-        },
-        {
-          "date": "2026-09-01",
-          "period": "OR2-611",
-          "code": "OR2",
-          "number": "7320"
         }
       ]
     },
