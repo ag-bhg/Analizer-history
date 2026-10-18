@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T12:45:08.669494+00:00",
+  "updated_at": "2026-10-18T16:24:11.390716+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -139,6 +139,12 @@
       "url": "https://dana100nl.com/draw-history?m=2702",
       "rows": [
         {
+          "date": "2026-10-18",
+          "period": "HK-660",
+          "code": "HK",
+          "number": "8262"
+        },
+        {
           "date": "2026-10-17",
           "period": "HK-659",
           "code": "HK",
@@ -251,12 +257,6 @@
           "period": "HK-641",
           "code": "HK",
           "number": "5232"
-        },
-        {
-          "date": "2026-09-28",
-          "period": "HK-640",
-          "code": "HK",
-          "number": "3159"
         }
       ]
     },
@@ -10453,6 +10453,12 @@
       "url": "https://dana100nl.com/draw-history?m=2826",
       "rows": [
         {
+          "date": "2026-10-18",
+          "period": "PEN-659",
+          "code": "PEN",
+          "number": "2104"
+        },
+        {
           "date": "2026-10-17",
           "period": "PEN-658",
           "code": "PEN",
@@ -10565,12 +10571,6 @@
           "period": "PEN-640",
           "code": "PEN",
           "number": "6071"
-        },
-        {
-          "date": "2026-09-28",
-          "period": "PEN-639",
-          "code": "PEN",
-          "number": "7122"
         }
       ]
     },
@@ -10709,6 +10709,12 @@
       "url": "https://dana100nl.com/draw-history?m=2830",
       "rows": [
         {
+          "date": "2026-10-18",
+          "period": "TW-659",
+          "code": "TW",
+          "number": "2195"
+        },
+        {
           "date": "2026-10-17",
           "period": "TW-658",
           "code": "TW",
@@ -10821,12 +10827,6 @@
           "period": "TW-640",
           "code": "TW",
           "number": "0671"
-        },
-        {
-          "date": "2026-09-28",
-          "period": "TW-639",
-          "code": "TW",
-          "number": "9963"
         }
       ]
     },
@@ -10836,6 +10836,12 @@
       "name": "Result Togel - Pasaran LONDON Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2831",
       "rows": [
+        {
+          "date": "2026-10-18",
+          "period": "LDN-659",
+          "code": "LDN",
+          "number": "0059"
+        },
         {
           "date": "2026-10-17",
           "period": "LDN-658",
@@ -10949,12 +10955,6 @@
           "period": "LDN-640",
           "code": "LDN",
           "number": "6512"
-        },
-        {
-          "date": "2026-09-28",
-          "period": "LDN-639",
-          "code": "LDN",
-          "number": "0291"
         }
       ]
     },
@@ -11221,6 +11221,12 @@
       "url": "https://dana100nl.com/draw-history?m=2836",
       "rows": [
         {
+          "date": "2026-10-18",
+          "period": "HKL-659",
+          "code": "HKL",
+          "number": "2143"
+        },
+        {
           "date": "2026-10-17",
           "period": "HKL-658",
           "code": "HKL",
@@ -11333,12 +11339,6 @@
           "period": "HKL-640",
           "code": "HKL",
           "number": "1320"
-        },
-        {
-          "date": "2026-09-28",
-          "period": "HKL-639",
-          "code": "HKL",
-          "number": "2049"
         }
       ]
     },
@@ -11855,6 +11855,12 @@
       "url": "https://dana100nl.com/draw-history?m=3390",
       "rows": [
         {
+          "date": "2026-10-18",
+          "period": "",
+          "code": null,
+          "number": "1543"
+        },
+        {
           "date": "2026-10-17",
           "period": "",
           "code": null,
@@ -11967,12 +11973,6 @@
           "period": "",
           "code": null,
           "number": "4168"
-        },
-        {
-          "date": "2026-09-28",
-          "period": "",
-          "code": null,
-          "number": "2098"
         }
       ]
     },
@@ -11982,6 +11982,12 @@
       "name": "Result Togel - Pasaran TOTO MACAU 23:00 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=3391",
       "rows": [
+        {
+          "date": "2026-10-18",
+          "period": "",
+          "code": null,
+          "number": "3271"
+        },
         {
           "date": "2026-10-17",
           "period": "",
@@ -12095,12 +12101,6 @@
           "period": "",
           "code": null,
           "number": "2545"
-        },
-        {
-          "date": "2026-09-28",
-          "period": "",
-          "code": null,
-          "number": "8596"
         }
       ]
     }
