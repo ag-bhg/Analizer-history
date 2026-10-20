@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T19:53:16.553240+00:00",
+  "updated_at": "2026-10-20T22:59:18.401133+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3339,6 +3339,12 @@
       "url": "https://dana100nl.com/draw-history?m=2746",
       "rows": [
         {
+          "date": "2026-10-21",
+          "period": "PNM-662",
+          "code": "PNM",
+          "number": "1709"
+        },
+        {
           "date": "2026-10-20",
           "period": "PNM-661",
           "code": "PNM",
@@ -3451,12 +3457,6 @@
           "period": "PNM-643",
           "code": "PNM",
           "number": "6442"
-        },
-        {
-          "date": "2026-10-01",
-          "period": "PNM-642",
-          "code": "PNM",
-          "number": "0395"
         }
       ]
     },
@@ -3466,6 +3466,12 @@
       "name": "Result Togel - Pasaran YERUSALEM Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2747",
       "rows": [
+        {
+          "date": "2026-10-21",
+          "period": "YSLM-662",
+          "code": "YSLM",
+          "number": "1152"
+        },
         {
           "date": "2026-10-20",
           "period": "YSLM-661",
@@ -3579,12 +3585,6 @@
           "period": "YSLM-643",
           "code": "YSLM",
           "number": "9811"
-        },
-        {
-          "date": "2026-10-01",
-          "period": "YSLM-642",
-          "code": "YSLM",
-          "number": "0605"
         }
       ]
     },
@@ -3594,6 +3594,12 @@
       "name": "Result Togel - Pasaran POLANDIA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2748",
       "rows": [
+        {
+          "date": "2026-10-21",
+          "period": "POL-662",
+          "code": "POL",
+          "number": "5317"
+        },
         {
           "date": "2026-10-20",
           "period": "POL-661",
@@ -3707,12 +3713,6 @@
           "period": "POL-643",
           "code": "POL",
           "number": "1682"
-        },
-        {
-          "date": "2026-10-01",
-          "period": "POL-642",
-          "code": "POL",
-          "number": "4496"
         }
       ]
     },
@@ -3722,6 +3722,12 @@
       "name": "Result Togel - Pasaran OREGON 1 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2750",
       "rows": [
+        {
+          "date": "2026-10-21",
+          "period": "OR1-661",
+          "code": "OR1",
+          "number": "2190"
+        },
         {
           "date": "2026-10-20",
           "period": "OR1-660",
@@ -3835,12 +3841,6 @@
           "period": "OR1-642",
           "code": "OR1",
           "number": "2469"
-        },
-        {
-          "date": "2026-10-01",
-          "period": "OR1-641",
-          "code": "OR1",
-          "number": "4063"
         }
       ]
     },
@@ -3850,6 +3850,12 @@
       "name": "Result Togel - Pasaran NEWCASTLE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
+        {
+          "date": "2026-10-21",
+          "period": "NWC-661",
+          "code": "NWC",
+          "number": "8406"
+        },
         {
           "date": "2026-10-20",
           "period": "NWC-660",
@@ -3963,12 +3969,6 @@
           "period": "NWC-642",
           "code": "NWC",
           "number": "6620"
-        },
-        {
-          "date": "2026-10-01",
-          "period": "NWC-641",
-          "code": "NWC",
-          "number": "2404"
         }
       ]
     },
