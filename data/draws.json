@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:48:24.849531+00:00",
+  "updated_at": "2026-10-22T23:01:25.181576+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3339,6 +3339,12 @@
       "url": "https://dana100nl.com/draw-history?m=2746",
       "rows": [
         {
+          "date": "2026-10-23",
+          "period": "PNM-664",
+          "code": "PNM",
+          "number": "9254"
+        },
+        {
           "date": "2026-10-22",
           "period": "PNM-663",
           "code": "PNM",
@@ -3451,12 +3457,6 @@
           "period": "PNM-645",
           "code": "PNM",
           "number": "8985"
-        },
-        {
-          "date": "2026-10-03",
-          "period": "PNM-644",
-          "code": "PNM",
-          "number": "6301"
         }
       ]
     },
@@ -3466,6 +3466,12 @@
       "name": "Result Togel - Pasaran YERUSALEM Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2747",
       "rows": [
+        {
+          "date": "2026-10-23",
+          "period": "YSLM-664",
+          "code": "YSLM",
+          "number": "0332"
+        },
         {
           "date": "2026-10-22",
           "period": "YSLM-663",
@@ -3579,12 +3585,6 @@
           "period": "YSLM-645",
           "code": "YSLM",
           "number": "3078"
-        },
-        {
-          "date": "2026-10-03",
-          "period": "YSLM-644",
-          "code": "YSLM",
-          "number": "9616"
         }
       ]
     },
@@ -3594,6 +3594,12 @@
       "name": "Result Togel - Pasaran POLANDIA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2748",
       "rows": [
+        {
+          "date": "2026-10-23",
+          "period": "POL-664",
+          "code": "POL",
+          "number": "9665"
+        },
         {
           "date": "2026-10-22",
           "period": "POL-663",
@@ -3707,12 +3713,6 @@
           "period": "POL-645",
           "code": "POL",
           "number": "2015"
-        },
-        {
-          "date": "2026-10-03",
-          "period": "POL-644",
-          "code": "POL",
-          "number": "1587"
         }
       ]
     },
@@ -3722,6 +3722,12 @@
       "name": "Result Togel - Pasaran OREGON 1 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2750",
       "rows": [
+        {
+          "date": "2026-10-23",
+          "period": "OR1-663",
+          "code": "OR1",
+          "number": "5364"
+        },
         {
           "date": "2026-10-22",
           "period": "OR1-662",
@@ -3835,12 +3841,6 @@
           "period": "OR1-644",
           "code": "OR1",
           "number": "8728"
-        },
-        {
-          "date": "2026-10-03",
-          "period": "OR1-643",
-          "code": "OR1",
-          "number": "1034"
         }
       ]
     },
@@ -3850,6 +3850,12 @@
       "name": "Result Togel - Pasaran NEWCASTLE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
+        {
+          "date": "2026-10-23",
+          "period": "NWC-663",
+          "code": "NWC",
+          "number": "5817"
+        },
         {
           "date": "2026-10-22",
           "period": "NWC-662",
@@ -3963,12 +3969,6 @@
           "period": "NWC-644",
           "code": "NWC",
           "number": "8032"
-        },
-        {
-          "date": "2026-10-03",
-          "period": "NWC-643",
-          "code": "NWC",
-          "number": "9041"
         }
       ]
     },
@@ -3978,6 +3978,12 @@
       "name": "Result Togel - Pasaran DETROIT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2753",
       "rows": [
+        {
+          "date": "2026-10-23",
+          "period": "DET-664",
+          "code": "DET",
+          "number": "4506"
+        },
         {
           "date": "2026-10-22",
           "period": "DET-663",
@@ -4091,12 +4097,6 @@
           "period": "DET-645",
           "code": "DET",
           "number": "5446"
-        },
-        {
-          "date": "2026-10-03",
-          "period": "DET-644",
-          "code": "DET",
-          "number": "3513"
         }
       ]
     },
