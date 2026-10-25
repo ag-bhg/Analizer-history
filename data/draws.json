@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T20:30:24.729348+00:00",
+  "updated_at": "2026-10-25T22:47:18.460115+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3595,6 +3595,12 @@
       "url": "https://dana100nl.com/draw-history?m=2748",
       "rows": [
         {
+          "date": "2026-10-26",
+          "period": "POL-667",
+          "code": "POL",
+          "number": "1860"
+        },
+        {
           "date": "2026-10-25",
           "period": "POL-666",
           "code": "POL",
@@ -3707,12 +3713,6 @@
           "period": "POL-648",
           "code": "POL",
           "number": "3581"
-        },
-        {
-          "date": "2026-10-06",
-          "period": "POL-647",
-          "code": "POL",
-          "number": "6424"
         }
       ]
     },
@@ -3851,6 +3851,12 @@
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
         {
+          "date": "2026-10-26",
+          "period": "NWC-666",
+          "code": "NWC",
+          "number": "8915"
+        },
+        {
           "date": "2026-10-25",
           "period": "NWC-665",
           "code": "NWC",
@@ -3963,12 +3969,6 @@
           "period": "NWC-647",
           "code": "NWC",
           "number": "4399"
-        },
-        {
-          "date": "2026-10-06",
-          "period": "NWC-646",
-          "code": "NWC",
-          "number": "0550"
         }
       ]
     },
