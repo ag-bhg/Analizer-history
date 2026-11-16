@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T20:30:38.878476+00:00",
+  "updated_at": "2026-11-16T00:19:33.407751+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -3461,6 +3461,12 @@
       "url": "https://dana100nl.com/draw-history?m=2747",
       "rows": [
         {
+          "date": "2026-11-16",
+          "period": "YSLM-688",
+          "code": "YSLM",
+          "number": "7966"
+        },
+        {
           "date": "2026-11-15",
           "period": "YSLM-687",
           "code": "YSLM",
@@ -3573,12 +3579,6 @@
           "period": "YSLM-669",
           "code": "YSLM",
           "number": "5157"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "YSLM-668",
-          "code": "YSLM",
-          "number": "8945"
         }
       ]
     },
@@ -3588,6 +3588,12 @@
       "name": "Result Togel - Pasaran POLANDIA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2748",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "POL-688",
+          "code": "POL",
+          "number": "1551"
+        },
         {
           "date": "2026-11-15",
           "period": "POL-687",
@@ -3701,12 +3707,6 @@
           "period": "POL-669",
           "code": "POL",
           "number": "8827"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "POL-668",
-          "code": "POL",
-          "number": "6093"
         }
       ]
     },
@@ -3716,6 +3716,12 @@
       "name": "Result Togel - Pasaran OREGON 1 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2750",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "OR1-687",
+          "code": "OR1",
+          "number": "6543"
+        },
         {
           "date": "2026-11-15",
           "period": "OR1-686",
@@ -3829,12 +3835,6 @@
           "period": "OR1-668",
           "code": "OR1",
           "number": "2924"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "OR1-667",
-          "code": "OR1",
-          "number": "1594"
         }
       ]
     },
@@ -3844,6 +3844,12 @@
       "name": "Result Togel - Pasaran NEWCASTLE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "NWC-687",
+          "code": "NWC",
+          "number": "9028"
+        },
         {
           "date": "2026-11-15",
           "period": "NWC-686",
@@ -3957,12 +3963,6 @@
           "period": "NWC-668",
           "code": "NWC",
           "number": "9032"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "NWC-667",
-          "code": "NWC",
-          "number": "6622"
         }
       ]
     },
@@ -3972,6 +3972,12 @@
       "name": "Result Togel - Pasaran DETROIT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2753",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "DET-688",
+          "code": "DET",
+          "number": "2844"
+        },
         {
           "date": "2026-11-15",
           "period": "DET-687",
@@ -4085,12 +4091,6 @@
           "period": "DET-669",
           "code": "DET",
           "number": "5722"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "DET-668",
-          "code": "DET",
-          "number": "6845"
         }
       ]
     },
@@ -4100,6 +4100,12 @@
       "name": "Result Togel - Pasaran HAWAII Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2754",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "HWI-688",
+          "code": "HWI",
+          "number": "2690"
+        },
         {
           "date": "2026-11-15",
           "period": "HWI-687",
@@ -4213,12 +4219,6 @@
           "period": "HWI-669",
           "code": "HWI",
           "number": "9884"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "HWI-668",
-          "code": "HWI",
-          "number": "5727"
         }
       ]
     },
@@ -4228,6 +4228,12 @@
       "name": "Result Togel - Pasaran GOLDCOAST Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2756",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "GDC-688",
+          "code": "GDC",
+          "number": "2539"
+        },
         {
           "date": "2026-11-15",
           "period": "GDC-687",
@@ -4341,12 +4347,6 @@
           "period": "GDC-669",
           "code": "GDC",
           "number": "9135"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "GDC-668",
-          "code": "GDC",
-          "number": "8421"
         }
       ]
     },
@@ -4356,6 +4356,12 @@
       "name": "Result Togel - Pasaran GEORGIA EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "GEOE-687",
+          "code": "GEOE",
+          "number": "9372"
+        },
         {
           "date": "2026-11-15",
           "period": "GEOE-686",
@@ -4469,12 +4475,6 @@
           "period": "GEOE-668",
           "code": "GEOE",
           "number": "9550"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "GEOE-667",
-          "code": "GEOE",
-          "number": "0040"
         }
       ]
     },
@@ -4484,6 +4484,12 @@
       "name": "Result Togel - Pasaran OREGON 2 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2759",
       "rows": [
+        {
+          "date": "2026-11-16",
+          "period": "OR2-687",
+          "code": "OR2",
+          "number": "7907"
+        },
         {
           "date": "2026-11-15",
           "period": "OR2-686",
@@ -4597,12 +4603,6 @@
           "period": "OR2-668",
           "code": "OR2",
           "number": "9406"
-        },
-        {
-          "date": "2026-10-27",
-          "period": "OR2-667",
-          "code": "OR2",
-          "number": "0266"
         }
       ]
     },
