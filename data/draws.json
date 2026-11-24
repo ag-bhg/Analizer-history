@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T18:39:06.819804+00:00",
+  "updated_at": "2026-11-24T04:13:47.496297+00:00",
   "configured_markets": 95,
   "loaded_markets": 95,
   "errors": [],
@@ -2059,6 +2059,12 @@
       "url": "https://dana100nl.com/draw-history?m=2726",
       "rows": [
         {
+          "date": "2026-11-24",
+          "period": "FLRM-696",
+          "code": "FLRM",
+          "number": "4487"
+        },
+        {
           "date": "2026-11-23",
           "period": "FLRM-695",
           "code": "FLRM",
@@ -2171,12 +2177,6 @@
           "period": "FLRM-677",
           "code": "FLRM",
           "number": "0637"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "FLRM-676",
-          "code": "FLRM",
-          "number": "6734"
         }
       ]
     },
@@ -2186,6 +2186,12 @@
       "name": "Result Togel - Pasaran ILLINOIS MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2728",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "ILM-696",
+          "code": "ILM",
+          "number": "8808"
+        },
         {
           "date": "2026-11-23",
           "period": "ILM-695",
@@ -2299,12 +2305,6 @@
           "period": "ILM-677",
           "code": "ILM",
           "number": "3607"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "ILM-676",
-          "code": "ILM",
-          "number": "6937"
         }
       ]
     },
@@ -2314,6 +2314,12 @@
       "name": "Result Togel - Pasaran MISSOURI MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2729",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "MISM-696",
+          "code": "MISM",
+          "number": "3256"
+        },
         {
           "date": "2026-11-23",
           "period": "MISM-695",
@@ -2427,12 +2433,6 @@
           "period": "MISM-677",
           "code": "MISM",
           "number": "7283"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "MISM-676",
-          "code": "MISM",
-          "number": "9152"
         }
       ]
     },
@@ -2442,6 +2442,12 @@
       "name": "Result Togel - Pasaran DELAWARE DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2731",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "DELD-695",
+          "code": "DELD",
+          "number": "5890"
+        },
         {
           "date": "2026-11-23",
           "period": "DELD-694",
@@ -2555,12 +2561,6 @@
           "period": "DELD-676",
           "code": "DELD",
           "number": "3090"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "DELD-675",
-          "code": "DELD",
-          "number": "6689"
         }
       ]
     },
@@ -2570,6 +2570,12 @@
       "name": "Result Togel - Pasaran VIRGINIA DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2733",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "VIRD-696",
+          "code": "VIRD",
+          "number": "0459"
+        },
         {
           "date": "2026-11-23",
           "period": "VIRD-695",
@@ -2683,12 +2689,6 @@
           "period": "VIRD-677",
           "code": "VIRD",
           "number": "9087"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "VIRD-676",
-          "code": "VIRD",
-          "number": "1780"
         }
       ]
     },
@@ -2698,6 +2698,12 @@
       "name": "Result Togel - Pasaran WASHINGTON MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2734",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "WDM-696",
+          "code": "WDM",
+          "number": "1238"
+        },
         {
           "date": "2026-11-23",
           "period": "WDM-695",
@@ -2811,12 +2817,6 @@
           "period": "WDM-677",
           "code": "WDM",
           "number": "2696"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "WDM-676",
-          "code": "WDM",
-          "number": "1584"
         }
       ]
     },
@@ -2826,6 +2826,12 @@
       "name": "Result Togel - Pasaran ROMA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2735",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "RM-695",
+          "code": "RM",
+          "number": "8562"
+        },
         {
           "date": "2026-11-23",
           "period": "RM-694",
@@ -2939,12 +2945,6 @@
           "period": "RM-676",
           "code": "RM",
           "number": "1106"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "RM-675",
-          "code": "RM",
-          "number": "8210"
         }
       ]
     },
@@ -2954,6 +2954,12 @@
       "name": "Result Togel - Pasaran NEWYORK MID Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2736",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "NYM-696",
+          "code": "NYM",
+          "number": "2050"
+        },
         {
           "date": "2026-11-23",
           "period": "NYM-695",
@@ -3067,12 +3073,6 @@
           "period": "NYM-677",
           "code": "NYM",
           "number": "3607"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "NYM-676",
-          "code": "NYM",
-          "number": "6258"
         }
       ]
     },
@@ -3082,6 +3082,12 @@
       "name": "Result Togel - Pasaran HELSINKI Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2738",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "HELS-696",
+          "code": "HELS",
+          "number": "9885"
+        },
         {
           "date": "2026-11-23",
           "period": "HELS-695",
@@ -3195,12 +3201,6 @@
           "period": "HELS-677",
           "code": "HELS",
           "number": "2305"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "HELS-676",
-          "code": "HELS",
-          "number": "4462"
         }
       ]
     },
@@ -3210,6 +3210,12 @@
       "name": "Result Togel - Pasaran CAROLINE DAY Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2744",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "CRD-696",
+          "code": "CRD",
+          "number": "7683"
+        },
         {
           "date": "2026-11-23",
           "period": "CRD-695",
@@ -3323,12 +3329,6 @@
           "period": "CRD-677",
           "code": "CRD",
           "number": "7643"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "CRD-676",
-          "code": "CRD",
-          "number": "6240"
         }
       ]
     },
@@ -3338,6 +3338,12 @@
       "name": "Result Togel - Pasaran PANAMA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2746",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "PNM-696",
+          "code": "PNM",
+          "number": "5604"
+        },
         {
           "date": "2026-11-23",
           "period": "PNM-695",
@@ -3451,12 +3457,6 @@
           "period": "PNM-677",
           "code": "PNM",
           "number": "7795"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "PNM-676",
-          "code": "PNM",
-          "number": "6478"
         }
       ]
     },
@@ -3466,6 +3466,12 @@
       "name": "Result Togel - Pasaran YERUSALEM Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2747",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "YSLM-696",
+          "code": "YSLM",
+          "number": "9179"
+        },
         {
           "date": "2026-11-23",
           "period": "YSLM-695",
@@ -3579,12 +3585,6 @@
           "period": "YSLM-677",
           "code": "YSLM",
           "number": "5327"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "YSLM-676",
-          "code": "YSLM",
-          "number": "3018"
         }
       ]
     },
@@ -3594,6 +3594,12 @@
       "name": "Result Togel - Pasaran POLANDIA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2748",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "POL-696",
+          "code": "POL",
+          "number": "4810"
+        },
         {
           "date": "2026-11-23",
           "period": "POL-695",
@@ -3707,12 +3713,6 @@
           "period": "POL-677",
           "code": "POL",
           "number": "8896"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "POL-676",
-          "code": "POL",
-          "number": "7094"
         }
       ]
     },
@@ -3722,6 +3722,12 @@
       "name": "Result Togel - Pasaran OREGON 1 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2750",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "OR1-695",
+          "code": "OR1",
+          "number": "1863"
+        },
         {
           "date": "2026-11-23",
           "period": "OR1-694",
@@ -3835,12 +3841,6 @@
           "period": "OR1-676",
           "code": "OR1",
           "number": "1896"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "OR1-675",
-          "code": "OR1",
-          "number": "7948"
         }
       ]
     },
@@ -3850,6 +3850,12 @@
       "name": "Result Togel - Pasaran NEWCASTLE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2751",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "NWC-695",
+          "code": "NWC",
+          "number": "5636"
+        },
         {
           "date": "2026-11-23",
           "period": "NWC-694",
@@ -3963,12 +3969,6 @@
           "period": "NWC-676",
           "code": "NWC",
           "number": "4214"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "NWC-675",
-          "code": "NWC",
-          "number": "0085"
         }
       ]
     },
@@ -3978,6 +3978,12 @@
       "name": "Result Togel - Pasaran DETROIT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2753",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "DET-696",
+          "code": "DET",
+          "number": "1083"
+        },
         {
           "date": "2026-11-23",
           "period": "DET-695",
@@ -4091,12 +4097,6 @@
           "period": "DET-677",
           "code": "DET",
           "number": "1628"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "DET-676",
-          "code": "DET",
-          "number": "9291"
         }
       ]
     },
@@ -4106,6 +4106,12 @@
       "name": "Result Togel - Pasaran HAWAII Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2754",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "HWI-696",
+          "code": "HWI",
+          "number": "0341"
+        },
         {
           "date": "2026-11-23",
           "period": "HWI-695",
@@ -4219,12 +4225,6 @@
           "period": "HWI-677",
           "code": "HWI",
           "number": "8404"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "HWI-676",
-          "code": "HWI",
-          "number": "5262"
         }
       ]
     },
@@ -4234,6 +4234,12 @@
       "name": "Result Togel - Pasaran GOLDCOAST Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2756",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "GDC-696",
+          "code": "GDC",
+          "number": "2461"
+        },
         {
           "date": "2026-11-23",
           "period": "GDC-695",
@@ -4347,12 +4353,6 @@
           "period": "GDC-677",
           "code": "GDC",
           "number": "8589"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "GDC-676",
-          "code": "GDC",
-          "number": "8732"
         }
       ]
     },
@@ -4362,6 +4362,12 @@
       "name": "Result Togel - Pasaran GEORGIA EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2757",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "GEOE-695",
+          "code": "GEOE",
+          "number": "5829"
+        },
         {
           "date": "2026-11-23",
           "period": "GEOE-694",
@@ -4475,12 +4481,6 @@
           "period": "GEOE-676",
           "code": "GEOE",
           "number": "2118"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "GEOE-675",
-          "code": "GEOE",
-          "number": "9943"
         }
       ]
     },
@@ -4490,6 +4490,12 @@
       "name": "Result Togel - Pasaran OREGON 2 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2759",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "OR2-695",
+          "code": "OR2",
+          "number": "0246"
+        },
         {
           "date": "2026-11-23",
           "period": "OR2-694",
@@ -4603,12 +4609,6 @@
           "period": "OR2-676",
           "code": "OR2",
           "number": "0235"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "OR2-675",
-          "code": "OR2",
-          "number": "4387"
         }
       ]
     },
@@ -4618,6 +4618,12 @@
       "name": "Result Togel - Pasaran TEXAS EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2761",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "TXSE-596",
+          "code": "TXSE",
+          "number": "1915"
+        },
         {
           "date": "2026-11-22",
           "period": "TXSE-595",
@@ -4731,12 +4737,6 @@
           "period": "TXSE-577",
           "code": "TXSE",
           "number": "8945"
-        },
-        {
-          "date": "2026-10-31",
-          "period": "TXSE-576",
-          "code": "TXSE",
-          "number": "6735"
         }
       ]
     },
@@ -4746,6 +4746,12 @@
       "name": "Result Togel - Pasaran TENNESSE EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2762",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "TENE-696",
+          "code": "TENE",
+          "number": "1330"
+        },
         {
           "date": "2026-11-23",
           "period": "TENE-695",
@@ -4859,12 +4865,6 @@
           "period": "TENE-677",
           "code": "TENE",
           "number": "6700"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "TENE-676",
-          "code": "TENE",
-          "number": "2041"
         }
       ]
     },
@@ -4874,6 +4874,12 @@
       "name": "Result Togel - Pasaran MICHIGAN EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2763",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "MICE-696",
+          "code": "MICE",
+          "number": "8961"
+        },
         {
           "date": "2026-11-23",
           "period": "MICE-695",
@@ -4987,12 +4993,6 @@
           "period": "MICE-677",
           "code": "MICE",
           "number": "2423"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "MICE-676",
-          "code": "MICE",
-          "number": "0686"
         }
       ]
     },
@@ -5002,6 +5002,12 @@
       "name": "Result Togel - Pasaran OHIO EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2765",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "OHIE-696",
+          "code": "OHIE",
+          "number": "2961"
+        },
         {
           "date": "2026-11-23",
           "period": "OHIE-695",
@@ -5115,12 +5121,6 @@
           "period": "OHIE-677",
           "code": "OHIE",
           "number": "6018"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "OHIE-676",
-          "code": "OHIE",
-          "number": "2465"
         }
       ]
     },
@@ -5130,6 +5130,12 @@
       "name": "Result Togel - Pasaran TOKYO Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2766",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "TKY-696",
+          "code": "TKY",
+          "number": "0456"
+        },
         {
           "date": "2026-11-23",
           "period": "TKY-695",
@@ -5243,12 +5249,6 @@
           "period": "TKY-677",
           "code": "TKY",
           "number": "8147"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "TKY-676",
-          "code": "TKY",
-          "number": "8148"
         }
       ]
     },
@@ -5258,6 +5258,12 @@
       "name": "Result Togel - Pasaran DELAWARE NGT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2767",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "DLWN-694",
+          "code": "DLWN",
+          "number": "1670"
+        },
         {
           "date": "2026-11-23",
           "period": "DLWN-693",
@@ -5371,12 +5377,6 @@
           "period": "DLWN-675",
           "code": "DLWN",
           "number": "2609"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "DLWN-674",
-          "code": "DLWN",
-          "number": "6343"
         }
       ]
     },
@@ -5386,6 +5386,12 @@
       "name": "Result Togel - Pasaran MARYLAND EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2769",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "MLE-695",
+          "code": "MLE",
+          "number": "7093"
+        },
         {
           "date": "2026-11-23",
           "period": "MLE-694",
@@ -5499,12 +5505,6 @@
           "period": "MLE-676",
           "code": "MLE",
           "number": "9702"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "MLE-675",
-          "code": "MLE",
-          "number": "9432"
         }
       ]
     },
@@ -5514,6 +5514,12 @@
       "name": "Result Togel - Pasaran WASHINGTON EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2770",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "WDE-695",
+          "code": "WDE",
+          "number": "0857"
+        },
         {
           "date": "2026-11-23",
           "period": "WDE-694",
@@ -5627,12 +5633,6 @@
           "period": "WDE-676",
           "code": "WDE",
           "number": "5216"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "WDE-675",
-          "code": "WDE",
-          "number": "7681"
         }
       ]
     },
@@ -5642,6 +5642,12 @@
       "name": "Result Togel - Pasaran PAPUA Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2771",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "PP-695",
+          "code": "PP",
+          "number": "1671"
+        },
         {
           "date": "2026-11-23",
           "period": "PP-694",
@@ -5755,12 +5761,6 @@
           "period": "PP-676",
           "code": "PP",
           "number": "2917"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "PP-675",
-          "code": "PP",
-          "number": "9905"
         }
       ]
     },
@@ -5770,6 +5770,12 @@
       "name": "Result Togel - Pasaran MEXICO Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2773",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "MXC-695",
+          "code": "MXC",
+          "number": "1968"
+        },
         {
           "date": "2026-11-23",
           "period": "MXC-694",
@@ -5883,12 +5889,6 @@
           "period": "MXC-676",
           "code": "MXC",
           "number": "9340"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "MXC-675",
-          "code": "MXC",
-          "number": "3665"
         }
       ]
     },
@@ -5898,6 +5898,12 @@
       "name": "Result Togel - Pasaran FLORIDA EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2775",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "FLRE-695",
+          "code": "FLRE",
+          "number": "2856"
+        },
         {
           "date": "2026-11-23",
           "period": "FLRE-694",
@@ -6011,12 +6017,6 @@
           "period": "FLRE-676",
           "code": "FLRE",
           "number": "7908"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "FLRE-675",
-          "code": "FLRE",
-          "number": "5363"
         }
       ]
     },
@@ -6026,6 +6026,12 @@
       "name": "Result Togel - Pasaran SHENZHEN Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2776",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "SZ-695",
+          "code": "SZ",
+          "number": "2313"
+        },
         {
           "date": "2026-11-23",
           "period": "SZ-694",
@@ -6139,12 +6145,6 @@
           "period": "SZ-676",
           "code": "SZ",
           "number": "3044"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "SZ-675",
-          "code": "SZ",
-          "number": "6678"
         }
       ]
     },
@@ -6154,6 +6154,12 @@
       "name": "Result Togel - Pasaran OREGON 3 Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2777",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "OR3-695",
+          "code": "OR3",
+          "number": "8623"
+        },
         {
           "date": "2026-11-23",
           "period": "OR3-694",
@@ -6267,12 +6273,6 @@
           "period": "OR3-676",
           "code": "OR3",
           "number": "1132"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "OR3-675",
-          "code": "OR3",
-          "number": "6915"
         }
       ]
     },
@@ -6282,6 +6282,12 @@
       "name": "Result Togel - Pasaran MISSOURI EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2779",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "MISE-695",
+          "code": "MISE",
+          "number": "0887"
+        },
         {
           "date": "2026-11-23",
           "period": "MISE-694",
@@ -6395,12 +6401,6 @@
           "period": "MISE-676",
           "code": "MISE",
           "number": "6821"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "MISE-675",
-          "code": "MISE",
-          "number": "9573"
         }
       ]
     },
@@ -6410,6 +6410,12 @@
       "name": "Result Togel - Pasaran SHANGHAI Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2780",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "SHG-695",
+          "code": "SHG",
+          "number": "0152"
+        },
         {
           "date": "2026-11-23",
           "period": "SHG-694",
@@ -6523,12 +6529,6 @@
           "period": "SHG-676",
           "code": "SHG",
           "number": "2007"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "SHG-675",
-          "code": "SHG",
-          "number": "1604"
         }
       ]
     },
@@ -6538,6 +6538,12 @@
       "name": "Result Togel - Pasaran TAIWANMOR Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2781",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "TWM-695",
+          "code": "TWM",
+          "number": "3193"
+        },
         {
           "date": "2026-11-23",
           "period": "TWM-694",
@@ -6651,12 +6657,6 @@
           "period": "TWM-676",
           "code": "TWM",
           "number": "5662"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "TWM-675",
-          "code": "TWM",
-          "number": "1994"
         }
       ]
     },
@@ -6666,6 +6666,12 @@
       "name": "Result Togel - Pasaran NEW YORK EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2783",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "NYE-695",
+          "code": "NYE",
+          "number": "0465"
+        },
         {
           "date": "2026-11-23",
           "period": "NYE-694",
@@ -6779,12 +6785,6 @@
           "period": "NYE-676",
           "code": "NYE",
           "number": "2644"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "NYE-675",
-          "code": "NYE",
-          "number": "1513"
         }
       ]
     },
@@ -6794,6 +6794,12 @@
       "name": "Result Togel - Pasaran ILLINOIS EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2785",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "ILE-695",
+          "code": "ILE",
+          "number": "0075"
+        },
         {
           "date": "2026-11-23",
           "period": "ILE-694",
@@ -6907,12 +6913,6 @@
           "period": "ILE-676",
           "code": "ILE",
           "number": "5491"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "ILE-675",
-          "code": "ILE",
-          "number": "8595"
         }
       ]
     },
@@ -6922,6 +6922,12 @@
       "name": "Result Togel - Pasaran NEW JERSEY EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2786",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "NJE-694",
+          "code": "NJE",
+          "number": "9736"
+        },
         {
           "date": "2026-11-23",
           "period": "NJE-693",
@@ -7035,12 +7041,6 @@
           "period": "NJE-675",
           "code": "NJE",
           "number": "3480"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "NJE-674",
-          "code": "NJE",
-          "number": "7152"
         }
       ]
     },
@@ -7050,6 +7050,12 @@
       "name": "Result Togel - Pasaran VIRGINIA NGT Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2788",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "VIRN-695",
+          "code": "VIRN",
+          "number": "9574"
+        },
         {
           "date": "2026-11-23",
           "period": "VIRN-694",
@@ -7163,12 +7169,6 @@
           "period": "VIRN-676",
           "code": "VIRN",
           "number": "0643"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "VIRN-675",
-          "code": "VIRN",
-          "number": "1565"
         }
       ]
     },
@@ -7178,6 +7178,12 @@
       "name": "Result Togel - Pasaran KENTUCKY EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2790",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "KTE-695",
+          "code": "KTE",
+          "number": "9808"
+        },
         {
           "date": "2026-11-23",
           "period": "KTE-694",
@@ -7291,12 +7297,6 @@
           "period": "KTE-676",
           "code": "KTE",
           "number": "5893"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "KTE-675",
-          "code": "KTE",
-          "number": "3865"
         }
       ]
     },
@@ -7306,6 +7306,12 @@
       "name": "Result Togel - Pasaran INDIANA EVE Terbaru - DANA100",
       "url": "https://dana100nl.com/draw-history?m=2792",
       "rows": [
+        {
+          "date": "2026-11-24",
+          "period": "INDE-695",
+          "code": "INDE",
+          "number": "1748"
+        },
         {
           "date": "2026-11-23",
           "period": "INDE-694",
@@ -7419,12 +7425,6 @@
           "period": "INDE-676",
           "code": "INDE",
           "number": "5904"
-        },
-        {
-          "date": "2026-11-04",
-          "period": "INDE-675",
-          "code": "INDE",
-          "number": "2083"
         }
       ]
     },
